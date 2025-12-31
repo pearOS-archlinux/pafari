@@ -8,7 +8,6 @@ build:
 
 clean:
 	rm -rf pkg/
-	rm -rf src/
 	rm -rf ${PKGNAME}-${PKGVER}*
 	rm -rf *.zst
 	rm -rf *.sig
