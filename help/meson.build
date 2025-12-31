@@ -28,7 +28,7 @@ help_files = [
 help_media = [
   'media/epiphany-plain-3-36.png',
   'media/epiphany-private-3-36.png',
-  'media/org.gnome.Epiphany.svg'
+  'media/applogo.svg'
 ]
 
 gnome.yelp(meson.project_name(),

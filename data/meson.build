@@ -2,14 +2,14 @@ po_dir = join_paths(meson.project_source_root(), 'po')
 
 icondir = join_paths('icons', 'hicolor', 'scalable', 'apps')
 install_data(
-  join_paths(icondir, 'org.gnome.Epiphany.svg'),
+  join_paths(icondir, 'applogo.svg'),
   install_dir: join_paths(datadir, icondir),
   rename: '@0@.svg'.format(application_id)
 )
 
 icondir = join_paths('icons', 'hicolor', 'symbolic', 'apps')
 install_data(
-  join_paths(icondir, 'org.gnome.Epiphany-symbolic.svg'),
+  join_paths(icondir, 'applogo-symbolic.svg'),
   install_dir: join_paths(datadir, icondir),
   rename: '@0@-symbolic.svg'.format(application_id)
 )
