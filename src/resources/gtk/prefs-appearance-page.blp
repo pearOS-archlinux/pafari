@@ -1,0 +1,131 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $PrefsAppearancePage: Adw.PreferencesPage {
+  icon-name: "document-edit-symbolic";
+  title: _("Appearance");
+
+  Adw.PreferencesGroup {
+    title: _("Fonts");
+
+    Adw.ExpanderRow use_gnome_fonts_row {
+      show-enable-switch: true;
+      title: _("Use Custom Fonts");
+
+      Adw.ActionRow {
+        activatable: false;
+        title: _("Sans Serif Font");
+
+        FontDialogButton sans_fontbutton {
+          valign: center;
+        }
+      }
+
+      Adw.ActionRow {
+        activatable: false;
+        title: _("Serif Font");
+
+        FontDialogButton serif_fontbutton {
+          valign: center;
+        }
+      }
+
+      Adw.ActionRow {
+        activatable: false;
+        title: _("Monospace Font");
+
+        FontDialogButton mono_fontbutton {
+          valign: center;
+        }
+      }
+    }
+  }
+
+  Adw.PreferencesGroup reader_mode_box {
+    title: _("Reader Mode");
+
+    Adw.ComboRow reader_mode_font_style {
+      title: _("Font Style");
+      expression: expr $reader_font_style_get_name(item as <Adw.EnumListItem>.value) as <string>;
+
+      model: Adw.EnumListModel {
+        enum-type: typeof<$EphyPrefsReaderFontStyle>;
+      };
+    }
+
+    Adw.ComboRow reader_mode_color_scheme {
+      title: _("Color Scheme");
+      expression: expr $reader_color_scheme_get_name(item as <Adw.EnumListItem>.value) as <string>;
+
+      model: Adw.EnumListModel {
+        enum-type: typeof<$EphyPrefsReaderColorScheme>;
+      };
+    }
+  }
+
+  Adw.PreferencesGroup {
+    title: _("Style");
+
+    Adw.SwitchRow css_row {
+      title: _("Use Custom Stylesheet");
+
+      Button css_edit_button {
+        valign: center;
+        icon-name: "document-edit-symbolic";
+
+        styles [
+          "flat",
+        ]
+      }
+    }
+
+    Adw.SwitchRow js_row {
+      title: _("Use Custom JavaScript");
+
+      Button js_edit_button {
+        valign: center;
+        icon-name: "document-edit-symbolic";
+
+        styles [
+          "flat",
+        ]
+      }
+    }
+
+    Adw.ComboRow default_zoom_row {
+      title: _("Default Zoom Level");
+
+      model: zoom_steps;
+    }
+  }
+}
+
+StringList zoom_steps {
+  strings [
+    "30%",
+    "50%",
+    "67%",
+    "80%",
+    "90%",
+    "100%",
+    "110%",
+    "120%",
+    "133%",
+    "150%",
+    "170%",
+    "200%",
+    "240%",
+    "300%"
+  ]
+}
+
+SizeGroup {
+  mode: horizontal;
+
+  widgets [
+    sans_fontbutton,
+    serif_fontbutton,
+    mono_fontbutton,
+  ]
+}
+

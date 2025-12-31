@@ -1,0 +1,4 @@
+GVariant Database
+
+ * Copied from https://gitlab.gnome.org/GNOME/gvdb commit 3d50fe28e8e8f8b215a36581c6b4c9b199b60eb6
+ * scan-build fix https://gitlab.gnome.org/GNOME/gvdb/-/merge_requests/14

@@ -1,0 +1,68 @@
+{
+    "app-id" : "org.gnome.Epiphany.Devel",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "master",
+    "sdk" : "org.gnome.Sdk",
+    "command" : "epiphany",
+    "tags" : [
+        "nightly"
+    ],
+    "desktop-file-name-suffix" : " (Epiphany Technology Preview)",
+    "finish-args" : [
+        "--device=dri",
+        "--filesystem=xdg-download",
+        "--share=ipc",
+        "--share=network",
+        "--socket=fallback-x11",
+        "--socket=pulseaudio",
+        "--socket=wayland",
+        "--own-name=org.gnome.Epiphany.WebAppProvider"
+    ],
+    "modules" : [
+        {
+            "name" : "libportal",
+            "buildsystem" : "meson",
+            "config-opts" : [
+                "-Dbackend-gtk4=enabled",
+                "-Dintrospection=false",
+                "-Ddocs=false"
+            ],
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://github.com/flatpak/libportal.git",
+                    "branch" : "main"
+                }
+            ]
+        },
+        {
+            "name" : "epiphany",
+            "buildsystem" : "meson",
+            "builddir" : true,
+            "config-opts" : [
+                "-Dtech_preview=true",
+                "-Dprofile=Devel"
+            ],
+            "build-options" : {
+                "test-args" : [
+                    "--device=dri",
+                    "--filesystem=xdg-download",
+                    "--share=ipc",
+                    "--share=network",
+                    "--socket=fallback-x11",
+                    "--socket=pulseaudio",
+                    "--socket=wayland",
+                    "--own-name=org.gnome.Epiphany.WebAppProvider"
+                ]
+            },
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/GNOME/epiphany.git",
+                    "branch" : "main",
+                    "disable-shallow-clone" : true
+                }
+            ]
+        }
+    ]
+}

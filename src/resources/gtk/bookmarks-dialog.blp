@@ -1,0 +1,190 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $EphyBookmarksDialog: Adw.Bin {
+  Adw.ToolbarView toolbar_view {
+    extend-content-to-top-edge: true;
+    bottom-bar-style: raised;
+
+    [top]
+    Adw.HeaderBar {
+      show-title: false;
+      show-end-title-buttons: false;
+
+      [start]
+      Button edit_button {
+        child: Adw.ButtonContent {
+          icon-name: "document-edit-symbolic";
+          label: _("Edit");
+        };
+        clicked => $on_edit_button_clicked();
+      }
+
+      [start]
+      Button done_button {
+        label: _("Done");
+        clicked => $on_done_button_clicked();
+      }
+
+      [end]
+      Button close_button {
+        icon-name: "view-sidebar-end-symbolic";
+        tooltip-text: _("Close");
+        clicked => $on_close_button_clicked();
+      }
+
+      [end]
+      MenuButton options_menu_button {
+        icon-name: "view-more-symbolic";
+        tooltip-text: _("Options");
+        menu-model: options_menu;
+      }
+    }
+
+    content: Adw.ToastOverlay toast_overlay {
+      child: Box {
+        orientation: vertical;
+        spacing: 12;
+        margin-start: 12;
+        margin-end: 12;
+        margin-top: 12;
+        margin-bottom: 12;
+
+        Label {
+          label: _("Bookmarks");
+          margin-top: 24;
+          margin-bottom: 24;
+
+          styles [
+            "title-1",
+          ]
+        }
+
+        Box {
+          valign: start;
+          orientation: vertical;
+          spacing: 24;
+
+          SearchEntry search_entry {
+            placeholder-text: _("Search bookmarks");
+            search-changed => $on_search_entry_changed();
+
+            EventControllerKey {
+              key-pressed => $on_search_entry_key_pressed();
+            }
+          }
+
+          ScrolledWindow {
+            propagate-natural-height: true;
+
+            styles [
+              "undershoot-top",
+            ]
+
+            child: Stack toplevel_stack {
+              vhomogeneous: false;
+              interpolate-size: true;
+              hexpand: true;
+              margin-start: 2;
+              margin-end: 2;
+              margin-top: 2;
+              margin-bottom: 2;
+
+              StackPage {
+                name: "default";
+
+                child: ListBox bookmarks_list_box {
+                  selection-mode: none;
+
+                  styles [
+                    "boxed-list",
+                  ]
+                };
+              }
+
+              StackPage {
+                name: "searching_bookmarks";
+
+                child: ListBox searching_bookmarks_list_box {
+                  selection-mode: none;
+
+                  styles [
+                    "boxed-list",
+                  ]
+                };
+              }
+
+              StackPage {
+                name: "tag_detail";
+
+                child: Box {
+                  orientation: vertical;
+                  spacing: 6;
+
+                  CenterBox {
+                    start-widget: Button tag_detail_back_button {
+                      action-name: "dialog.tag-detail-back";
+                      icon-name: "go-previous-symbolic";
+                      margin-start: 6;
+                      margin-end: 6;
+
+                      styles [
+                        "flat",
+                      ]
+                    };
+
+                    center-widget: Label tag_detail_label {
+                      styles [
+                        "heading"
+                      ]
+                      ellipsize: end;
+                      max-width-chars: 0;
+                      hexpand: true;
+                    };
+                  }
+
+                  ListBox tag_detail_list_box {
+                    selection-mode: none;
+
+                    styles [
+                      "boxed-list",
+                    ]
+                  }
+                };
+              }
+
+              StackPage {
+                name: "empty-state";
+
+                child: Adw.StatusPage {
+                  icon-name: "ephy-starred-symbolic";
+                  title: _("No Bookmarks");
+                  description: _("Bookmarked pages will appear here");
+
+                  styles [
+                    "compact",
+                    "dim-label",
+                  ]
+                };
+              }
+            };
+          }
+        }
+      };
+    };
+  }
+}
+
+menu options_menu {
+  section {
+    item {
+      label: _("I_mport…");
+      action: "app.import-bookmarks";
+    }
+
+    item {
+      label: _("E_xport…");
+      action: "app.export-bookmarks";
+    }
+}
+}

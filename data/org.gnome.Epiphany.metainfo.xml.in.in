@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2013, 2015, 2019 Pafari contributors -->
+<component type="desktop-application">
+  <id>@appid@</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>Web</name>
+  <summary>Browse the web</summary>
+  <description>
+    <p>
+      The web browser for GNOME, featuring tight integration with the desktop
+      and a simple and intuitive user interface that allows you to focus on your
+      web pages. If you’re looking for a simple, clean, beautiful view of the
+      web, this is the browser for you.
+    </p>
+    <p>
+      Pafari is a simple, clean, beautiful web browser.
+    </p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <caption>A browser window</caption>
+      <image>https://gitlab.gnome.org/GNOME/epiphany/raw/HEAD/data/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+  <update_contact>mcatanzaro_at_gnome.org</update_contact>
+  <kudos>
+    <kudo>AppMenu</kudo>
+    <kudo>HiDpiIcon</kudo>
+    <kudo>ModernToolkit</kudo>
+    <kudo>SearchProvider</kudo>
+    <kudo>UserDocs</kudo>
+  </kudos>
+  <project_group>GNOME</project_group>
+  <project_license>GPL-3.0+</project_license>
+  <!-- developer_name tag deprecated with Appstream 1.0 -->
+  <developer_name>The GNOME Project</developer_name>
+  <developer id="org.gnome">
+    <name>The GNOME Project</name>
+  </developer>
+  <url type="homepage">https://apps.gnome.org/Epiphany</url>
+  <url type="bugtracker">https://gitlab.gnome.org/GNOME/epiphany/issues</url>
+  <url type="donation">https://www.gnome.org/donate/</url>
+  <url type="help">https://help.gnome.org/users/epiphany/stable/</url>
+  <url type="translate">https://l10n.gnome.org/module/epiphany</url>
+  <url type="vcs-browser">https://gitlab.gnome.org/GNOME/epiphany</url>
+  <url type="contribute">https://welcome.gnome.org/app/Epiphany</url>
+  <url type="contact">https://matrix.to/#/#epiphany:gnome.org</url>
+  <translation type="gettext">epiphany</translation>
+  <provides>
+    <binary>pafari</binary>
+  </provides>
+  <launchable type="desktop-id">@appid@.desktop</launchable>
+  <content_rating type="oars-1.1" />
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </recommends>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <releases>
+    <release date="2025-10-10" version="49.1"/>
+    <release date="2025-09-11" version="49.0"/>
+    <release date="2025-08-27" version="49~rc"/>
+    <release date="2025-08-01" version="49~beta"/>
+    <release date="2025-06-26" version="49~alpha"/>
+    <release date="2025-04-24" version="48.3"/>
+    <release date="2025-04-22" version="48.2"/>
+    <release date="2025-04-21" version="48.1"/>
+    <release date="2025-03-13" version="48.0"/>
+    <release date="2025-02-26" version="48~rc"/>
+    <release date="2025-01-31" version="48~beta"/>
+    <release date="2025-01-09" version="48~alpha"/>
+    <release date="2024-10-22" version="47.2"/>
+    <release date="2024-10-14" version="47.1"/>
+    <release date="2024-09-12" version="47.0"/>
+    <release date="2024-08-30" version="47~rc"/>
+    <release date="2024-08-02" version="47~beta"/>
+    <release date="2024-06-29" version="47~alpha"/>
+    <release date="2024-06-29" version="46.2"/>
+    <release date="2024-05-29" version="46.1"/>
+    <release date="2024-03-15" version="46.0"/>
+    <release date="2024-02-29" version="46~rc"/>
+    <release date="2024-02-10" version="46~beta"/>
+    <release date="2024-01-05" version="46~alpha"/>
+    <release date="2024-01-05" version="45.2"/>
+    <release date="2023-11-06" version="45.1"/>
+    <release date="2023-09-15" version="45.0"/>
+    <release date="2023-07-28" version="45~beta"/>
+    <release date="2023-06-29" version="45~alpha"/>
+    <release date="2023-06-29" version="44.4"/>
+    <release date="2023-05-25" version="44.3"/>
+    <release date="2023-04-20" version="44.2"/>
+    <release date="2023-04-02" version="44.1"/>
+    <release date="2023-03-17" version="44.0"/>
+    <release date="2023-03-03" version="44~rc"/>
+    <release date="2023-02-11" version="44~beta"/>
+    <release date="2023-01-05" version="44~alpha"/>
+    <release date="2022-09-15" version="43.0"/>
+    <release date="2022-09-01" version="43~rc"/>
+    <release date="2022-08-05" version="43~beta"/>
+    <release date="2022-07-08" version="43~alpha"/>
+    <release date="2022-07-08" version="42.3"/>
+    <release date="2022-04-21" version="42.2"/>
+    <release date="2022-04-12" version="42.1"/>
+    <release date="2022-03-17" version="42.0"/>
+    <release date="2022-02-11" version="42~beta"/>
+    <release date="2022-01-06" version="42~alpha"/>
+    <release date="2021-12-20" version="41.3"/>
+    <release date="2021-12-16" version="41.2"/>
+    <release date="2021-12-16" version="41.1"/>
+    <release date="2021-09-16" version="41.0"/>
+    <release date="2021-09-02" version="41~rc"/>
+    <release date="2021-08-12" version="41~beta"/>
+    <release date="2021-07-02" version="41~alpha"/>
+    <release date="2021-06-04" version="40.2"/>
+    <release date="2021-04-29" version="40.1"/>
+    <release date="2021-03-19" version="40.0"/>
+    <release date="2021-03-12" version="40~rc"/>
+    <release date="2021-02-11" version="40~beta"/>
+    <release date="2021-01-07" version="40~alpha"/>
+    <release date="2020-12-01" version="3.38.2"/>
+    <release date="2020-10-06" version="3.38.1"/>
+    <release date="2020-09-11" version="3.38.0"/>
+    <release date="2020-09-04" version="3.37.92"/>
+    <release date="2020-08-20" version="3.37.91"/>
+    <release date="2020-08-06" version="3.37.90"/>
+    <release date="2020-07-02" version="3.37.3"/>
+    <release date="2020-05-29" version="3.37.2"/>
+    <release date="2020-04-25" version="3.37.1"/>
+    <release date="2020-03-27" version="3.36.1"/>
+    <release date="2020-03-07" version="3.36.0"/>
+    <release date="2020-02-27" version="3.35.92"/>
+    <release date="2020-02-14" version="3.35.91"/>
+    <release date="2020-02-01" version="3.35.90"/>
+    <release date="2019-01-03" version="3.35.3"/>
+    <release date="2019-11-22" version="3.35.2"/>
+    <release date="2019-10-11" version="3.35.1"/>
+    <release date="2019-10-04" version="3.34.1"/>
+    <release date="2019-09-07" version="3.34.0"/>
+    <release date="2019-09-01" version="3.33.92"/>
+    <release date="2019-08-16" version="3.33.91"/>
+    <release date="2019-08-05" version="3.33.90"/>
+    <release date="2019-07-14" version="3.33.4"/>
+  </releases>
+</component>

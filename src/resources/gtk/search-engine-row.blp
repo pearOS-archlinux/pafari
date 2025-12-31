@@ -1,0 +1,30 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $EphySearchEngineRow: Adw.ExpanderRow {
+  [suffix]
+  Button remove_button {
+    valign: center;
+    icon-name: "edit-delete-symbolic";
+    tooltip-text: _("Remove");
+    clicked => $on_remove_button_clicked_cb();
+
+    styles [
+      "flat",
+    ]
+  }
+
+  Adw.EntryRow name_entry {
+    title: _("Name");
+  }
+
+  Adw.EntryRow address_entry {
+    title: _("Address");
+    input-purpose: url;
+  }
+
+  Adw.EntryRow bang_entry {
+    title: _("Shortcut");
+  }
+}
+

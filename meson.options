@@ -1,0 +1,35 @@
+option('developer_mode',
+  type: 'boolean',
+  value: false,
+  description: 'Enable developer mode'
+)
+
+option('tech_preview',
+  type: 'boolean',
+  value: false,
+  description: 'Enable Epiphany Tech Preview branding'
+)
+
+option('profile',
+  type: 'string',
+  value: '',
+  description: 'Build with appended profile to application ID'
+)
+
+option('unit_tests',
+  type: 'feature',
+  value: 'enabled',
+  description: 'Enable unit tests'
+)
+
+option('granite',
+  type: 'feature',
+  value: 'disabled',
+  description: 'Enable elementary OS integration. Requires Granite'
+)
+
+option('man-pages',
+  type: 'feature',
+  value: 'auto',
+  description: 'Enable man page generation (requires rst2man)'
+)

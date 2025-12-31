@@ -1,0 +1,1256 @@
+# Indonesian translation for epiphany.
+# Copyright (C) 2016 epiphany's COPYRIGHT HOLDER
+# This file is distributed under the same license as the epiphany package.
+# Kukuh Syafaat <syafaatkukuh@gmail.com>, 2019.
+# Andika Triwidada <andika@gmail.com>, 2020, 2021, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: epiphany master\n"
+"POT-Creation-Date: 2023-01-25 16:22+0000\n"
+"PO-Revision-Date: 2023-03-21 13:14+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Kukuh Syafaat <syafaatkukuh@gmail.com>, 2019.\n"
+"Andika Triwidada <andika@gmail.com>, 2020, 2021, 2023."
+
+#. (itstool) path: info/title
+#: C/index.page:7
+msgctxt "link:trail"
+msgid "Web help"
+msgstr "Bantuan Web"
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "link"
+msgid "Web help"
+msgstr "Bantuan Web"
+
+#. (itstool) path: info/title
+#: C/index.page:10
+msgctxt "text"
+msgid "Web help"
+msgstr "Bantuan Web"
+
+#. (itstool) path: info/desc
+#: C/index.page:17
+msgid ""
+"<app>Web</app>, formerly known as <app>Epiphany</app>, is the GNOME web browser. Get started with "
+"<app>Web</app> and learn about the available features."
+msgstr ""
+"<app>Web</app>, sebelumnya dikenal sebagai <app>Epiphany</app>, merupakan peramban web GNOME. Memulai "
+"<app>Web</app> dan pelajari fitur-fitur yang tersedia."
+
+#. (itstool) path: page/title
+#: C/index.page:23
+msgid "<_:media-1/> Web"
+msgstr "<_:media-1/> Web"
+
+#. (itstool) path: section/title
+#: C/index.page:29
+msgid "Getting started"
+msgstr "Memulai"
+
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "Your privacy"
+msgstr "Privasi Anda"
+
+#. (itstool) path: section/title
+#: C/index.page:37
+msgid "Advanced browsing"
+msgstr "Ramban lanjutan"
+
+#. (itstool) path: section/title
+#: C/index.page:41
+msgid "Options and settings"
+msgstr "Opsi dan pengaturan"
+
+#. (itstool) path: section/title
+#: C/index.page:45
+msgid "Common problems"
+msgstr "Masalah umum"
+
+#. (itstool) path: credit/name
+#: C/introduction.page:11 C/browse-local.page:12 C/browse-private.page:13 C/browse-tab.page:13
+#: C/browse-web.page:15 C/browse-webapps.page:14 C/browse-webapps-del.page:14 C/cert.page:12
+#: C/cookies.xml:12 C/data-cookies.page:13 C/data-passwords.page:21 C/history.page:12
+#: C/history-delete.page:12 C/pref-cookies.page:14 C/pref-css.page:18 C/pref-downloads.page:14
+#: C/pref-font.page:19 C/pref-passwords.page:14 C/prob-restore-closed-page.page:17 C/proxy.page:11
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: credit/years
+#: C/introduction.page:13 C/browse-local.page:14 C/browse-private.page:15 C/browse-webapps.page:16
+#: C/cookies.xml:14 C/data-cookies.page:15 C/data-passwords.page:18 C/data-passwords.page:23
+#: C/history.page:14 C/history-delete.page:14 C/pref-cookies.page:16 C/pref-css.page:15 C/pref-css.page:20
+#: C/pref-downloads.page:16 C/pref-font.page:16 C/pref-font.page:21 C/pref-passwords.page:16
+msgid "2013"
+msgstr "2013"
+
+#. (itstool) path: info/desc
+#: C/introduction.page:18
+msgid "An introduction to <app>Web</app>, a web browser for GNOME with built-in privacy."
+msgstr "Pengenalan <app>Web</app>, peramban web untuk GNOME dengan privasi terintegrasi."
+
+#. (itstool) path: page/title
+#: C/introduction.page:22
+msgid "Introduction"
+msgstr "Pengenalan"
+
+#. (itstool) path: page/p
+#: C/introduction.page:24
+msgid ""
+"<app>Web</app> offers a simple and clean way to browse the internet. It displays pages with the same "
+"speed and accuracy as other popular browsers."
+msgstr ""
+"<app>Web</app> menawarkan cara yang sederhana dan bersih untuk meramban internet. Ini akan menampilkan "
+"laman dengan kecepatan dan akurasi yang sama seperti peramban populer lainnya."
+
+#. (itstool) path: page/p
+#: C/introduction.page:28
+msgid "<app>Web</app> is the application formerly known as <app>Epiphany</app>."
+msgstr "<app>Web</app> merupakan aplikasi yang sebelumnya dikenal sebagai <app>Epiphany</app>."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:31
+msgctxt "_"
+msgid "external ref='media/epiphany-plain-3-36.png' md5='d70ce310b95542f80f3ebd1def25c670'"
+msgstr "external ref='media/epiphany-plain-3-36.png' md5='d70ce310b95542f80f3ebd1def25c670'"
+
+#. (itstool) path: media/p
+#: C/introduction.page:34
+msgid ""
+"Fullscreen screenshot of Web with the Web wiki page open in the first tab and showing the GNOME website "
+"open in the second tab."
+msgstr ""
+"Cuplikan layar penuh dari Web dengan laman wiki Web terbuka ditab pertama dan yang menunjukkan situs "
+"GNOME terbuka ditab kedua."
+
+#. (itstool) path: p/link
+#: C/legal.xml:5
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+
+#. (itstool) path: license/p
+#: C/legal.xml:4
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Karya ini berada dibawah lisensi <_:link-1/>."
+
+#. (itstool) path: info/desc
+#: C/browse-local.page:24
+msgid "How do I view files which are on my computer in a web browser?"
+msgstr "Bagaimana cara melihat berkas yang ada pada komputer saya diperamban web?"
+
+#. (itstool) path: page/title
+#: C/browse-local.page:27
+msgid "View local files"
+msgstr "Lihat berkas lokal"
+
+#. (itstool) path: page/p
+#: C/browse-local.page:31
+msgid ""
+"You can view some types of file that are on your computer in the web browser. This can be useful if you "
+"have saved a website for reading later or want to preview a web page that you are creating."
+msgstr ""
+"Anda dapat melihat beberapa jenis berkas yang ada pada komputer Anda diperamban web. Hal ini dapat "
+"berguna jika Anda telah menyimpan sebuah situs web untuk dibaca kemudian atau ingin melihat dulu laman "
+"web yang Anda buat."
+
+#. (itstool) path: item/p
+#: C/browse-local.page:37
+msgid "Press <keyseq><key>Ctrl</key><key>O</key></keyseq>."
+msgstr "<keyseq><key>Ctrl</key><key>O</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/browse-local.page:40
+msgid "Select and open the file that you want to view."
+msgstr "Pilih dan buka berkas yang ingin Anda lihat."
+
+#. (itstool) path: info/desc
+#: C/browse-private.page:25
+msgid "What is <em>incognito</em> mode?"
+msgstr "Apa itu moda <em>penyamaran</em>?"
+
+#. (itstool) path: page/title
+#: C/browse-private.page:28
+msgid "Private browsing"
+msgstr "Ramban privat"
+
+#. (itstool) path: page/p
+#: C/browse-private.page:38
+msgid ""
+"Private browsing is a mode which limits the way that your computer and websites can access your browsing "
+"information. It is useful if you want to lend your computer to a friend, for example, to check their "
+"email using webmail because you will not be logged into any websites in the private browsing window, nor "
+"will their information be saved. You might prefer to use incognito mode to access sensitive websites such "
+"as Internet banking and <link href=\"http://questionablecontent.net/\">questionable content</link> "
+"because data that websites have previously saved on your computer will not be accessible to the websites "
+"when browsing in incognito mode."
+msgstr ""
+"Meramban privat adalah moda yang membatasi bagaimana komputer dan situs web dapat mengakses informasi "
+"yang Anda ramban. Hal ini berguna jika Anda ingin meminjamkankan komputer Anda ke teman, misalnya, untuk "
+"memeriksa surel mereka menggunakan webmail karena Anda tidak akan log masuk ke sebarang situs web pada "
+"jendela ramban privat, pun tidak akan ada informasi yang disimpan. Anda mungkin lebih suka memakai mode "
+"penyamaran untuk mengakses situs yang sensitif seperti Internet banking dan <link href=\"http://"
+"questionablecontent.net/\">isi yang meragukan</link> karena lebih sulit bagi situs web untuk "
+"mengidentifikasi Anda ketika dalam moda penyamaran."
+
+#. (itstool) path: note/p
+#: C/browse-private.page:49
+msgid ""
+"Incognito mode will not stop websites from tracking your browsing activity. If you need to browse the web "
+"anonymously, you should use a commercial VPN service."
+msgstr ""
+"Mode penyamaran tidak akan menghentikan situs web melacak aktivitas penjelajahan Anda. Jika Anda perlu "
+"menjelajahi web secara anonim, Anda harus menggunakan layanan VPN komersial."
+
+#. (itstool) path: item/p
+#: C/browse-private.page:57
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">New Incognito Window</gui></guiseq>."
+msgstr ""
+"Tekan tombol menu di bagian kanan atas jendela dan pilih <guiseq><gui style=\"menuitem\">Jendela "
+"Penyamaran Baru</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/browse-private.page:61
+msgid "Browse the web using incognito mode."
+msgstr "Jelajah web menggunakan moda penyamaran."
+
+#. (itstool) path: item/p
+#: C/browse-private.page:64
+msgid "End the private browsing session by closing the incognito window."
+msgstr "Mengakhiri sesi ramban privat dengan menutup jendela penyamaran."
+
+#. (itstool) path: page/p
+#: C/browse-private.page:68
+msgid "You can distinguish private browsing from normal browsing by the watermark for the incognito window:"
+msgstr "Anda dapat membedakan ramban privat dari ramban normal dengan tanda air pada jendela penyamaran:"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/browse-private.page:71
+msgctxt "_"
+msgid "external ref='media/epiphany-private-3-36.png' md5='a5f3c9ea2cb418bab7bdbb8a9de9691e'"
+msgstr "external ref='media/epiphany-private-3-36.png' md5='a5f3c9ea2cb418bab7bdbb8a9de9691e'"
+
+#. (itstool) path: media/p
+#: C/browse-private.page:74
+msgid "Screenshot showing a private browsing window with no opened tabs."
+msgstr "Cuplikan layar memperlihatkan jendela penjelajahan pribadi tanpa tab yang terbuka."
+
+#. (itstool) path: credit/years
+#: C/browse-tab.page:15 C/data-cookies.page:20 C/data-passwords.page:28 C/prob-restore-closed-page.page:14
+#: C/prob-restore-closed-page.page:19 C/proxy.page:13
+msgid "2014"
+msgstr "2014"
+
+#. (itstool) path: info/desc
+#: C/browse-tab.page:25
+msgid "Open another web page in a new tab in the same window."
+msgstr "Buka laman web lain ditab baru pada jendela yang sama."
+
+#. (itstool) path: page/title
+#: C/browse-tab.page:28
+msgid "Open a new tab"
+msgstr "Buka tab baru"
+
+#. (itstool) path: credit/years
+#: C/browse-web.page:17
+msgid "2013, 2014"
+msgstr "2013, 2014"
+
+#. (itstool) path: info/desc
+#: C/browse-web.page:27
+msgid "View web pages on the internet."
+msgstr "Lihat laman web diinternet."
+
+#. (itstool) path: page/title
+#: C/browse-web.page:30
+msgid "Browse the web"
+msgstr "Ramban web"
+
+#. (itstool) path: page/p
+#: C/browse-web.page:32
+msgid ""
+"Web browsers can be used to view pages on the Internet when you have an Internet connection. To start "
+"browsing the web:"
+msgstr ""
+"Peramban web dapat digunakan untuk melihat laman diinternet ketika Anda memiliki sambungan Internet. "
+"Untuk memulai meramban web:"
+
+#. (itstool) path: item/p
+#: C/browse-web.page:37
+msgid ""
+"When you start up <app xref=\"introduction\">Web</app>, your cursor should be in the text entry field at "
+"the top of the window. Type in the URL of the webpage that you want to visit or your search term."
+msgstr ""
+"Ketika Anda memulai <app xref=\"introduction\">Web</app>, kursor harus berada dalam kolom entri teks pada "
+"bagian atas jendela. Ketik URL laman web yang ingin Anda kunjungi atau istilah pencarian yang ingin Anda "
+"cari."
+
+#. (itstool) path: item/p
+#: C/browse-web.page:42
+msgid "Press return to go to the web page or to search."
+msgstr "Tekan kembali untuk pergi ke laman web atau untuk melakukan pencarian."
+
+#. (itstool) path: page/p
+#. (itstool) id: browse-web.page#tabs
+#: C/browse-web.page:46
+msgid ""
+"<em>Tabs</em> are used to view more than one web page in one window. When you first start up <app>Web</"
+"app>, you will not be shown any tabs. To <em>open a new tab</em>, press the new tab button at the top "
+"left of the screen. Once the new tab is open, you can use it as you would normally use a new window."
+msgstr ""
+"<em>Tab</em> digunakan untuk melihat lebih dari satu halaman web dalam satu jendela. Ketika Anda pertama "
+"kali memulai <app>Web</app>, tidak akan ditampilkan tab apapun. Untuk <em>membuka tab baru</em>, tekan "
+"tombol tab baru di bagian kiri atas layar. Setelah tab baru terbuka, Anda dapat menggunakannya "
+"sebagaimana biasanya Anda akan menggunakan jendela baru."
+
+#. (itstool) path: page/p
+#. (itstool) id: browse-web.page#tabs-alt
+#: C/browse-web.page:52
+msgid ""
+"You can also use the <keyseq><key>Ctrl</key><key>T</key></keyseq> keyboard shortcut to open a new tab or "
+"the new tab button in the top-left of the window."
+msgstr ""
+"Anda juga dapat menggunakan pintasan papan tik <keyseq><key>Ctrl</key><key>T</key></keyseq> untuk membuka "
+"tab baru atau tombol tab baru dikiri atas jendela."
+
+#. (itstool) path: page/p
+#. (itstool) id: browse-web.page#tabs-link
+#: C/browse-web.page:56
+msgid ""
+"To <em>open a link in a new tab</em>, right click on the link, then select <gui style=\"menuitem\">Open "
+"Link in New Tab</gui> or use the middle mouse button to click on the link."
+msgstr ""
+"Untuk <em>membuka tautan ditab baru</em>, klik kanan pada tautan, kemudian pilih <gui "
+"style=\"menuitem\">Buka Tautan dalam Tab Baru</gui> atau menggunakan tombol tengah tetikus untuk mengklik "
+"tautan."
+
+#. (itstool) path: info/desc
+#: C/browse-webapps.page:26
+msgid "What is a <em>Web App</em> and how do I use it?"
+msgstr "Apa itu <em>Aplikasi Web</em> dan bagaimana cara menggunakannya?"
+
+#. (itstool) path: page/title
+#: C/browse-webapps.page:29
+msgid "Create a Web App"
+msgstr "Membuat Aplikasi Web"
+
+#. (itstool) path: page/p
+#: C/browse-webapps.page:31
+msgid ""
+"You can save webpages as a <em>Web App</em>. This will add a link to the page to the <link href=\"help:"
+"gnome-help/shell-introduction#activities\">Activities overview</link>. When you open a Web App, it is "
+"shown in a special type of window without the address bar or the menus."
+msgstr ""
+"Anda dapat menyimpan laman web sebagai <em>Aplikasi Web</em>. Hal ini akan menambahkan tautan ke laman "
+"pada <link href=\"help:gnome-help/shell-introduction#activities\">Ringkasa aktivitas</link>. Ketika Anda "
+"membuka aplikasi Web, yang terlihat adalah jenis khusus dari jendela tanpa bilah alamat atau menu."
+
+#. (itstool) path: item/p
+#: C/browse-webapps.page:38
+msgid "Open the webpage which you want to save."
+msgstr "Buka laman web yang ingin Anda simpan."
+
+#. (itstool) path: item/p
+#: C/browse-webapps.page:41
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui style=\"menuitem\">Install as "
+"Web App…</gui>."
+msgstr ""
+"Tekan tombol menu di sudut kanan atas jendela dan pilih <gui style=\"menuitem\">Pasang Situs sebagai "
+"Aplikasi Web…</gui>."
+
+#. (itstool) path: item/p
+#: C/browse-webapps.page:45
+msgid "Name your Web App, then press <gui style=\"button\">Create</gui>."
+msgstr "Beri nama Aplikasi Web Anda, lalu tekan <gui style=\"button\">Buat</gui>."
+
+#. (itstool) path: page/p
+#: C/browse-webapps.page:50
+msgid ""
+"You can now launch the Web App from the Activities overview. To search for your app, start typing the "
+"name and it will be shown with the other search results."
+msgstr ""
+"Anda sekarang dapat meluncurkan Aplikasi Web dari Ringkasan aktivitas. Untuk mencari aplikasi Anda, ketik "
+"nama dan kemudian akan ditampilkan dengan hasil pencarian lainnya."
+
+#. (itstool) path: credit/years
+#: C/browse-webapps-del.page:16 C/cert.page:14
+msgid "2015"
+msgstr "2015"
+
+#. (itstool) path: info/desc
+#: C/browse-webapps-del.page:26
+msgid "How do I delete a <em>Web App</em>?"
+msgstr "Bagaimana cara menghapus <em>Aplikasi Web</em>?"
+
+#. (itstool) path: page/title
+#: C/browse-webapps-del.page:29
+msgid "Remove a Web App"
+msgstr "Menghapus Aplikasi Web"
+
+#. (itstool) path: page/p
+#: C/browse-webapps-del.page:31
+msgid "You can delete a Web App when you no longer need it."
+msgstr "Anda dapat menghapus Aplikasi Web ketika Anda tidak lagi membutuhkannya."
+
+#. (itstool) path: item/p
+#: C/browse-webapps-del.page:35
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui style=\"menuitem\">Manage Web "
+"Apps</gui>."
+msgstr ""
+"Tekan tombol menu di sudut kanan atas jendela dan pilih <gui style=\"menuitem\">Kelola Aplikasi Web</gui>."
+
+#. (itstool) path: item/p
+#: C/browse-webapps-del.page:39
+msgid "Press <gui style=\"button\">Delete</gui> next to the app which you want to remove."
+msgstr "Tekan <gui style=\"button\">Hapus</gui> di sebelah aplikasi yang ingin Anda hapus."
+
+#. (itstool) path: info/desc
+#: C/cert.page:19
+msgid "Certificate management in <app>Web</app>."
+msgstr "Manajemen Sertifikat pada <app>Web</app>."
+
+#. (itstool) path: page/title
+#: C/cert.page:22
+msgid "Certificates"
+msgstr "Sertifikat"
+
+#. (itstool) path: page/p
+#: C/cert.page:24
+msgid "<app>Web</app> does not have built-in support for certificate management at this time."
+msgstr "<app>Web</app> tidak memiliki dukungan terintegrasi untuk manajemen sertifikat saat ini."
+
+#. (itstool) path: note/p
+#: C/cert.page:28
+msgid ""
+"You can add certificates through the command line if you have p11-kit installed. To add a certificate, "
+"you need to download the certificate and run the following command to import it:"
+msgstr ""
+"Anda dapat menambahkan sertifikat melalui baris perintah jika Anda memiliki p11-kit yang sudah terpasang. "
+"Untuk menambahkan sertifikat, Anda harus mengunduh sertifikat dan menjalankan perintah berikut untuk "
+"mengimpornya:"
+
+#. (itstool) path: note/screen
+#: C/cert.page:31
+#, no-wrap
+msgid "<output>$ </output><input>sudo trust anchor <var>/home/user/Downloads/certificate.crt</var></input>"
+msgstr "<output>$ </output><input>sudo trust anchor <var>/home/user/Downloads/certificate.crt</var></input>"
+
+#. (itstool) path: note/p
+#: C/cert.page:32
+msgid "Unfortunately, this will not work on Debian-based systems, such as Ubuntu."
+msgstr "Sayangnya, ini tidak akan bekerja pada sistem berbasis Debian, seperti Ubuntu."
+
+#. (itstool) path: page/title
+#: C/cookies.xml:20
+msgid "What are cookies?"
+msgstr "Apa itu cookie?"
+
+#. (itstool) path: page/p
+#: C/cookies.xml:28
+msgid ""
+"A browser <em>cookie</em> is a small piece of data sent from a website and stored on your computer while "
+"you are browsing that website. When you return to the same website in the future, the data stored in the "
+"cookie can be retrieved by the website to notify the website of your previous activity. Cookies are a "
+"common method used by web servers to know whether you are logged in to an account on a specific website "
+"or not."
+msgstr ""
+"<em>Cookie</em> peramban adalah bagian kecil dari data yang dikirim dari sebuah situs web dan disimpan di "
+"komputer Anda saat Anda meramban situs web tersebut. Ketika Anda kembali ke situs yang sama pada masa "
+"mendatang, data yang disimpan dalam cookie dapat diambil oleh situs web untuk memberitahu situs web "
+"tentang aktivitas sebelumnya. Cookie adalah metode yang umum digunakan oleh server web untuk mengetahui "
+"apakah Anda masuk ke akun pada situs web tertentu atau tidak."
+
+#. (itstool) path: credit/name
+#: C/data-cookies.page:18 C/data-passwords.page:26 C/prob-restore-closed-page.page:12
+msgid "Baptiste Mille-Mathias"
+msgstr "Baptiste Mille-Mathias"
+
+#. (itstool) path: credit/name
+#: C/data-cookies.page:23 C/data-passwords.page:31 C/data-personal-data.page:17 C/pref-cookies.page:24
+#: C/pref-css.page:23 C/pref-downloads.page:19 C/pref-font.page:24 C/pref-passwords.page:19
+msgid "Federico Bruni"
+msgstr "Federico Bruni"
+
+#. (itstool) path: credit/years
+#: C/data-cookies.page:25 C/data-passwords.page:33 C/data-personal-data.page:19 C/pref-cookies.page:26
+#: C/pref-css.page:25 C/pref-downloads.page:21 C/pref-font.page:26 C/pref-passwords.page:21
+msgid "2021"
+msgstr "2021"
+
+#. (itstool) path: info/desc
+#: C/data-cookies.page:30
+msgid "How do I delete browser cookies?"
+msgstr "Bagaimana cara saya menghapus cookie peramban?"
+
+#. (itstool) path: page/title
+#: C/data-cookies.page:33
+msgid "Delete a cookie"
+msgstr "Hapus cookie"
+
+#. (itstool) path: page/p
+#: C/data-cookies.page:38
+msgid ""
+"You can check if it left a cookie and delete it, but be aware that websites will usually install the same "
+"cookie again if you visit that website again."
+msgstr ""
+"Anda dapat memeriksa apakah itu meninggalkan cookie dan menghapusnya, tetapi ketahuilah bahwa situs web "
+"biasanya akan menginstal cookie yang sama lagi jika Anda mengunjungi situs web itu lagi."
+
+#. (itstool) path: item/p
+#: C/data-cookies.page:43 C/data-personal-data.page:38
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</gui><gui style=\"button\">Clear Personal "
+"Data</gui></guiseq>."
+msgstr ""
+"Tekan tombol menu di sudut kanan atas jendela dan pilih <guiseq><gui style=\"menuitem\">Preferensi</"
+"gui><gui style=\"tab\">Privasi</gui><gui style=\"button\">Bersihkan Data Pribadi</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/data-cookies.page:48
+msgid ""
+"Select the cookies that you want to delete. You can tick only a few domains or tick Cookies to select all "
+"domains at once."
+msgstr ""
+"Pilih cookie yang ingin Anda hapus. Anda hanya dapat mencentang beberapa domain atau mencentang Cookie "
+"untuk memilih semua domain sekaligus."
+
+#. (itstool) path: item/p
+#: C/data-cookies.page:52 C/data-personal-data.page:47
+msgid "Press <gui style=\"button\">Clear Data</gui>."
+msgstr "Tekan <gui style=\"button\">Bersihkan Data</gui>."
+
+#. (itstool) path: note/p
+#: C/data-cookies.page:57
+msgid ""
+"If you wish to delete the cookies a website has stored, you probably also wish to delete <link "
+"xref=\"data-personal-data\">other data stored by that website</link>."
+msgstr ""
+"Jika Anda ingin menghapus cookie yang disimpan situs web, Anda mungkin juga ingin menghapus <link "
+"xref=\"data-personal-data\">data lain yang disimpan oleh situs web tersebut</link>."
+
+#. (itstool) path: credit/name
+#: C/data-passwords.page:16
+msgid "Aruna Sankaranarayanan"
+msgstr "Aruna Sankaranarayanan"
+
+#. (itstool) path: info/desc
+#: C/data-passwords.page:38
+msgid "How do I remove and update stored passwords?"
+msgstr "Bagaimana cara menghapus dan memperbarui kata sandi yang tersimpan?"
+
+#. (itstool) path: page/title
+#: C/data-passwords.page:41
+msgid "Manage passwords"
+msgstr "Kelola Sandi"
+
+#. (itstool) path: page/p
+#: C/data-passwords.page:43
+msgid ""
+"You can save all of your passwords so that you do not have to reenter them every time that you want to "
+"log into a website."
+msgstr ""
+"Anda dapat menyimpan semua kata sandi Anda sehingga Anda tidak perlu masuk kembali mereka setiap waktu "
+"Anda ingin masuk ke situs web."
+
+#. (itstool) path: page/p
+#: C/data-passwords.page:46
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</gui><gui style=\"button\">Passwords</"
+"gui></guiseq> to see your saved passwords."
+msgstr ""
+"Tekan tombol menu di sudut kanan atas jendela dan pilih <guiseq><gui style=\"menuitem\">Preferensi</"
+"gui><gui style=\"tab\">Privasi</gui><gui style=\"button\">Kata Sandi</gui></guiseq> untuk melihat kata "
+"sandi Anda yang disimpan."
+
+#. (itstool) path: section/title
+#: C/data-passwords.page:52
+msgid "Remove saved passwords"
+msgstr "Hapus kata sandi yang disimpan"
+
+#. (itstool) path: section/p
+#: C/data-passwords.page:54
+msgid "You can remove a stored password at any time."
+msgstr "Anda dapat menghapus kata sandi yang disimpan setiap saat."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:58
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</gui> <gui style=\"button\">Passwords</"
+"gui></guiseq>."
+msgstr ""
+"Tekan tombol menu di sudut kanan atas jendela dan pilih <guiseq><gui style=\"menuitem\">Preferensi</"
+"gui><gui style=\"tab\">Privasi</gui><gui style=\"button\">Kata Sandi</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:63
+msgid "Click on the search button at the top right and enter the address of the website."
+msgstr "Klik tombol pencarian di pojok kanan atas dan masukkan alamat situs web."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:67
+msgid "Click on the item to unfold its details."
+msgstr "Klik pada butir untuk mengungkapkan rinciannya."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:70
+msgid "Press <gui style=\"button\">Remove Password</gui> to remove the saved password."
+msgstr "Tekan <gui style=\"button\">Hapus Kata Sandi</gui> untuk menghapus kata sandi yang tersimpan."
+
+#. (itstool) path: section/p
+#: C/data-passwords.page:75
+msgid ""
+"You can view the saved passwords by pressing on the key button at the bottom-right of the password list."
+msgstr ""
+"Anda dapat melihat kata sandi yang disimpan dengan menekan tombol pada kanan bawah daftar kata sandi."
+
+#. (itstool) path: note/p
+#: C/data-passwords.page:79
+msgid ""
+"You can also delete all of your stored passwords using the <gui style=\"button\">Clear All</gui> button."
+msgstr ""
+"Anda juga dapat menghapus semua kata sandi yang disimpan menggunakan tombol <gui "
+"style=\"button\">Bersihkan Semua</gui>."
+
+#. (itstool) path: section/title
+#: C/data-passwords.page:86
+msgid "Update a password"
+msgstr "Memperbarui kata sandi"
+
+#. (itstool) path: section/p
+#: C/data-passwords.page:88
+msgid ""
+"If you have changed a password that is saved in <link xref=\"introduction\"><app>Web</app></link>, you "
+"have to update it."
+msgstr ""
+"Jika Anda telah mengubah kata sandi yang disimpan dalam <link xref=\"introduction\"><app>Web</app></"
+"link>, Anda harus memperbaruinya."
+
+#. (itstool) path: steps/title
+#: C/data-passwords.page:92
+msgid "When you have finished changing your password:"
+msgstr "Bila Anda telah selesai mengubah kata sandi Anda:"
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:94
+msgid "Visit the same webpage for which the password was stored and has now been changed."
+msgstr "Kunjungi laman web yang sama dimana kata sandi disimpan dan yang sekarang telah berubah."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:98
+msgid ""
+"Your old saved password will automatically be typed in the password field by <app>Web</app>, so clear the "
+"password field."
+msgstr ""
+"Sandi lama Anda yang disimpan akan secara otomatis diketik pada kolom kata sandi oleh <app>Web</app>, "
+"sehingga kosongkanlah kolom kata sandi."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:102
+msgid "Type your new password in the password field."
+msgstr "Ketik kata sandi baru Anda pada kolom kata sandi."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:105
+msgid ""
+"You will be asked if you want to save the password in <app>Web</app>. Press <gui style=\"button\">Save</"
+"gui> to finish. This will update your old password for the webpage."
+msgstr ""
+"Anda akan ditanya apakah Anda ingin menyimpan kata sandi pada <app>Web</app>. Tekan <gui "
+"style=\"button\">Simpan</gui> untuk menyelesaikan. Ini akan memperbarui kata sandi lama Anda untuk laman "
+"web."
+
+#. (itstool) path: credit/name
+#: C/data-personal-data.page:12
+msgid "Michael Catanzaro"
+msgstr "Michael Catanzaro"
+
+#. (itstool) path: credit/years
+#: C/data-personal-data.page:14 C/pref-mouse-gestures.page:14
+msgid "2019"
+msgstr "2019"
+
+#. (itstool) path: info/desc
+#: C/data-personal-data.page:24
+msgid "How do I delete personal data stored by websites?"
+msgstr "Bagaimana cara menghapus data pribadi yang disimpan oleh situs web?"
+
+#. (itstool) path: page/title
+#: C/data-personal-data.page:27
+msgid "Delete personal data"
+msgstr "Menghapus data pribadi"
+
+#. (itstool) path: page/p
+#: C/data-personal-data.page:29
+msgid "<app>Web</app> allows you to delete personal data stored by websites."
+msgstr "<app>Web</app> memungkinkan Anda menghapus data pribadi yang disimpan oleh situs web."
+
+#. (itstool) path: page/p
+#: C/data-personal-data.page:32
+msgid "<link xref=\"data-personal-data\">Learn how to delete browser cookies.</link>"
+msgstr "<link xref=\"data-personal-data\">Pelajari cara menghapus cookie peramban.</link>"
+
+#. (itstool) path: page/p
+#: C/data-personal-data.page:34
+msgid "To delete other personal data:"
+msgstr "Untuk menghapus data pribadi lainnya:"
+
+#. (itstool) path: item/p
+#: C/data-personal-data.page:43
+msgid ""
+"Select the types of stored data you wish to delete and optionally limit the delete action to selected "
+"domains."
+msgstr ""
+"Pilih tipe data tersimpan yang ingin Anda hapus dan secara opsional periode waktu dari kapan Anda ingin "
+"menghapusnya."
+
+#. (itstool) path: info/desc
+#: C/history.page:24
+msgid "Why do I see a list of web pages when I start typing in the address bar?"
+msgstr "Mengapa saya melihat daftar laman web ketika saya mulai mengetik pada bilah alamat?"
+
+#. (itstool) path: page/title
+#: C/history.page:27
+msgid "Browsing history"
+msgstr "Riwayat Meramban"
+
+#. (itstool) path: page/p
+#: C/history.page:29
+msgid ""
+"Your browsing history, the web pages that you have visited, is automatically saved so that it is quicker "
+"for you to return to those pages."
+msgstr ""
+"Riwayat meramban Anda, laman web yang telah dikunjungi, secara otomatis disimpan sehingga lebih cepat "
+"bagi Anda untuk kembali ke halaman tersebut."
+
+#. (itstool) path: page/p
+#: C/history.page:33
+msgid ""
+"To <em>search your history</em>, start typing your search term into the address bar, then click on the "
+"correct result once you see it. The search will include the page title and URL, but not the page content."
+msgstr ""
+"Untuk <em>menelusuri riwayat Anda</em>, mulailah dengan mengetik istilah pencarian Anda ke bilah alamat, "
+"kemudian klik pada hasil yang benar setelah Anda melihatnya. pencarian akan mencakup judul halaman dan "
+"URL, tapi tidak pada konten laman."
+
+#. (itstool) path: info/desc
+#: C/history-delete.page:24
+msgid "How do I delete one or more web pages from my browsing history?"
+msgstr "Bagaimana cara menghapus satu atau lebih laman web dari riwayat meramban saya?"
+
+#. (itstool) path: page/title
+#: C/history-delete.page:27
+msgid "Clear browsing history"
+msgstr "Bersihkan riwayat meramban"
+
+#. (itstool) path: page/p
+#: C/history-delete.page:29
+msgid ""
+"You may sometimes wish to delete your browsing history, for example, to remove items that you do not want "
+"to see in your search results. You can choose to delete one result, all results from a single website or "
+"all of your history."
+msgstr ""
+"Anda terkadang mungkin ingin menghapus riwayat meramban, misalnya menghapus butir yang tidak ingin Anda "
+"lihat dalam hasil pencarian Anda. Anda dapat memilih untuk menghapus salah satu hasil, semua hasil dari "
+"sebuah situs web tunggal, atau semua riwayat."
+
+#. (itstool) path: item/p
+#: C/history-delete.page:36
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui style=\"menuitem\">History</"
+"gui>."
+msgstr "Tekan tombol menu di sudut kanan atas jendela dan pilih <gui style=\"menuitem\">Riwayat</gui>."
+
+#. (itstool) path: item/p
+#: C/history-delete.page:40
+msgid "Press the delete button to permanently delete undesired pages."
+msgstr "Tekan tombol hapus untuk menghapus halaman yang tidak diinginkan secara permanen."
+
+#. (itstool) path: page/p
+#: C/history-delete.page:44
+msgid "You can also delete all of your history by pressing <gui style=\"button\">Clear all</gui>."
+msgstr ""
+"Anda juga dapat menghapus semua riwayat Anda menggunakan tombol <gui style=\"button\">Bersihkan semua</"
+"gui>."
+
+#. (itstool) path: credit/name
+#: C/pref-cookies.page:19
+msgid "Michael Hill"
+msgstr "Michael Hill"
+
+#. (itstool) path: info/desc
+#: C/pref-cookies.page:31
+msgid "How do I choose which websites I allow to set cookies?"
+msgstr "Bagaimana cara memilih situs web dimana saya memungkinkan untuk mengatur cookie?"
+
+#. (itstool) path: page/title
+#: C/pref-cookies.page:34
+msgid "Set cookie preference"
+msgstr "Atur preferensi cookie"
+
+#. (itstool) path: page/p
+#: C/pref-cookies.page:39
+msgid "You can specify whether you want to accept cookies and from which websites."
+msgstr "Anda dapat menentukan apakah Anda ingin menerima cookies dan dari situs mana."
+
+#. (itstool) path: item/p
+#: C/pref-cookies.page:44
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</gui></guiseq>."
+msgstr ""
+"Tekan tombol menu di pojok kanan atas jendela dan pilih <guiseq><gui style=\"menuitem\">Preferensi</"
+"gui><gui style=\"tab\">Privasi</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-cookies.page:48
+msgid ""
+"Select whether you want to accept cookies from all websites, accept cookies only from websites which you "
+"have visited or to not accept any cookies."
+msgstr ""
+"Pilih apakah Anda ingin menerima cookie dari semua situs web, menerima cookie hanya dari situs yang telah "
+"Anda kunjungi atau tidak menerima cookie."
+
+#. (itstool) path: page/p
+#: C/pref-cookies.page:54
+msgid ""
+"You should normally use <gui>Only from sites you visit</gui> because this option allows you to log into "
+"your accounts on most websites while preventing websites that you have not visited from leaving cookies."
+msgstr ""
+"Anda biasanya harus menggunakan <gui>Hanya dari situs yang Anda kunjungi</gui> karena pilihan ini "
+"memungkinkan Anda untuk masuk ke akun Anda pada situs web dan mencegah situs web yang Anda belum kunjungi "
+"meninggalkan cookie."
+
+#. (itstool) path: page/p
+#: C/pref-cookies.page:58
+msgid ""
+"If you choose to <gui>Always accept</gui> cookies, then websites that you have not visited will be able "
+"to leave <em>third party cookies</em>. Third party cookies are often used by advertisers and social media "
+"websites to track your activity across websites and offer targeted content. Note that some websites, such "
+"as Outlook.com, use third party cookies to monitor whether you are logged in."
+msgstr ""
+"Jika Anda memilih untuk cookie <gui>Terima selalu</gui>, maka situs web yang Anda belum kunjungi akan "
+"dapat meninggalkan <em>cookie pihak ketiga </em>. Cookie pihak ketiga sering digunakan oleh pengiklan dan "
+"situs media sosial untuk melacak aktivitas Anda pada situs web dan menawarkan konten yang ditargetkan. "
+"Perhatikan bahwa beberapa situs, seperti Outlook.com, menggunakan cookie pihak ketiga untuk memantau "
+"apakah Anda login."
+
+#. (itstool) path: page/p
+#: C/pref-cookies.page:65
+msgid ""
+"If you <gui>Never accept</gui> cookies, you may experience problems on some websites like logging into "
+"your accounts, saving your preferences or not being able add items to your shopping basket."
+msgstr ""
+"Jika Anda memilih cookie <gui>Tolak selalu</gui>, Anda mungkin mengalami masalah pada beberapa situs web "
+"seperti masuk ke akun Anda, menyimpan preferensi Anda atau tidak mampu menambahkan item ke keranjang "
+"belanja Anda."
+
+#. (itstool) path: credit/name
+#: C/pref-css.page:13 C/pref-font.page:14
+msgid "Gordon Hill"
+msgstr "Gordon Hill"
+
+#. (itstool) path: info/desc
+#: C/pref-css.page:30
+msgid "Override the theme which is used to display web pages."
+msgstr "Mengganti tema yang digunakan untuk menampilkan laman web."
+
+#. (itstool) path: page/title
+#: C/pref-css.page:33
+msgid "Custom CSS"
+msgstr "CSS kustom"
+
+#. (itstool) path: page/p
+#: C/pref-css.page:35
+msgid ""
+"<app>Web</app> allows you to set a custom CSS to change the look and feel of every web page that you "
+"visit. You may want to do this to set a preferred font size or color scheme."
+msgstr ""
+"<app>Web</app> memungkinkan Anda mengatur CSS kustom untuk mengubah tampilan dan nuansa dari setiap laman "
+"web yang Anda kunjungi. Anda mungkin ingin melakukan hal ini untuk menetapkan ukuran fonta atau skema "
+"warna."
+
+#. (itstool) path: item/p
+#: C/pref-css.page:41 C/pref-font.page:43
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui><gui style=\"tab\">Appearance</gui></guiseq>."
+msgstr ""
+"Tekan tombol menu di pojok kanan atas jendela dan pilih <guiseq><gui style=\"menuitem\">Preferensi</"
+"gui><gui style=\"tab\">Penampilan</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-css.page:45
+msgid "Under the Style section, switch <gui>Use Custom Stylesheet</gui> to on."
+msgstr "Di bawah bagian Gaya, aktifkan <gui>Gunakan Lembar Gaya Ubahan</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-css.page:48
+msgid "Click on the pen icon."
+msgstr "Klik pada ikon pena."
+
+#. (itstool) path: item/p
+#: C/pref-css.page:51
+msgid "Your default text editor will open. Add your custom CSS and save the file."
+msgstr "Teks editor bawaan Anda akan terbuka. Tambahkan CSS kustom Anda dan simpan berkas."
+
+#. (itstool) path: page/p
+#: C/pref-css.page:61
+msgid "An example of a custom CSS:"
+msgstr "Contoh dari CSS kustom:"
+
+#. (itstool) path: page/code
+#: C/pref-css.page:62
+#, no-wrap
+msgid ""
+"\n"
+"body{\n"
+"    /*Make everything upside-down*/\n"
+"    -webkit-transform: rotate(180deg);\n"
+"}\n"
+msgstr ""
+"\n"
+"body{\n"
+"    /*Buat semuanya terbalik*/\n"
+"    -webkit-transform: rotate(180deg);\n"
+"}\n"
+
+#. (itstool) path: page/p
+#: C/pref-css.page:69
+msgid "Your custom CSS will override the style sheet on pages which you visit after you enable it."
+msgstr ""
+"CSS kustom Anda akan menimpa style sheet pada laman yang Anda kunjungi setelah Anda mengaktifkannya."
+
+#. (itstool) path: info/desc
+#: C/pref-downloads.page:31
+msgid "Where are my files downloaded to and how can I change this setting?"
+msgstr "Kemana berkas yang saya unduh dan bagaimana saya bisa mengubah pengaturan ini?"
+
+#. (itstool) path: page/title
+#: C/pref-downloads.page:34
+msgid "Downloading files"
+msgstr "Mengunduh berkas"
+
+#. (itstool) path: page/p
+#: C/pref-downloads.page:36
+msgid ""
+"Files which you download from the internet, such as email attachments, will automatically be saved into "
+"your <file>Downloads</file> folder. You can change this in the <gui>Preferences</gui>."
+msgstr ""
+"Berkas yang Anda unduh dari internet, seperti lampiran surel, secara otomatis akan disimpan ke dalam "
+"folder <file>Unduhab</file>. Anda dapat mengubahnya dalam <gui>Preferensi</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-downloads.page:42
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui><gui style=\"tab\">General</gui></guiseq>."
+msgstr ""
+"Tekan tombol menu di sudut kanan atas jendela dan pilih <guiseq><gui style=\"menuitem\">Preferensi</"
+"gui><gui style=\"tab\">Umum</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-downloads.page:46
+msgid ""
+"Press the <gui>Download folder</gui> name to select a different folder for downloads. If the folder that "
+"you want to use is not in the list, select <gui>Other…</gui> to browse for it."
+msgstr ""
+"Tekan nama <gui>Folder unduhan</gui> untuk memilih folder yang berbeda untuk unduhan. Jika folder yang "
+"ingin Anda gunakan tidak ada dalam daftar, pilih <gui>Lainnya…</gui> untuk mencarinya."
+
+#. (itstool) path: item/p
+#: C/pref-downloads.page:51
+msgid ""
+"If you want to choose which directory to use each time you download a file, switch <gui>Ask on download</"
+"gui> to on."
+msgstr ""
+"Jika Anda ingin memilih direktori mana yang akan digunakan setiap kali Anda mengunduh berkas, nyalakan "
+"<gui>Tanyakan saat mengunduh</gui>."
+
+#. (itstool) path: page/p
+#: C/pref-downloads.page:56
+msgid ""
+"If you <em>save</em> a file instead of downloading it, you will still need to specify where you want to "
+"save it to."
+msgstr ""
+"Jika Anda <em>Simpan</em> berkas alih-alih mengunduhnya, Anda masih perlu untuk menentukan dimana Anda "
+"ingin menyimpannya."
+
+#. (itstool) path: note/p
+#: C/pref-downloads.page:60
+msgid ""
+"It is not possible to choose where to save downloads if you are using Flatpak to run <app>Web</app>. "
+"Downloads will always be saved in your <file>Downloads</file> folder."
+msgstr ""
+"Tidak dimungkinkan untuk memilih tempat menyimpan unduhan jika Anda menggunakan Flatpak untuk menjalankan "
+"<app>Web</app>. Unduhan akan selalu disimpan di folder <file>Downloads</file> Anda."
+
+#. (itstool) path: info/desc
+#: C/pref-font.page:31
+msgid "Use a custom font for displaying web pages."
+msgstr "Menggunakan fonta kustom untuk menampilkan laman web."
+
+#. (itstool) path: page/title
+#: C/pref-font.page:34
+msgid "Change the font"
+msgstr "Ubah fonta"
+
+#. (itstool) path: page/p
+#: C/pref-font.page:36
+msgid ""
+"By default, your system font will be used to display web pages whenever possible. If you use the <gui "
+"href=\"help:gnome-help/a11y-font-size\">Large Text</gui> accessibility setting, this will be taken into "
+"account. You can change this and use different fonts for viewing websites."
+msgstr ""
+"Secara bawaan, sistem fonta Anda akan digunakan untuk menampilkan laman web bila memungkinkan. Jika Anda "
+"menggunakan pengaturan aksesibilitas <gui href=\"help:gnome-help/a11y-font-size\">Teks Besar</gui>, hal "
+"ini akan diperhitungkan. Anda dapat mengubahnya dan menggunakan fonta yang berbeda untuk melihat situs "
+"web."
+
+#. (itstool) path: item/p
+#: C/pref-font.page:47
+msgid "Switch <gui>Use Custom Fonts</gui> to on."
+msgstr "Nyalakan <gui>Gunakan Fonta Ubahan</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-font.page:50
+msgid ""
+"Click on the font to open the font chooser dialog, where you can select a different font type or size."
+msgstr ""
+"Klik pada fonta untuk membuka dialog pemilih fonta, dimana Anda dapat memilih jenis font atau ukuran yang "
+"berbeda."
+
+#. (itstool) path: item/p
+#: C/pref-font.page:54
+msgid "Press <gui style=\"button\">Select</gui> to save your choice."
+msgstr "Tekan <gui style=\"button\">Pilih</gui> untuk menyimpan pilihan Anda."
+
+#. (itstool) path: page/p
+#: C/pref-font.page:58
+msgid ""
+"You can also increase font size with <keyseq><key>Ctrl</key><key>+</key></keyseq> and decrease it with "
+"<keyseq><key>Ctrl</key><key>-</key></keyseq>."
+msgstr ""
+"Anda juga dapat memperbesar ukuran fonta dengan <keyseq><key>Ctrl</key><key>+</key></keyseq> dan "
+"memperkecilnya dengan <keyseq><key>Ctrl</key><key>-</key></keyseq>."
+
+#. (itstool) path: info/desc
+#: C/pref-passwords.page:31
+msgid "How do I enable or disable storing passwords?"
+msgstr "Bagaimana cara mengaktifkan atau menonaktifkan penyimpan kata sandi?"
+
+#. (itstool) path: page/title
+#: C/pref-passwords.page:34
+msgid "Remember passwords"
+msgstr "Ingat kata sandi"
+
+#. (itstool) path: page/p
+#: C/pref-passwords.page:36
+msgid ""
+"When you enter a username and password for a website, you will usually be asked if you want to remember "
+"the login details. You can check if this preference is enabled or change your settings in "
+"<gui>Preferences</gui>."
+msgstr ""
+"Bila Anda memasukkan nama pengguna dan kata sandi untuk situs web, Anda biasanya akan ditanya apakah Anda "
+"ingin mengingat rincian masuk. Anda dapat memeriksa apakah pengaturan ini diaktifkan atau mengubah "
+"pengaturan Anda pada <gui>Preferensi</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-passwords.page:42
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui> <gui style=\"tab\">Privacy</gui></guiseq>."
+msgstr ""
+"Tekan tombol menu di sudut kanan atas jendela dan pilih <guiseq><gui style=\"menuitem\">Preferensi</"
+"gui><gui style=\"tab\">Privasi</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-passwords.page:47
+msgid ""
+"The <gui style=\"button\">Remember Passwords</gui> switch will be on if your preferences are set to save "
+"passwords. Switch it off to stop <app>Web</app> remembering passwords."
+msgstr ""
+"<gui style=\"checkbox\">Ingat kata sandi</gui> akan menyala jika preferensi Anda diatur untuk menyimpan "
+"kata sandi. Matikan untuk berhenti mengingat kata sandi <app>Web</app>."
+
+#. (itstool) path: credit/name
+#: C/pref-mouse-gestures.page:12
+msgid "Jan-Michael Brummer"
+msgstr "Jan-Michael Brummer"
+
+#. (itstool) path: info/desc
+#: C/pref-mouse-gestures.page:19
+msgid "Navigate web pages using the mouse."
+msgstr "Navigasi halaman web menggunakan tetikus."
+
+#. (itstool) path: page/title
+#: C/pref-mouse-gestures.page:22
+msgid "Use mouse gestures"
+msgstr "Memakai sikap tetikus"
+
+#. (itstool) path: page/p
+#: C/pref-mouse-gestures.page:24
+msgid ""
+"Mouse gestures offer a quick option to surf web pages without moving your hand to the keyboard. These "
+"gestures are triggered by holding the middle mouse button while performing one of the following mouse "
+"movements. If your mouse does not have a middle mouse button, you cannot use mouse gestures."
+msgstr ""
+"Sikap tetikus menawarkan opsi cepat untuk berselancar di halaman web tanpa memindahkan tangan Anda ke "
+"papan ketik. Sikap ini dipicu dengan menahan tombol tengah tetikus saat melakukan salah satu gerakan "
+"tetikus berikut. Jika tetikus Anda tidak memiliki tombol tengah tetikus, Anda tidak dapat menggunakan "
+"sikap tetikus."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:31
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui> <gui style=\"tab\">General</gui></guiseq>."
+msgstr ""
+"Tekan tombol menu di sudut kanan atas jendela dan pilih <guiseq><gui style=\"menuitem\">Preferensi</"
+"gui><gui style=\"tab\">Umum</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:36
+msgid "Under <gui>Browsing</gui>, switch on <gui style=\"button\">Mouse Gestures</gui>."
+msgstr "Di bawah <gui>Penjelajahan</gui>, nyalakan <gui style=\"button\">Sikap Tetikus</gui>."
+
+#. (itstool) path: page/p
+#: C/pref-mouse-gestures.page:40
+msgid "The following gestures are currently supported:"
+msgstr "Gerakan berikut saat ini didukung:"
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:44
+msgid ""
+"Holding the middle mouse button, dragging left, and then releasing the middle mouse button will navigate "
+"backward."
+msgstr ""
+"Menahan tombol tengah tetikus, menyeret ke kiri, lalu melepaskan tombol tengah tetikus akan menavigasi ke "
+"belakang."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:47
+msgid ""
+"Holding the middle mouse button, dragging right, and then releasing the middle mouse button will navigate "
+"forward."
+msgstr ""
+"Menahan tombol tengah tetikus, menyeret ke kanan, lalu melepaskan tombol tengah tetikus akan menavigasi "
+"ke depan."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:50
+msgid ""
+"Holding the middle mouse button, dragging downwards, and then releasing the middle mouse button will "
+"create a new tab."
+msgstr ""
+"Menahan tombol tengah tetikus, menyeret ke bawah, lalu melepaskan tombol mouse tengah akan membuat tab "
+"baru."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:53
+msgid ""
+"Holding the middle mouse button, dragging downwards and then to the right, and then releasing the middle "
+"mouse button will close the current tab."
+msgstr ""
+"Menahan tombol tengah tetikus, menyeret ke bawah lalu ke kanan, lalu melepaskan tombol tengah tetikus "
+"akan menutup tab saat ini."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:56
+msgid ""
+"Holding the middle mouse button, dragging first upwards and then downwards, then releasing the middle "
+"mouse button will reload the current tab."
+msgstr ""
+"Menahan tombol tengah tetikus, menyeret terlebih dahulu ke atas lalu ke bawah, lalu melepaskan tombol "
+"tengah tetikus akan memuat ulang tab saat ini."
+
+#. (itstool) path: info/desc
+#: C/prob-restore-closed-page.page:24
+msgid "I want to reopen a web page that I closed by mistake."
+msgstr "Saya ingin membuka kembali laman web yang ditutup karena kesalahan."
+
+#. (itstool) path: page/title
+#: C/prob-restore-closed-page.page:27
+msgid "How can I restore a tab?"
+msgstr "Bagaimana saya bisa mengembalikan tab?"
+
+#. (itstool) path: page/p
+#: C/prob-restore-closed-page.page:29
+msgid "You can restore the pages you closed as long as at least one <app>Web</app> is still open."
+msgstr ""
+"Anda dapat mengembalikan laman Anda yang tertutup selama setidaknya satu <app>Web</app> masih terbuka."
+
+#. (itstool) path: item/p
+#: C/prob-restore-closed-page.page:34
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui style=\"menuitem\">Reopen "
+"Closed Tab</gui>. Your last closed tab will be reopened."
+msgstr ""
+"Tekan tombol menu di sudut kanan atas jendela dan pilih <gui style=\"menuitem\">Buka Kembali Tab "
+"Tertutup</gui>. Tab tertutup terakhir Anda akan dibuka kembali."
+
+#. (itstool) path: page/p
+#: C/prob-restore-closed-page.page:39
+msgid ""
+"Repeat the step as many times as you need to until the tab that you want is restored. Tabs will be "
+"restored in reverse order to how you closed them. Once you have restored all the closed tabs, you will "
+"not be able to restore any more tabs."
+msgstr ""
+"Ulangi langkah ini sebanyak yang Anda butuhkan sampai tab yang Anda ingin pulihkan kembali. Tab akan "
+"dipulihkan dalam urutan terbalik sebagaimana Anda menutup mereka. Setelah tab Anda dipulihkan, Anda tidak "
+"akan dapat mengembalikan setiap tab lagi."
+
+#. (itstool) path: note/p
+#: C/prob-restore-closed-page.page:45
+msgid ""
+"It is not possible to restore a closed tab in <link xref=\"browse-private\">private browsing</link> mode."
+msgstr ""
+"Hal ini tidak mungkin untuk mengembalikan tab yang tertutup pada moda <link xref=\"browse-"
+"private\">ramban privat</link>."
+
+#. (itstool) path: info/desc
+#: C/proxy.page:18
+msgid "Anonymize your web browsing by using a web proxy."
+msgstr "Meramban web anonim Anda dengan menggunakan proksi web."
+
+#. (itstool) path: page/title
+#: C/proxy.page:21
+msgid "Use a proxy"
+msgstr "Menggunakan proksi"
+
+#. (itstool) path: page/p
+#: C/proxy.page:23
+msgid ""
+"You can use a proxy server for browsing the web. To use a web proxy when browsing, you need to <link "
+"href=\"help:gnome-help/net-proxy\">set it up in the GNOME <gui>Network</gui> settings panel</link>."
+msgstr ""
+"Anda dapat menggunakan peladen proksi untuk meramban web. Untuk menggunakan proksi web saat meramban, "
+"Anda perlu <link href=\"help:gnome-help/net-proxy\">Atur GNOME <gui>Jaringan</gui> panel pengaturan</"
+"link>."

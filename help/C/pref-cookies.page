@@ -1,0 +1,60 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="pref-cookies">
+
+  <info>
+    <link type="guide" xref="index#privacy"/>
+    <revision pkgversion="3.10" date="2013-07-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-01-28" status="final"/>
+    <revision pkgversion="3.33" date="2019-04-08" status="final"/>
+    <revision pkgversion="40.alpha" date="2021-01-12" status="outdated"/>
+    <revision pkgversion="48.3" date="2025-05-21" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhill@gnome.org</email>
+      <years></years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Federico Bruni</name>
+      <email its:translate="no">fede@inventati.org</email>
+      <years>2021</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>How do I choose which websites I allow to store data?</desc>
+  </info>
+
+  <title>Set website data storage preference</title>
+
+  <p>You can specify whether you want to accept website data and from which
+  websites.</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui><gui style="tab">Privacy</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select whether you want to accept website data.</p>
+    </item>
+  </steps>
+
+  <p>Website data includes cookies, databases, and local storage data.</p>
+
+  <!-- Include an explanation about cookies. -->
+  <include href="cookies.xml" xpointer="xmlns(mal=http://projectmallard.org/1.0/)xpointer(/mal:page/mal:p)" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  <p>If you do not accept website data storage, you may experience problems on
+  some websites like logging into your accounts, saving your preferences, or not
+  being able add items to your shopping basket. It is recommended to leave website
+  data storage enabled.</p>
+
+</page>

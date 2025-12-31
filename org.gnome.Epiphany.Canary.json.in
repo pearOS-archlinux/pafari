@@ -1,0 +1,92 @@
+{
+    "app-id" : "org.gnome.Pafari.Canary",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "master",
+    "sdk" : "org.gnome.Sdk",
+    "command" : "ephy-wrapper",
+    "tags" : [
+        "nightly"
+    ],
+    "desktop-file-name-suffix" : " (Canary)",
+    "finish-args" : [
+        "--device=dri",
+        "--filesystem=xdg-download",
+        "--share=ipc",
+        "--share=network",
+        "--socket=fallback-x11",
+        "--socket=pulseaudio",
+        "--socket=wayland",
+        "--own-name=org.gnome.Pafari.WebAppProvider"
+    ],
+    "modules" : [
+        {
+            "name" : "libportal",
+            "buildsystem" : "meson",
+            "config-opts" : [
+                "-Dbackend-gtk4=enabled",
+                "-Dintrospection=false",
+                "-Ddocs=false"
+            ],
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://github.com/flatpak/libportal.git",
+                    "branch" : "main"
+                }
+            ]
+        },
+        {
+            "name" : "webkitgtk",
+            "buildsystem" : "simple",
+            "build-commands" : [
+                "cp -a lib/libjavascriptcore* /app/lib",
+                "cp -a lib/libwebkitgtk-6* /app/lib",
+                "cp lib/libwebkitgtkinjectedbundle.so /app/lib",
+                "mkdir -p /app/libexec",
+                "cp bin/WebKit*Process /app/libexec",
+                "cp -r install/lib64/pkgconfig /app/lib/",
+                "sed -i 's;/app/webkit/WebKitBuild/Release/install/lib64;/app/lib;g' /app/lib/pkgconfig/*.pc",
+                "sed -i 's;/app/webkit/WebKitBuild/Release/install;/app;g' /app/lib/pkgconfig/*.pc",
+                "cp -r install/include /app/"
+            ],
+            "sources" : [
+            ]
+        },
+        {
+            "name" : "epiphany",
+            "buildsystem" : "meson",
+            "config-opts" : [
+                "-Dprofile=Canary"
+            ],
+            "sources" : [
+                {
+                    "type" : "git",
+                    "url" : "https://gitlab.gnome.org/GNOME/epiphany.git",
+                    "branch" : "main",
+                    "disable-shallow-clone" : true
+                }
+            ],
+            "post-install" : [
+                "sed -i 's;Exec=pafari;Exec=ephy-wrapper;g' /app/share/applications/org.gnome.Pafari.Canary.desktop"
+            ]
+        },
+        {
+            "name" : "ephy-wrapper",
+            "buildsystem" : "simple",
+            "build-commands" : [
+                "install -m a+rx ephy-wrapper.sh /app/bin/ephy-wrapper"
+            ],
+            "sources" : [
+                {
+                    "type" : "script",
+                    "dest-filename" : "ephy-wrapper.sh",
+                    "commands" : [
+                        "export WEBKIT_INJECTED_BUNDLE_PATH=/app/lib",
+                        "export WEBKIT_EXEC_PATH=/app/libexec",
+                        "exec epiphany \"$@\""
+                    ]
+                }
+            ]
+        }
+    ]
+}

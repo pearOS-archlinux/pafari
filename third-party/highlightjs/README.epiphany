@@ -1,0 +1,26 @@
+# Embedded source code highlighter based on hightlight.js
+
+This directory contains an official highlight.js release version, distributed at: https://github.com/highlightjs/highlight.js
+
+## Update process
+
+git clone https://github.com/highlightjs/highlight.js.git
+cd highlight.js
+git checkout <version number>
+npm install
+node tools/build.js -n css javascript xml
+
+Copy build/highlight.js to <epiphany-source>/third-party/highlightjs/
+Copy src/styles/nnfx-light.css to <epiphany-source>/third-party/highlightjs/
+Copy src/styles/nnfx-dark.css to <epiphany-source>/third-party/highlightjs/
+
+# Highlight.js line numbers plugin:
+
+git clone https://github.com/wcoder/highlightjs-line-numbers.js.git
+cd highlightjs-line-numbers.js
+git checkout <version number>
+
+Copy src/highlightjs-line-numbers.js to <epiphany-source>/third-party/highlightjs/
+Copy LICENSE to <epiphany-source>/third-party/highlightjs/LICENSE.highlightjs-line-numbers
+
+# Documentation created by Jan-Michael Brummer <jan.brummer@tabos.org>

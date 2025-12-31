@@ -1,0 +1,1851 @@
+# Swedish translation for epiphany.
+# Copyright © 2015-2025 epiphany's COPYRIGHT HOLDER
+# This file is distributed under the same license as the epiphany package.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2017, 2019, 2020, 2021, 2023, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: epiphany master\n"
+"POT-Creation-Date: 2025-05-22 21:29+0000\n"
+"PO-Revision-Date: 2025-06-23 00:54+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2017"
+
+#. (itstool) path: info/title
+#: C/index.page:7
+msgctxt "link:trail"
+msgid "Web help"
+msgstr "Hjälp för Webb"
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "link"
+msgid "Web help"
+msgstr "Hjälp för Webb"
+
+#. (itstool) path: info/title
+#: C/index.page:10
+msgctxt "text"
+msgid "Web help"
+msgstr "Hjälp för Webb"
+
+#. (itstool) path: info/desc
+#: C/index.page:17
+msgid ""
+"<app>Web</app>, formerly known as <app>Epiphany</app>, is the GNOME web browser. Get started with <app>Web</app> "
+"and learn about the available features."
+msgstr ""
+"<app>Webb</app>, tidigare känd som <app>Epiphany</app>, är GNOME:s webbläsare. Kom igång med <app>Webb</app> och "
+"lär dig om de tillgängliga funktionerna."
+
+#. (itstool) path: page/title
+#: C/index.page:23
+msgid "<_:media-1/> Web"
+msgstr "<_:media-1/> Webb"
+
+#. (itstool) path: section/title
+#: C/index.page:29
+msgid "Getting started"
+msgstr "Komma igång"
+
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "Your privacy"
+msgstr "Din sekretess"
+
+#. (itstool) path: section/title
+#: C/index.page:37
+msgid "Advanced browsing"
+msgstr "Avancerad surfning"
+
+#. (itstool) path: section/title
+#: C/index.page:41
+msgid "Options and settings"
+msgstr "Alternativ och inställningar"
+
+#. (itstool) path: section/title
+#: C/index.page:45
+msgid "Common problems"
+msgstr "Vanliga problem"
+
+#. (itstool) path: credit/name
+#: C/introduction.page:11 C/browse-local.page:12 C/browse-private.page:13 C/browse-tab.page:13 C/browse-web.page:15
+#: C/browse-webapps.page:14 C/browse-webapps-del.page:14 C/cert.page:12 C/cookies.xml:12 C/data-cookies.page:13
+#: C/data-passwords.page:21 C/history.page:12 C/history-delete.page:12 C/pref-cookies.page:15 C/pref-css.page:18
+#: C/pref-downloads.page:14 C/pref-font.page:19 C/pref-passwords.page:14 C/prob-restore-closed-page.page:17
+#: C/proxy.page:11
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: credit/years
+#: C/introduction.page:13 C/browse-local.page:14 C/browse-private.page:15 C/browse-webapps.page:16 C/cookies.xml:14
+#: C/data-cookies.page:15 C/data-passwords.page:18 C/data-passwords.page:23 C/history.page:14
+#: C/history-delete.page:14 C/pref-cookies.page:17 C/pref-css.page:15 C/pref-css.page:20 C/pref-downloads.page:16
+#: C/pref-font.page:16 C/pref-font.page:21 C/pref-passwords.page:16
+msgid "2013"
+msgstr "2013"
+
+#. (itstool) path: info/desc
+#: C/introduction.page:18
+msgid "An introduction to <app>Web</app>, a web browser for GNOME with built-in privacy."
+msgstr "En introduktion till <app>Webb</app>, en webbläsare för GNOME med inbyggd sekretess."
+
+#. (itstool) path: page/title
+#: C/introduction.page:22
+msgid "Introduction"
+msgstr "Introduktion"
+
+#. (itstool) path: page/p
+#: C/introduction.page:24
+msgid ""
+"<app>Web</app> offers a simple and clean way to browse the internet. It displays pages with the same speed and "
+"accuracy as other popular browsers."
+msgstr ""
+"<app>Webb</app> erbjuder ett enkelt och stilrent sätt att surfa på internet. Den visar sidor med samma snabbhet "
+"och noggrannhet som andra populära webbläsare."
+
+#. (itstool) path: page/p
+#: C/introduction.page:28
+msgid "<app>Web</app> is the application formerly known as <app>Epiphany</app>."
+msgstr "<app>Webb</app> är programmet tidigare känt som <app>Epiphany</app>."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:31
+msgctxt "_"
+msgid "external ref='media/epiphany-plain-3-36.png' md5='d70ce310b95542f80f3ebd1def25c670'"
+msgstr "external ref='media/epiphany-plain-3-36.png' md5='d70ce310b95542f80f3ebd1def25c670'"
+
+#. (itstool) path: media/p
+#: C/introduction.page:34
+msgid ""
+"Fullscreen screenshot of Web with the Web wiki page open in the first tab and showing the GNOME website open in "
+"the second tab."
+msgstr ""
+"Helskärmsbild av Webb med wikisidan för Webb öppen i den första fliken och GNOME:s webbplats öppen i den andra "
+"fliken."
+
+#. (itstool) path: p/link
+#: C/legal.xml:5
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+msgstr "Creative Commons Erkännande-DelaLika 3.0 Unported"
+
+#. (itstool) path: license/p
+#: C/legal.xml:4
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Detta verk är licensierat under licensen <_:link-1/>."
+
+#. (itstool) path: info/desc
+#: C/browse-local.page:24
+msgid "How do I view files which are on my computer in a web browser?"
+msgstr "Hur visar jag lokala filer som finns i min dator i en webbläsare?"
+
+#. (itstool) path: page/title
+#: C/browse-local.page:27
+msgid "View local files"
+msgstr "Visa lokala filer"
+
+#. (itstool) path: page/p
+#: C/browse-local.page:31
+msgid ""
+"You can view some types of file that are on your computer in the web browser. This can be useful if you have "
+"saved a website for reading later or want to preview a web page that you are creating."
+msgstr ""
+"Du kan visa vissa typer av filer som finns i din dator i webbläsaren. Detta kan vara användbart om du har sparat "
+"en webbplats för senare läsning eller vill förhandsgranska en webbsida som du håller på att skapa."
+
+#. (itstool) path: item/p
+#: C/browse-local.page:37
+msgid "Press <keyseq><key>Ctrl</key><key>O</key></keyseq>."
+msgstr "Tryck <keyseq><key>Ctrl</key><key>O</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/browse-local.page:40
+msgid "Select and open the file that you want to view."
+msgstr "Välj och öppna filen som du vill visa."
+
+#. (itstool) path: info/desc
+#: C/browse-private.page:25
+msgid "What is <em>incognito</em> mode?"
+msgstr "Vad är <em>inkognito</em>läge?"
+
+#. (itstool) path: page/title
+#: C/browse-private.page:28
+msgid "Private browsing"
+msgstr "Privat surfning"
+
+#. (itstool) path: page/p
+#: C/browse-private.page:38
+msgid ""
+"Private browsing is a mode which limits the way that your computer and websites can access your browsing "
+"information. It is useful if you want to lend your computer to a friend, for example, to check their email using "
+"webmail because you will not be logged into any websites in the private browsing window, nor will their "
+"information be saved. You might prefer to use incognito mode to access sensitive websites such as Internet "
+"banking and <link href=\"http://questionablecontent.net/\">questionable content</link> because data that websites "
+"have previously saved on your computer will not be accessible to the websites when browsing in incognito mode."
+msgstr ""
+"Privat surfning är ett läge som begränsar sätten som din dator och webbplatser kan komma åt din surfinformation. "
+"Det är användbart om du ska låna ut din dator till en vän som exempelvis vill läsa sin e-post via en webbklient "
+"eftersom du inte kommer vara inloggad på några webbplatser i fönstret för privat surfning, och ingen information "
+"från dem kommer att sparas. Du kan föredra att använda inkognitoläge för att besöka känsliga sidor som "
+"internetbanker och <link href=\"http://questionablecontent.net/\">Questionable content</link> eftersom data som "
+"webbplatser tidigare lagrat på din dator inte kommer att vara åtkomliga för webbplatserna då du surfar i "
+"inkognitoläge."
+
+#. (itstool) path: note/p
+#: C/browse-private.page:49
+msgid ""
+"Incognito mode will not stop websites from tracking your browsing activity. If you need to browse the web "
+"anonymously, you should use a commercial VPN service."
+msgstr ""
+"Inkognitoläge kommer inte stoppa webbplatser från att spåra din surfaktivitet. Om du behöver surfa på nätet "
+"anonymt bör du använda en kommersiell VPN-tjänst."
+
+#. (itstool) path: item/p
+#: C/browse-private.page:57
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui style=\"menuitem\">New "
+"Incognito Window</gui></guiseq>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj sedan <guiseq><gui style=\"menuitem\">Nytt inkognito-"
+"fönster</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/browse-private.page:61
+msgid "Browse the web using incognito mode."
+msgstr "Surfa på nätet med inkognitoläge."
+
+#. (itstool) path: item/p
+#: C/browse-private.page:64
+msgid "End the private browsing session by closing the incognito window."
+msgstr "Avsluta den privata surfningssessionen genom att stänga inkognitofönstret."
+
+#. (itstool) path: page/p
+#: C/browse-private.page:68
+msgid "You can distinguish private browsing from normal browsing by the watermark for the incognito window:"
+msgstr "Du kan skilja privat surfning från vanlig surfning genom vattenstämpeln för inkognitofönstret:"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/browse-private.page:71
+msgctxt "_"
+msgid "external ref='media/epiphany-private-3-36.png' md5='a5f3c9ea2cb418bab7bdbb8a9de9691e'"
+msgstr "external ref='media/epiphany-private-3-36.png' md5='a5f3c9ea2cb418bab7bdbb8a9de9691e'"
+
+#. (itstool) path: media/p
+#: C/browse-private.page:74
+msgid "Screenshot showing a private browsing window with no opened tabs."
+msgstr "Skärmbild som visar ett privat surffönster utan några öppnade flikar."
+
+#. (itstool) path: credit/years
+#: C/browse-tab.page:15 C/data-cookies.page:20 C/data-passwords.page:28 C/prob-restore-closed-page.page:14
+#: C/prob-restore-closed-page.page:19 C/proxy.page:13
+msgid "2014"
+msgstr "2014"
+
+#. (itstool) path: info/desc
+#: C/browse-tab.page:25
+msgid "Open another web page in a new tab in the same window."
+msgstr "Öppna en annan webbsida i en annan flik i samma fönster."
+
+#. (itstool) path: page/title
+#: C/browse-tab.page:28
+msgid "Open a new tab"
+msgstr "Öppna en ny flik"
+
+#. (itstool) path: credit/years
+#: C/browse-web.page:17
+msgid "2013, 2014"
+msgstr "2013, 2014"
+
+#. (itstool) path: info/desc
+#: C/browse-web.page:27
+msgid "View web pages on the internet."
+msgstr "Visa webbplatser på internet."
+
+#. (itstool) path: page/title
+#: C/browse-web.page:30
+msgid "Browse the web"
+msgstr "Surfa på nätet"
+
+#. (itstool) path: page/p
+#: C/browse-web.page:32
+msgid ""
+"Web browsers can be used to view pages on the Internet when you have an Internet connection. To start browsing "
+"the web:"
+msgstr ""
+"Webbläsare kan användas för att visa sidor på internet då du har en internetanslutning. För att börja surfa på "
+"nätet:"
+
+#. (itstool) path: item/p
+#: C/browse-web.page:37
+msgid ""
+"When you start up <app xref=\"introduction\">Web</app>, your cursor should be in the text entry field at the top "
+"of the window. Type in the URL of the webpage that you want to visit or your search term."
+msgstr ""
+"Då du startar <app xref=\"introduction\">Webb</app> bör din markör vara i textinmatningsfältet högst upp i "
+"fönstret. Skriv in URL för webbsidan du vill besöka eller ditt sökord."
+
+#. (itstool) path: item/p
+#: C/browse-web.page:42
+msgid "Press return to go to the web page or to search."
+msgstr "Tryck retur för att gå till webbsidan eller för att söka."
+
+#. (itstool) path: page/p
+#. (itstool) id: browse-web.page#tabs
+#: C/browse-web.page:46
+msgid ""
+"<em>Tabs</em> are used to view more than one web page in one window. When you first start up <app>Web</app>, you "
+"will not be shown any tabs. To <em>open a new tab</em>, press the new tab button at the top left of the screen. "
+"Once the new tab is open, you can use it as you would normally use a new window."
+msgstr ""
+"<em>Flikar</em> används för att visa mer än en webbsida i ett fönster. Då du först startar <app>Webb</app> kommer "
+"inga flikar visas för dig. För att <em>öppna en ny flik</em>, tryck på ”ny flik”-knappen längst upp till vänster "
+"på skärmen. Då den nya fliken har öppnats kan du använda den som du vanligen skulle använda ett nytt fönster."
+
+#. (itstool) path: page/p
+#. (itstool) id: browse-web.page#tabs-alt
+#: C/browse-web.page:52
+msgid ""
+"You can also use the <keyseq><key>Ctrl</key><key>T</key></keyseq> keyboard shortcut to open a new tab or the new "
+"tab button in the top-left of the window."
+msgstr ""
+"Du kan också använda tangentbordsgenvägen <keyseq><key>Ctrl</key><key>T</key></keyseq> för att öppna en ny flik "
+"eller ny flik-knappen högst upp till vänster i fönstret."
+
+#. (itstool) path: page/p
+#. (itstool) id: browse-web.page#tabs-link
+#: C/browse-web.page:56
+msgid ""
+"To <em>open a link in a new tab</em>, right click on the link, then select <gui style=\"menuitem\">Open Link in "
+"New Tab</gui> or use the middle mouse button to click on the link."
+msgstr ""
+"För att <em>öppna en länk i en ny flik</em>, högerklicka på länken och välj sedan <gui style=\"menuitem\">Öppna "
+"länk i ny flik</gui> eller använd mittenmusknappen för att klicka på länken."
+
+#. (itstool) path: info/desc
+#: C/browse-webapps.page:26
+msgid "What is a <em>Web App</em> and how do I use it?"
+msgstr "Vad är en <em>webbapp</em> och hur kan jag använda den?"
+
+#. (itstool) path: page/title
+#: C/browse-webapps.page:29
+msgid "Create a Web App"
+msgstr "Skapa en webbapp"
+
+#. (itstool) path: page/p
+#: C/browse-webapps.page:31
+msgid ""
+"You can save webpages as a <em>Web App</em>. This will add a link to the page to the <link href=\"help:gnome-help/"
+"shell-introduction#activities\">Activities overview</link>. When you open a Web App, it is shown in a special "
+"type of window without the address bar or the menus."
+msgstr ""
+"Du kan spara webbsidor som en <em>webbapp</em>. Detta kommer lägga till en länk till sidan till <link "
+"href=\"help:gnome-help/shell-introduction#activities\">översiktsvyn Aktiviteter</link>. Då du öppnar en webbapp "
+"visas den i en speciell sorts fönster utan adressfältet eller menyerna."
+
+#. (itstool) path: item/p
+#: C/browse-webapps.page:38
+msgid "Open the webpage which you want to save."
+msgstr "Öppna webbsidan som du vill spara."
+
+#. (itstool) path: item/p
+#: C/browse-webapps.page:41
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui style=\"menuitem\">Install as Web App…"
+"</gui>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj sedan <gui style=\"menuitem\">Installera plats som "
+"webbapp…</gui>."
+
+#. (itstool) path: item/p
+#: C/browse-webapps.page:45
+msgid "Name your Web App, then press <gui style=\"button\">Create</gui>."
+msgstr "Namnge din webbapp och tryck sedan <gui style=\"button\">Skapa</gui>."
+
+#. (itstool) path: page/p
+#: C/browse-webapps.page:50
+msgid ""
+"You can now launch the Web App from the Activities overview. To search for your app, start typing the name and it "
+"will be shown with the other search results."
+msgstr ""
+"Du kan nu köra webbappen från översiktsvyn Aktiviteter. För att söka efter din app, börja skriva namnet så kommer "
+"den visas med de andra sökresultaten."
+
+#. (itstool) path: credit/years
+#: C/browse-webapps-del.page:16 C/cert.page:14
+msgid "2015"
+msgstr "2015"
+
+#. (itstool) path: info/desc
+#: C/browse-webapps-del.page:26
+msgid "How do I delete a <em>Web App</em>?"
+msgstr "Hur tar jag bort en <em>webbapp</em>?"
+
+#. (itstool) path: page/title
+#: C/browse-webapps-del.page:29
+msgid "Remove a Web App"
+msgstr "Ta bort en webbapp"
+
+#. (itstool) path: page/p
+#: C/browse-webapps-del.page:31
+msgid "You can delete a Web App when you no longer need it."
+msgstr "Du kan ta bort en webbapp då du inte längre behöver den."
+
+#. (itstool) path: item/p
+#: C/browse-webapps-del.page:35
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui style=\"menuitem\">Manage Web Apps</"
+"gui>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj sedan <gui style=\"menuitem\">Hantera webbappar</gui>."
+
+#. (itstool) path: item/p
+#: C/browse-webapps-del.page:39
+msgid "Press <gui style=\"button\">Delete</gui> next to the app which you want to remove."
+msgstr "Tryck <gui style=\"button\">Ta bort</gui> intill appen som du vill ta bort."
+
+#. (itstool) path: info/desc
+#: C/cert.page:19
+msgid "Certificate management in <app>Web</app>."
+msgstr "Certifikathantering i <app>Webb</app>."
+
+#. (itstool) path: page/title
+#: C/cert.page:22
+msgid "Certificates"
+msgstr "Certifikat"
+
+#. (itstool) path: page/p
+#: C/cert.page:24
+msgid "<app>Web</app> does not have built-in support for certificate management at this time."
+msgstr "<app>Webb</app> har i nuläget inte inbyggt stöd för certifikathantering."
+
+#. (itstool) path: note/p
+#: C/cert.page:28
+msgid ""
+"You can add certificates through the command line if you have p11-kit installed. To add a certificate, you need "
+"to download the certificate and run the following command to import it:"
+msgstr ""
+"Du kan lägga till certifikat genom kommandoraden om du har p11-kit installerat. För att lägga till ett certifikat "
+"behöver du hämta certifikatet och köra följande kommando för att importera det:"
+
+#. (itstool) path: note/screen
+#: C/cert.page:31
+#, no-wrap
+msgid "<output>$ </output><input>sudo trust anchor <var>/home/user/Downloads/certificate.crt</var></input>"
+msgstr "<output>$ </output><input>sudo trust anchor <var>/home/användarnamn/Hämtningar/certifikat.crt</var></input>"
+
+#. (itstool) path: note/p
+#: C/cert.page:32
+msgid "Unfortunately, this will not work on Debian-based systems, such as Ubuntu."
+msgstr "Detta kommer tyvärr inte att fungera på Debian-baserade system, som exempelvis Ubuntu."
+
+#. (itstool) path: page/title
+#: C/cookies.xml:20
+msgid "What are cookies?"
+msgstr "Vad är kakor?"
+
+#. (itstool) path: page/p
+#: C/cookies.xml:28
+msgid ""
+"A browser <em>cookie</em> is a small piece of data sent from a website and stored on your computer while you are "
+"browsing that website. When you return to the same website in the future, the data stored in the cookie can be "
+"retrieved by the website to notify the website of your previous activity. Cookies are a common method used by web "
+"servers to know whether you are logged in to an account on a specific website or not."
+msgstr ""
+"En <em>kaka</em> i webbläsaren är en liten mängd data som skickats från en webbplats och lagrats på din dator "
+"medan du surfar på den webbplatsen. Då du återvänder till samma webbplats i framtiden kan data lagrat i kakan "
+"återhämtas av webbplatsen för att meddela webbplatsen om din tidigare aktivitet. Kakor är en vanlig metod för "
+"webbservrar att avgöra om du är inloggad på ett konto på en viss webbplats eller inte."
+
+#. (itstool) path: credit/name
+#: C/data-cookies.page:18 C/data-passwords.page:26 C/prob-restore-closed-page.page:12
+msgid "Baptiste Mille-Mathias"
+msgstr "Baptiste Mille-Mathias"
+
+#. (itstool) path: credit/name
+#: C/data-cookies.page:23 C/data-passwords.page:31 C/data-personal-data.page:17 C/pref-cookies.page:25
+#: C/pref-css.page:23 C/pref-downloads.page:19 C/pref-font.page:24 C/pref-passwords.page:19
+msgid "Federico Bruni"
+msgstr "Federico Bruni"
+
+#. (itstool) path: credit/years
+#: C/data-cookies.page:25 C/data-passwords.page:33 C/data-personal-data.page:19 C/pref-cookies.page:27
+#: C/pref-css.page:25 C/pref-downloads.page:21 C/pref-font.page:26 C/pref-passwords.page:21
+msgid "2021"
+msgstr "2021"
+
+#. (itstool) path: info/desc
+#: C/data-cookies.page:30
+msgid "How do I delete browser cookies?"
+msgstr "Hur tar jag bort webbläsarkakor?"
+
+#. (itstool) path: page/title
+#: C/data-cookies.page:33
+msgid "Delete a cookie"
+msgstr "Ta bort en kaka"
+
+#. (itstool) path: page/p
+#: C/data-cookies.page:38
+msgid ""
+"You can check if it left a cookie and delete it, but be aware that websites will usually install the same cookie "
+"again if you visit that website again."
+msgstr ""
+"Du kan kontrollera om den lämnade en kaka och ta bort den, men var beredd på att webbplatser vanligen kommer "
+"installera samma kaka igen om du besöker den webbplatsen igen."
+
+#. (itstool) path: item/p
+#: C/data-cookies.page:43 C/data-personal-data.page:38
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</gui><gui style=\"button\">Clear Personal Data</"
+"gui></guiseq>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj sedan <guiseq><gui style=\"menuitem\">Inställningar</"
+"gui><gui style=\"tab\">Sekretess</gui><gui style=\"button\">Töm personliga data</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/data-cookies.page:48
+msgid ""
+"Select the cookies that you want to delete. You can tick only a few domains or tick Cookies to select all domains "
+"at once."
+msgstr ""
+"Välj kakorna som du vill ta bort. Du kan bocka för ett fåtal domäner eller bocka för Kakor för att välja alla "
+"domäner samtidigt."
+
+#. (itstool) path: item/p
+#: C/data-cookies.page:52 C/data-personal-data.page:47
+msgid "Press <gui style=\"button\">Clear Data</gui>."
+msgstr "Tryck <gui style=\"button\">Rensa data</gui>."
+
+#. (itstool) path: note/p
+#: C/data-cookies.page:57
+msgid ""
+"If you wish to delete the cookies a website has stored, you probably also wish to delete <link xref=\"data-"
+"personal-data\">other data stored by that website</link>."
+msgstr ""
+"Om du vill ta bort kakorna som en webbplats har lagrat så vill du troligen också ta bort <link xref=\"data-"
+"personal-data\">andra data som lagrats av den webbplatsen</link>."
+
+#. (itstool) path: credit/name
+#: C/data-passwords.page:16
+msgid "Aruna Sankaranarayanan"
+msgstr "Aruna Sankaranarayanan"
+
+#. (itstool) path: info/desc
+#: C/data-passwords.page:38
+msgid "How do I remove and update stored passwords?"
+msgstr "Hur tar jag bort och uppdaterar lagrade lösenord?"
+
+#. (itstool) path: page/title
+#: C/data-passwords.page:41
+msgid "Manage passwords"
+msgstr "Hantera lösenord"
+
+#. (itstool) path: page/p
+#: C/data-passwords.page:43
+msgid ""
+"You can save all of your passwords so that you do not have to reenter them every time that you want to log into a "
+"website."
+msgstr ""
+"Du kan spara alla dina lösenord så du inte behöver skriva in dem på nytt varje gång som du vill logga in på en "
+"webbplats."
+
+#. (itstool) path: page/p
+#: C/data-passwords.page:46
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</gui><gui style=\"button\">Passwords</gui></"
+"guiseq> to see your saved passwords."
+msgstr ""
+"Tryck på menyknappen i övre fönstrets övre högra hörn och välj sedan <guiseq><gui "
+"style=\"menuitem\">Inställningar</gui><gui style=\"tab\">Sekretess</gui><gui style=\"button\">Lösenord</gui></"
+"guiseq> för att se dina sparade lösenord."
+
+#. (itstool) path: section/title
+#: C/data-passwords.page:52
+msgid "Remove saved passwords"
+msgstr "Ta bort sparade lösenord"
+
+#. (itstool) path: section/p
+#: C/data-passwords.page:54
+msgid "You can remove a stored password at any time."
+msgstr "Du kan ta bort ett lagrat lösenord när som helst."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:58
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</gui> <gui style=\"button\">Passwords</gui></"
+"guiseq>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj sedan <guiseq><gui style=\"menuitem\">Inställningar</"
+"gui><gui style=\"tab\">Sekretess</gui> <gui style=\"button\">Lösenord</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:63
+msgid "Click on the search button at the top right and enter the address of the website."
+msgstr "Klicka på sökknappen längst upp till höger och ange webbplatsens adress."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:67
+msgid "Click on the item to unfold its details."
+msgstr "Klicka på objektet för att visa dess detaljer."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:70
+msgid "Press <gui style=\"button\">Remove Password</gui> to remove the saved password."
+msgstr "Tryck <gui style=\"button\">Ta bort lösenord</gui> för att ta bort det sparade lösenordet."
+
+#. (itstool) path: section/p
+#: C/data-passwords.page:75
+msgid "You can view the saved passwords by pressing on the key button at the bottom-right of the password list."
+msgstr ""
+"Du kan visa de sparade lösenorden genom att trycka på nyckelknappen längst ner till höger i lösenordslistan."
+
+#. (itstool) path: note/p
+#: C/data-passwords.page:79
+msgid "You can also delete all of your stored passwords using the <gui style=\"button\">Clear All</gui> button."
+msgstr "Du kan också ta bort alla dina lagrade lösenord med <gui style=\"button\">Rensa allt</gui>-knappen."
+
+#. (itstool) path: section/title
+#: C/data-passwords.page:86
+msgid "Update a password"
+msgstr "Uppdatera ett lösenord"
+
+#. (itstool) path: section/p
+#: C/data-passwords.page:88
+msgid ""
+"If you have changed a password that is saved in <link xref=\"introduction\"><app>Web</app></link>, you have to "
+"update it."
+msgstr ""
+"Om du har ändrat ett lösenord som finns sparat i <link xref=\"introduction\"><app>Webb</app></link> kommer du att "
+"behöva uppdatera det."
+
+#. (itstool) path: steps/title
+#: C/data-passwords.page:92
+msgid "When you have finished changing your password:"
+msgstr "Då du har ändrat ditt lösenord:"
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:94
+msgid "Visit the same webpage for which the password was stored and has now been changed."
+msgstr "Besök samma webbsida som lösenordet lagrats för och nu har blivit ändrat."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:98
+msgid ""
+"Your old saved password will automatically be typed in the password field by <app>Web</app>, so clear the "
+"password field."
+msgstr ""
+"Ditt gamla sparade lösenord kommer automatiskt skrivas in i lösenordsfältet av <app>Webb</app>, så töm "
+"lösenordsfältet."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:102
+msgid "Type your new password in the password field."
+msgstr "Skriv in ditt nya lösenord i lösenordsfältet."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:105
+msgid ""
+"You will be asked if you want to save the password in <app>Web</app>. Press <gui style=\"button\">Save</gui> to "
+"finish. This will update your old password for the webpage."
+msgstr ""
+"Du kommer tillfrågas om du vill spara lösenordet i <app>Webb</app>. Tryck <gui style=\"button\">Spara</gui> för "
+"att slutföra. Detta kommer uppdatera ditt gamla lösenord för webbsidan."
+
+#. (itstool) path: credit/name
+#: C/data-personal-data.page:12
+msgid "Michael Catanzaro"
+msgstr "Michael Catanzaro"
+
+#. (itstool) path: credit/years
+#: C/data-personal-data.page:14 C/pref-mouse-gestures.page:14
+msgid "2019"
+msgstr "2019"
+
+#. (itstool) path: info/desc
+#: C/data-personal-data.page:24
+msgid "How do I delete personal data stored by websites?"
+msgstr "Hur tar jag bort personliga data som lagras av webbplatser?"
+
+#. (itstool) path: page/title
+#: C/data-personal-data.page:27
+msgid "Delete personal data"
+msgstr "Ta bort personliga data"
+
+#. (itstool) path: page/p
+#: C/data-personal-data.page:29
+msgid "<app>Web</app> allows you to delete personal data stored by websites."
+msgstr "<app>Webb</app> låter dig ta bort personliga data som lagras av webbplatser."
+
+#. (itstool) path: page/p
+#: C/data-personal-data.page:32
+msgid "<link xref=\"data-personal-data\">Learn how to delete browser cookies.</link>"
+msgstr "<link xref=\"data-personal-data\">Lär dig hur du tar bort webbläsarkakor.</link>"
+
+#. (itstool) path: page/p
+#: C/data-personal-data.page:34
+msgid "To delete other personal data:"
+msgstr "För att ta bort andra personliga data:"
+
+#. (itstool) path: item/p
+#: C/data-personal-data.page:43
+msgid ""
+"Select the types of stored data you wish to delete and optionally limit the delete action to selected domains."
+msgstr "Välj typerna av lagrade data som du vill ta bort och begränsa valfritt åtgärden till valda domäner."
+
+#. (itstool) path: info/desc
+#: C/history.page:24
+msgid "Why do I see a list of web pages when I start typing in the address bar?"
+msgstr "Varför ser jag en lista med webbsidor då jag börjar skriva i adressfältet?"
+
+#. (itstool) path: page/title
+#: C/history.page:27
+msgid "Browsing history"
+msgstr "Surfhistorik"
+
+#. (itstool) path: page/p
+#: C/history.page:29
+msgid ""
+"Your browsing history, the web pages that you have visited, is automatically saved so that it is quicker for you "
+"to return to those pages."
+msgstr ""
+"Din surfhistorik, webbsidorna som du har besökt, sparas automatiskt så det går snabbare för dig att återvända "
+"till de sidorna."
+
+#. (itstool) path: page/p
+#: C/history.page:33
+msgid ""
+"To <em>search your history</em>, start typing your search term into the address bar, then click on the correct "
+"result once you see it. The search will include the page title and URL, but not the page content."
+msgstr ""
+"För att <em>söka i din historik</em>, börja skriva din sökterm i adressfältet och klicka sedan på det rätta "
+"resultatet då du ser det. Sökningen kommer inkludera sidtiteln och URL, men inte sidans innehåll."
+
+#. (itstool) path: info/desc
+#: C/history-delete.page:24
+msgid "How do I delete one or more web pages from my browsing history?"
+msgstr "Hur tar jag bort en eller flera webbsidor från min surfhistorik?"
+
+#. (itstool) path: page/title
+#: C/history-delete.page:27
+msgid "Clear browsing history"
+msgstr "Töm surfhistorik"
+
+#. (itstool) path: page/p
+#: C/history-delete.page:29
+msgid ""
+"You may sometimes wish to delete your browsing history, for example, to remove items that you do not want to see "
+"in your search results. You can choose to delete one result, all results from a single website or all of your "
+"history."
+msgstr ""
+"Du kan ibland vilja ta bort din surfhistorik, till exempel för att ta bort poster som du inte vill se i dina "
+"sökresultat. Du kan välja att ta bort ett resultat, alla resultat från en enskild webbplats eller all din "
+"historik."
+
+#. (itstool) path: item/p
+#: C/history-delete.page:36
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui style=\"menuitem\">History</gui>."
+msgstr "Tryck på menyknappen i fönstrets övre högra hörn och välj sedan <gui style=\"menuitem\">Historik</gui>."
+
+#. (itstool) path: item/p
+#: C/history-delete.page:40
+msgid "Press the delete button to permanently delete undesired pages."
+msgstr "Tryck på ”ta bort”-knappen för att permanent ta bort oönskade sidor."
+
+#. (itstool) path: page/p
+#: C/history-delete.page:44
+msgid "You can also delete all of your history by pressing <gui style=\"button\">Clear all</gui>."
+msgstr "Du kan också ta bort all din historik genom att trycka på <gui style=\"button\">Rensa allt</gui>."
+
+#. (itstool) path: credit/name
+#: C/pref-cookies.page:20
+msgid "Michael Hill"
+msgstr "Michael Hill"
+
+#. (itstool) path: info/desc
+#: C/pref-cookies.page:32
+msgid "How do I choose which websites I allow to store data?"
+msgstr "Hur väljer jag vilka webbplatser jag tillåter att lagra data?"
+
+#. (itstool) path: page/title
+#: C/pref-cookies.page:35
+msgid "Set website data storage preference"
+msgstr "Ställ in lagringsinställning för webbplatsdata"
+
+#. (itstool) path: page/p
+#: C/pref-cookies.page:37
+msgid "You can specify whether you want to accept website data and from which websites."
+msgstr "Du kan ange huruvida du vill acceptera webbplatsdata och från vilka webbplatser."
+
+#. (itstool) path: item/p
+#: C/pref-cookies.page:42
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</gui></guiseq>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj sedan <guiseq><gui style=\"menuitem\">Inställningar</"
+"gui><gui style=\"tab\">Sekretess</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-cookies.page:46
+msgid "Select whether you want to accept website data."
+msgstr "Välj huruvida du vill acceptera webbplatsdata."
+
+#. (itstool) path: page/p
+#: C/pref-cookies.page:50
+msgid "Website data includes cookies, databases, and local storage data."
+msgstr "Webbplatsdata inkluderar kakor, databaser och lokalt lagrade data."
+
+#. (itstool) path: page/p
+#: C/pref-cookies.page:55
+msgid ""
+"If you do not accept website data storage, you may experience problems on some websites like logging into your "
+"accounts, saving your preferences, or not being able add items to your shopping basket. It is recommended to "
+"leave website data storage enabled."
+msgstr ""
+"Om du inte accepterar webbplatsdatalagring kan du för vissa webbplatser stöta på problem som med att logga in på "
+"dina konton, spara dina inställningar eller att du inte kan lägga till varor i din varukorg. Det är rekommenderat "
+"att lämna webbplatsdatalagring aktiverat."
+
+#. (itstool) path: credit/name
+#: C/pref-css.page:13 C/pref-font.page:14
+msgid "Gordon Hill"
+msgstr "Gordon Hill"
+
+#. (itstool) path: info/desc
+#: C/pref-css.page:30
+msgid "Override the theme which is used to display web pages."
+msgstr "Åsidosätt temat som används för att visa webbsidor."
+
+#. (itstool) path: page/title
+#: C/pref-css.page:33
+msgid "Custom CSS"
+msgstr "Anpassad CSS"
+
+#. (itstool) path: page/p
+#: C/pref-css.page:35
+msgid ""
+"<app>Web</app> allows you to set a custom CSS to change the look and feel of every web page that you visit. You "
+"may want to do this to set a preferred font size or color scheme."
+msgstr ""
+"<app>Webb</app> låter dig ställa in en anpassad CSS för att ändra utseende och känsla för varje webbsida som du "
+"besöker. Du kan vilja göra detta för att ställa in en föredragen typsnittsstorlek eller färgschema."
+
+#. (itstool) path: item/p
+#: C/pref-css.page:41 C/pref-font.page:43
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui><gui style=\"tab\">Appearance</gui></guiseq>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj sedan <guiseq><gui style=\"menuitem\">Inställningar</"
+"gui><gui style=\"tab\">Utseende</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-css.page:45
+msgid "Under the Style section, switch <gui>Use Custom Stylesheet</gui> to on."
+msgstr "Slå på <gui>Använd anpassad stilmall</gui> i avsnittet Stil."
+
+#. (itstool) path: item/p
+#: C/pref-css.page:48
+msgid "Click on the pen icon."
+msgstr "Klicka på pennikonen."
+
+#. (itstool) path: item/p
+#: C/pref-css.page:51
+msgid "Your default text editor will open. Add your custom CSS and save the file."
+msgstr "Din standardtextredigerare kommer öppnas. Lägg till din anpassade CSS och spara filen."
+
+#. (itstool) path: page/p
+#: C/pref-css.page:61
+msgid "An example of a custom CSS:"
+msgstr "Ett exempel på anpassad CSS:"
+
+#. (itstool) path: page/code
+#: C/pref-css.page:62
+#, no-wrap
+msgid ""
+"\n"
+"body{\n"
+"    /*Make everything upside-down*/\n"
+"    -webkit-transform: rotate(180deg);\n"
+"}\n"
+msgstr ""
+"\n"
+"body{\n"
+"    /*Visa allting upp och ner*/\n"
+"    -webkit-transform: rotate(180deg);\n"
+"}\n"
+
+#. (itstool) path: page/p
+#: C/pref-css.page:69
+msgid "Your custom CSS will override the style sheet on pages which you visit after you enable it."
+msgstr "Din anpassade CSS kommer åsidosätta stilmallen på sidor som du besöker efter att du aktiverat den."
+
+#. (itstool) path: info/desc
+#: C/pref-downloads.page:31
+msgid "Where are my files downloaded to and how can I change this setting?"
+msgstr "Var hamnar mina hämtade filer och hur kan jag ändra denna inställning?"
+
+#. (itstool) path: page/title
+#: C/pref-downloads.page:34
+msgid "Downloading files"
+msgstr "Hämta filer"
+
+#. (itstool) path: page/p
+#: C/pref-downloads.page:36
+msgid ""
+"Files which you download from the internet, such as email attachments, will automatically be saved into your "
+"<file>Downloads</file> folder. You can change this in the <gui>Preferences</gui>."
+msgstr ""
+"Filer som du hämtat från internet, som exempelvis e-postbilagor, kommer automatiskt sparas i din "
+"<file>Hämtningar</file>-mapp. Du kan ändra detta i <gui>Inställningar</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-downloads.page:42
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui><gui style=\"tab\">General</gui></guiseq>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj sedan <guiseq><gui style=\"menuitem\">Inställningar</"
+"gui><gui style=\"tab\">Allmänt</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-downloads.page:46
+msgid ""
+"Press the <gui>Download folder</gui> name to select a different folder for downloads. If the folder that you want "
+"to use is not in the list, select <gui>Other…</gui> to browse for it."
+msgstr ""
+"Tryck på namnet för <gui>Hämtningsmapp</gui> för att välja en annan mapp för hämtningar. Om mappen som du vill "
+"använda inte är i listan väljer du <gui>Andra…</gui> för att bläddra efter den."
+
+#. (itstool) path: item/p
+#: C/pref-downloads.page:51
+msgid ""
+"If you want to choose which directory to use each time you download a file, switch <gui>Ask on download</gui> to "
+"on."
+msgstr ""
+"Om du vill välja vilken katalog som ska användas varje gång du hämtar en fil så slår du på <gui>Fråga vid "
+"hämtning</gui>."
+
+#. (itstool) path: page/p
+#: C/pref-downloads.page:56
+msgid ""
+"If you <em>save</em> a file instead of downloading it, you will still need to specify where you want to save it "
+"to."
+msgstr ""
+"Om du <em>sparar</em> en fil istället för att hämta den kommer du fortfarande behöva ange var du vill spara den."
+
+#. (itstool) path: note/p
+#: C/pref-downloads.page:60
+msgid ""
+"It is not possible to choose where to save downloads if you are using Flatpak to run <app>Web</app>. Downloads "
+"will always be saved in your <file>Downloads</file> folder."
+msgstr ""
+"Det är inte möjligt att välja var hämtningar ska sparas om du använder Flatpak för att köra <app>Webb</app>. "
+"Hämtningar kommer alltid sparas till din mapp <file>Hämtningar</file>."
+
+#. (itstool) path: info/desc
+#: C/pref-font.page:31
+msgid "Use a custom font for displaying web pages."
+msgstr "Använd ett anpassat typsnitt för att visa webbsidor."
+
+#. (itstool) path: page/title
+#: C/pref-font.page:34
+msgid "Change the font"
+msgstr "Ändra typsnittet"
+
+#. (itstool) path: page/p
+#: C/pref-font.page:36
+msgid ""
+"By default, your system font will be used to display web pages whenever possible. If you use the <gui "
+"href=\"help:gnome-help/a11y-font-size\">Large Text</gui> accessibility setting, this will be taken into account. "
+"You can change this and use different fonts for viewing websites."
+msgstr ""
+"Som standard kommer ditt systemtypsnitt användas för att visa webbsidor då det är möjligt. Om du använder "
+"hjälpmedelsinställningen <gui href=\"help:gnome-help/a11y-font-size\">Stor text</gui> kommer detta tas med i "
+"beräkningen. Du kan ändra detta och använda olika typsnitt för att visa webbplatser."
+
+#. (itstool) path: item/p
+#: C/pref-font.page:47
+msgid "Switch <gui>Use Custom Fonts</gui> to on."
+msgstr "Slå på <gui>Använd anpassade typsnitt</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-font.page:50
+msgid "Click on the font to open the font chooser dialog, where you can select a different font type or size."
+msgstr ""
+"Klicka på typsnittet för att öppna typsnittsväljardialogen där du kan välja ett annat typsnitt eller annan "
+"storlek."
+
+#. (itstool) path: item/p
+#: C/pref-font.page:54
+msgid "Press <gui style=\"button\">Select</gui> to save your choice."
+msgstr "Tryck <gui style=\"button\">Välj</gui> för att spara ditt val."
+
+#. (itstool) path: page/p
+#: C/pref-font.page:58
+msgid ""
+"You can also increase font size with <keyseq><key>Ctrl</key><key>+</key></keyseq> and decrease it with "
+"<keyseq><key>Ctrl</key><key>-</key></keyseq>."
+msgstr ""
+"Du kan också öka typsnittsstorlek med <keyseq><key>Ctrl</key><key>+</key></keyseq> och minska den med "
+"<keyseq><key>Ctrl</key><key>-</key></keyseq>."
+
+#. (itstool) path: info/desc
+#: C/pref-passwords.page:31
+msgid "How do I enable or disable storing passwords?"
+msgstr "Hur aktiverar eller inaktiverar jag lagring av lösenord?"
+
+#. (itstool) path: page/title
+#: C/pref-passwords.page:34
+msgid "Remember passwords"
+msgstr "Kom ihåg lösenord"
+
+#. (itstool) path: page/p
+#: C/pref-passwords.page:36
+msgid ""
+"When you enter a username and password for a website, you will usually be asked if you want to remember the login "
+"details. You can check if this preference is enabled or change your settings in <gui>Preferences</gui>."
+msgstr ""
+"Då du skriver in användarnamn och lösenord för en webbplats kommer du vanligen tillfrågas om du vill komma ihåg "
+"inloggningsdetaljerna. Du kan se om denna inställning är aktiverad eller ändra dina inställningar i "
+"<gui>Inställningar</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-passwords.page:42
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui> <gui style=\"tab\">Privacy</gui></guiseq>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj sedan <guiseq><gui style=\"menuitem\">Inställningar</"
+"gui> <gui style=\"tab\">Sekretess</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-passwords.page:47
+msgid ""
+"The <gui style=\"button\">Remember Passwords</gui> switch will be on if your preferences are set to save "
+"passwords. Switch it off to stop <app>Web</app> remembering passwords."
+msgstr ""
+"Brytaren <gui style=\"button\">Kom ihåg lösenord</gui> kommer vara på om dina inställningar är inställda på att "
+"spara lösenord. Slå av den för att stoppa <app>Webb</app> från att komma ihåg lösenord."
+
+#. (itstool) path: credit/name
+#: C/pref-mouse-gestures.page:12
+msgid "Jan-Michael Brummer"
+msgstr "Jan-Michael Brummer"
+
+#. (itstool) path: info/desc
+#: C/pref-mouse-gestures.page:19
+msgid "Navigate web pages using the mouse."
+msgstr "Navigera webbsidor med musen."
+
+#. (itstool) path: page/title
+#: C/pref-mouse-gestures.page:22
+msgid "Use mouse gestures"
+msgstr "Använd musgester"
+
+#. (itstool) path: page/p
+#: C/pref-mouse-gestures.page:24
+msgid ""
+"Mouse gestures offer a quick option to surf web pages without moving your hand to the keyboard. These gestures "
+"are triggered by holding the middle mouse button while performing one of the following mouse movements. If your "
+"mouse does not have a middle mouse button, you cannot use mouse gestures."
+msgstr ""
+"Musgester erbjuder ett snabbt alternativ för att surfa på webbsidor utan att förflytta din hand till "
+"tangentbordet. Dessa gester utlöses av att hålla ner musens mittknapp under tiden en av följande musrörelser "
+"utförs. Om din mus inte har en mittknapp kan du inte använda musgester."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:31
+msgid ""
+"Press the menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Preferences</gui> <gui style=\"tab\">General</gui></guiseq>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj sedan <guiseq><gui style=\"menuitem\">Inställningar</"
+"gui> <gui style=\"tab\">Allmänt</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:36
+msgid "Under <gui>Browsing</gui>, switch on <gui style=\"button\">Mouse Gestures</gui>."
+msgstr "Under <gui>Surfning</gui>, slå på <gui style=\"button\">Musgester</gui>."
+
+#. (itstool) path: page/p
+#: C/pref-mouse-gestures.page:40
+msgid "The following gestures are currently supported:"
+msgstr "Följande gester stöds för närvarande:"
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:44
+msgid ""
+"Holding the middle mouse button, dragging left, and then releasing the middle mouse button will navigate backward."
+msgstr "Att hålla ner musens mittknapp, dra åt vänster, och sedan släppa mittknappen kommer att navigera bakåt."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:47
+msgid ""
+"Holding the middle mouse button, dragging right, and then releasing the middle mouse button will navigate forward."
+msgstr "Att hålla ner musens mittknapp, dra åt höger, och sedan släppa mittknappen kommer att navigera framåt."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:50
+msgid ""
+"Holding the middle mouse button, dragging downwards, and then releasing the middle mouse button will create a new "
+"tab."
+msgstr "Att hålla ner musens mittknapp, dra nedåt, och sedan släppa mittknappen kommer att skapa en ny flik."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:53
+msgid ""
+"Holding the middle mouse button, dragging downwards and then to the right, and then releasing the middle mouse "
+"button will close the current tab."
+msgstr ""
+"Att hålla ner musens mittknapp, dra nedåt och sedan åt höger, och sedan släppa mittknappen kommer att stänga den "
+"aktuella fliken."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:56
+msgid ""
+"Holding the middle mouse button, dragging first upwards and then downwards, then releasing the middle mouse "
+"button will reload the current tab."
+msgstr ""
+"Att hålla ner musens mittknapp, dra uppåt och sedan nedåt, och sedan släppa mittknappen kommer att uppdatera den "
+"aktuella fliken."
+
+#. (itstool) path: info/desc
+#: C/prob-restore-closed-page.page:24
+msgid "I want to reopen a web page that I closed by mistake."
+msgstr "Jag vill åter öppna upp en webbsida som jag stängde av misstag."
+
+#. (itstool) path: page/title
+#: C/prob-restore-closed-page.page:27
+msgid "How can I restore a tab?"
+msgstr "Hur kan jag återställa en flik?"
+
+#. (itstool) path: page/p
+#: C/prob-restore-closed-page.page:29
+msgid "You can restore the pages you closed as long as at least one <app>Web</app> is still open."
+msgstr "Du kan återställa sidorna så länge minst en instans av <app>Webb</app> fortfarande är öppen."
+
+#. (itstool) path: item/p
+#: C/prob-restore-closed-page.page:34
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui style=\"menuitem\">Reopen Closed Tab</"
+"gui>. Your last closed tab will be reopened."
+msgstr ""
+"Tryck på menyknappen i övre högra delen av fönstret och välj sedan <gui style=\"menuitem\">Öppna stängd flik "
+"igen</gui>. Din senast stängda flik kommer öppnas på nytt."
+
+#. (itstool) path: page/p
+#: C/prob-restore-closed-page.page:39
+msgid ""
+"Repeat the step as many times as you need to until the tab that you want is restored. Tabs will be restored in "
+"reverse order to how you closed them. Once you have restored all the closed tabs, you will not be able to restore "
+"any more tabs."
+msgstr ""
+"Upprepa steget så många gånger som du behöver tills fliken du vill ha är återställd. Flikar kommer återställas i "
+"omvänd ordning mot hur du stängde dem. Då du har återställt alla de stängda flikarna kan du inte längre "
+"återställa några fler flikar."
+
+#. (itstool) path: note/p
+#: C/prob-restore-closed-page.page:45
+msgid "It is not possible to restore a closed tab in <link xref=\"browse-private\">private browsing</link> mode."
+msgstr ""
+"Det är inte möjligt att återställa en flik i läget för <link xref=\"browse-private\">privat surfning</link>."
+
+#. (itstool) path: info/desc
+#: C/proxy.page:18
+msgid "Anonymize your web browsing by using a web proxy."
+msgstr "Anonymisera din surfning genom att använda en webbproxy."
+
+#. (itstool) path: page/title
+#: C/proxy.page:21
+msgid "Use a proxy"
+msgstr "Använd en proxy"
+
+#. (itstool) path: page/p
+#: C/proxy.page:23
+msgid ""
+"You can use a proxy server for browsing the web. To use a web proxy when browsing, you need to <link "
+"href=\"help:gnome-help/net-proxy\">set it up in the GNOME <gui>Network</gui> settings panel</link>."
+msgstr ""
+"Du kan använda en proxyserver för att surfa på nätet. För att använda en webbproxy vid surfning behöver du <link "
+"href=\"help:gnome-help/net-proxy\">ställa in det i GNOME:s inställningspanel för <gui>Nätverk</gui></link>."
+
+#~ msgid "Set cookie preference"
+#~ msgstr "Ställ in inställningar för kakor"
+
+#~ msgid ""
+#~ "Select whether you want to accept cookies from all websites, accept cookies only from websites which you have "
+#~ "visited or to not accept any cookies."
+#~ msgstr ""
+#~ "Välj huruvida du vill acceptera kakor från alla webbplatser, acceptera kakor endast från webbplatser som du "
+#~ "har besökt eller inte acceptera några kakor."
+
+#~ msgid ""
+#~ "You should normally use <gui>Only from sites you visit</gui> because this option allows you to log into your "
+#~ "accounts on most websites while preventing websites that you have not visited from leaving cookies."
+#~ msgstr ""
+#~ "Du bör vanligen använda <gui>Endast från webbplatser du besöker</gui> eftersom detta alternativ låter dig "
+#~ "logga in på dina konton på de flesta webbplatser medan det hindrar webbplatser som du inte har besökt från att "
+#~ "lämna kakor."
+
+#~ msgid ""
+#~ "If you choose to <gui>Always accept</gui> cookies, then websites that you have not visited will be able to "
+#~ "leave <em>third party cookies</em>. Third party cookies are often used by advertisers and social media "
+#~ "websites to track your activity across websites and offer targeted content. Note that some websites, such as "
+#~ "Outlook.com, use third party cookies to monitor whether you are logged in."
+#~ msgstr ""
+#~ "Om du väljer att <gui>Alltid acceptera</gui> kakor kommer webbplatser som du inte har besökt kunna lämna "
+#~ "<em>tredjepartskakor</em>. Tredjepartskakor används ofta av annonsörer och sociala nätverk för att spåra din "
+#~ "aktivitet över flera webbplatser och erbjuda riktat innehåll. Notera att vissa webbplatser, som Outlook.com, "
+#~ "använder tredjepartskakor för att se om du är inloggad."
+
+#~ msgid "It is not possible to create Web Applications if you are using Flatpak to run <app>Web</app>."
+#~ msgstr "Det är inte möjligt att skapa webbapplikationer om du använder Flatpak för att köra <app>Webb</app>."
+
+#~ msgid ""
+#~ "Press the menu button in the top-right corner of the window and select <gui style=\"menuitem\">Open "
+#~ "Application Manager</gui>."
+#~ msgstr ""
+#~ "Tryck på menyknappen i fönstrets övre högra hörn och välj sedan <gui style=\"menuitem\">Öppna "
+#~ "applikationshanterare</gui>."
+
+#~ msgid "It is not possible to delete Web Applications if you are using Flatpak to run <app>Web</app>."
+#~ msgstr "Det är inte möjligt att ta bort webbapplikationer om du använder Flatpak för att köra <app>Webb</app>."
+
+#~ msgid ""
+#~ "Open the menu at the top-right of the window, then select <gui style=\"menuitem\">Open Application Manager</"
+#~ "gui>"
+#~ msgstr ""
+#~ "Öppna menyn i övre högra delen av fönstret och välj sedan <gui style=\"menuitem\">Öppna applikationshanterare</"
+#~ "gui>"
+
+#~ msgid ""
+#~ "Open the menu at the top-right of the window, then select <guiseq><gui style=\"menuitem\">Preferences</"
+#~ "gui><gui style=\"tab\">Appearance</gui></guiseq>."
+#~ msgstr ""
+#~ "Öppna menyn i fönstrets övre högra hörn och välj sedan <guiseq><gui style=\"menuitem\">Inställningar</gui><gui "
+#~ "style=\"tab\">Utseende</gui></guiseq>."
+
+#~ msgid ""
+#~ "Open the menu at the top-right of the window, then select <guiseq><gui style=\"menuitem\">Preferences</"
+#~ "gui><gui style=\"tab\">General</gui></guiseq>."
+#~ msgstr ""
+#~ "Öppna menyn i övre högra delen av fönstret och välj sedan <guiseq><gui style=\"menuitem\">Inställningar</"
+#~ "gui><gui style=\"tab\">Allmänt</gui></guiseq>."
+
+#~ msgid "<app>Web</app> preferences"
+#~ msgstr "Inställningar för <app>Webb</app>"
+
+#~ msgid ""
+#~ "Press the menu button in the top-right corner of the window and select <guiseq><gui "
+#~ "style=\"menuitem\">Preferences</gui><gui style=\"tab\">Stored Data</gui><gui style=\"button\">Manage Cookies</"
+#~ "gui></guiseq>."
+#~ msgstr ""
+#~ "Tryck på menyknappen i övre högra delen av fönstret och välj sedan <guiseq><gui "
+#~ "style=\"menuitem\">Inställningar</gui><gui style=\"tab\">Lagrade data</gui><gui style=\"button\">Hantera "
+#~ "kakor</gui></guiseq>."
+
+#~ msgid "Press <gui style=\"button\">-</gui> button or press <key>Delete</key>."
+#~ msgstr "Tryck ner knappen <gui style=\"button\">-</gui> eller tryck <key>Delete</key>."
+
+#~ msgid "You can also delete all of your cookies using the <gui style=\"button\">Clear All</gui> button."
+#~ msgstr "Du kan också ta bort alla dina kakor genom att använda <gui style=\"button\">Töm allt</gui>-knappen."
+
+#~ msgid "Enter the address of the website at the top of the window."
+#~ msgstr "Ange webbplatsens adress högst upp i fönstret."
+
+#~ msgid "Click on the username for the password which you want to delete."
+#~ msgstr "Klicka på användarnamnet för lösenordet som du vill ta bort."
+
+#~ msgid ""
+#~ "Press the <gui style=\"button\">-</gui> button to remove the saved password or press the <key>Delete</key> key."
+#~ msgstr ""
+#~ "Tryck på knappen <gui style=\"button\">-</gui> för att ta bort det sparade lösenordet eller tryck ner "
+#~ "<key>Delete</key>-knappen."
+
+#~ msgid ""
+#~ "Open the menu at the top-right of the window, then select <guiseq><gui style=\"menuitem\">Preferences</"
+#~ "gui><gui style=\"tab\">Fonts &amp; Style</gui></guiseq>."
+#~ msgstr ""
+#~ "Öppna menyn i övre högra delen av fönstret och välj sedan <guiseq><gui style=\"menuitem\">Inställningar</"
+#~ "gui><gui style=\"tab\">Typsnitt &amp; stil</gui></guiseq>."
+
+#~ msgid "Press <gui style=\"button\">Edit Stylesheet</gui>."
+#~ msgstr "Tryck <gui style=\"button\">Redigera stilmall</gui>."
+
+#~ msgid "Press <gui style=\"button\">Close</gui>."
+#~ msgstr "Tryck <gui style=\"button\">Stäng</gui>."
+
+#~ msgctxt "_"
+#~ msgid "external ref='media/private-browsing-3-12.png' md5='8cea5d4ab6a79be250506d6881235152'"
+#~ msgstr "external ref='media/private-browsing-3-12.png' md5='8cea5d4ab6a79be250506d6881235152'"
+
+#~ msgid ""
+#~ "Fullscreen screenshot showing a normal session in a window on the left side of the screen and a private "
+#~ "browsing session in a different window on the right side of the screen."
+#~ msgstr ""
+#~ "Helskärmsbild som visar en normal session i ett fönster på den vänstra sidan av skärmen och en privat "
+#~ "surfningssession i ett annat fönster på högra sidan av skärmen."
+
+#~ msgid ""
+#~ "A screenshot showing a normal session with some history in the left window and a private browsing session in "
+#~ "the right window"
+#~ msgstr ""
+#~ "En skärmbild som visar en normal session med historik i det vänstra fönstret och en privat surfningssession i "
+#~ "det högra fönstret"
+
+#~ msgid "How do I make it harder for websites to monitor my online activities?"
+#~ msgstr "Hur gör jag det svårare för webbplatser att spåra mina aktiviteter på nätet?"
+
+#~ msgid ""
+#~ "Some websites can monitor your activity when you visit them. For example, they may want to know which pages "
+#~ "you view or what you have searched for. This information can be used to improve your web browsing experience, "
+#~ "but it can also be sold or shared with other companies which may use it in a malicious way. Although it is not "
+#~ "possible to prevent individual websites from tracking you, <app>Web</app> makes it harder for websites to "
+#~ "track your behavior across a large number of other websites."
+#~ msgstr ""
+#~ "Vissa webbplatser övervakar din aktivitet då du besöker dem. Till exempel kanske de vill veta vilka sidor du "
+#~ "tittar på eller vad du har sökt efter. Denna information kan användas för att förbättra din surfupplevelse, "
+#~ "men kan också säljas eller delas med andra företag som kan använda den på ett illvilligt sätt. Även om det "
+#~ "inte är möjligt att förhindra individuella webbplatser från att spåra dig, så gör <app>Webb</app> det svårare "
+#~ "för webbplatser att följa ditt beteende över ett stort antal andra webbplatser."
+
+#~ msgid ""
+#~ "Ensure the <gui style=\"checkbox\">Try to block advertisements</gui> checkbox is ticked. (Advertising "
+#~ "companies track the pages you visit across the web.)"
+#~ msgstr ""
+#~ "Säkerställ att kryssrutan <gui style=\"checkbox\">Försök att blockera annonser</gui> är ikryssad. "
+#~ "(Annonsföretag spårar de sidor som du besöker över nätet.)"
+
+#~ msgid "Select <guiseq><gui style=\"menu\">Web</gui><gui style=\"menuitem\">New Incognito Window</gui></guiseq>."
+#~ msgstr ""
+#~ "Välj <guiseq><gui style=\"menu\">Webb</gui><gui style=\"menuitem\">Nytt inkognito-fönster</gui></guiseq>."
+
+# window header = header bar
+#~ msgid "Press on the window header and type <input>about:applications</input>."
+#~ msgstr "Tryck på fönstrets rubrikrad och skriv <input>about:applications</input>."
+
+#~ msgid "If you have <app>Software</app> installed, you can also delete Web Applications from there."
+#~ msgstr "Om du har <app>Programvara</app> installerad så kan du också ta bort webbapplikationer därifrån."
+
+#~ msgid "This will only work on recent systems."
+#~ msgstr "Detta kommer bara fungera på moderna system."
+
+#~ msgid "How do I delete a cookie if I don't want a website to track me anymore?"
+#~ msgstr "Hur tar jag bort en kaka om jag inte vill att en webbplats ska spåra mig längre?"
+
+#~ msgid "If you no longer want a specific website to track you, you can check if it left a cookie and delete it."
+#~ msgstr ""
+#~ "Om du inte längre vill att en viss webbplats ska spåra dig kan du se om den lämnade en kaka och ta bort den."
+
+#~ msgid ""
+#~ "You can see saved passwords in <guiseq><gui style=\"menu\">Web</gui><gui style=\"menuitem\">Preferences</"
+#~ "gui><gui style=\"tab\">Privacy</gui><gui style=\"button\">Manage Passwords</gui></guiseq>."
+#~ msgstr ""
+#~ "Du kan se sparade lösenord i <guiseq><gui style=\"menu\">Webb</gui><gui style=\"menuitem\">Inställningar</"
+#~ "gui><gui style=\"tab\">Sekretess</gui><gui style=\"button\">Hantera lösenord</gui></guiseq>."
+
+#~ msgid "Open <guiseq><gui style=\"menu\">Web</gui><gui style=\"menuitem\">History</gui></guiseq>."
+#~ msgstr "Öppna <guiseq><gui style=\"menu\">Webb</gui><gui style=\"menuitem\">Historik</gui></guiseq>."
+
+#~ msgid ""
+#~ "Select <guiseq><gui style=\"menu\">Edit</gui><gui style=\"menuitem\">Delete</gui></guiseq> to permanently "
+#~ "delete the selected items."
+#~ msgstr ""
+#~ "Välj <guiseq><gui style=\"menu\">Redigera</gui><gui style=\"menuitem\">Ta bort</gui></guiseq> för att "
+#~ "permanent ta bort de markerade posterna."
+
+#~ msgid "Siyu Yang"
+#~ msgstr "Siyu Yang"
+
+#~ msgid "Browsing the web by using keyboard shortcuts."
+#~ msgstr "Surfa på nätet med tangentbordsgenvägar."
+
+#~ msgid "Keyboard shortcuts"
+#~ msgstr "Tangentbordsgenvägar"
+
+#~ msgid "You can use handy keyboard shortcuts to navigate around <app>Web</app> faster."
+#~ msgstr "Du kan använda praktiska tangentbordsgenvägar för att navigera snabbare i <app>Webb</app>."
+
+#~ msgid "Action"
+#~ msgstr "Åtgärd"
+
+#~ msgid "Shortcut"
+#~ msgstr "Genväg"
+
+#~ msgid "Open a new window"
+#~ msgstr "Öppna ett nytt fönster"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+
+#~ msgid "Open a new private browsing (incognito) window"
+#~ msgstr "Öppna ett nytt fönster för privat surfning (inkognito)"
+
+#~ msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>N</key></keyseq>"
+#~ msgstr "<keyseq><key>Skift</key><key>Ctrl</key><key>N</key></keyseq>"
+
+#~ msgid "Open a file"
+#~ msgstr "Öppna en fil"
+
+#~ msgid "Save a new copy of the current page"
+#~ msgstr "Spara en ny kopia av den aktuella sidan"
+
+#~ msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>S</key></keyseq>"
+#~ msgstr "<keyseq><key>Skift</key><key>Ctrl</key><key>S</key></keyseq>"
+
+#~ msgid "Save the current page as a web application"
+#~ msgstr "Spara den aktuella sidan som en webbapplikation"
+
+#~ msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq>"
+#~ msgstr "<keyseq><key>Skift</key><key>Ctrl</key><key>A</key></keyseq>"
+
+#~ msgid "Print the current page"
+#~ msgstr "Skriv ut den aktuella sidan"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+
+#~ msgid "Open a new tab, and move to it"
+#~ msgstr "Öppna en ny flik och gå till den"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
+
+#~ msgid "Close the current tab"
+#~ msgstr "Stäng den aktuella fliken"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+
+#~ msgid "Reopen the last closed tab, and move to it"
+#~ msgstr "Öppna den senast stängda fliken på nytt och gå till den"
+
+#~ msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq>"
+#~ msgstr "<keyseq><key>Skift</key><key>Ctrl</key><key>T</key></keyseq>"
+
+#~ msgid "Quit <app>Web</app>"
+#~ msgstr "Avsluta <app>Webb</app>"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>Q</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>Q</key></keyseq>"
+
+#~ msgid "Undo the last change to typed text"
+#~ msgstr "Ångra den senaste ändringen till skriven text"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>Z</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>Z</key></keyseq>"
+
+#~ msgid "Redo the last change to typed text"
+#~ msgstr "Gör om den senaste ändringen till skriven text"
+
+#~ msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq>"
+#~ msgstr "<keyseq><key>Skift</key><key>Ctrl</key><key>Z</key></keyseq>"
+
+#~ msgid "Cut the selected text"
+#~ msgstr "Klipp ut den markerade texten"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>X</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>X</key></keyseq>"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Kopiera markeringen"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>C</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>C</key></keyseq>"
+
+#~ msgid "Paste the selection"
+#~ msgstr "Klistra in markeringen"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>V</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>V</key></keyseq>"
+
+#~ msgid "Select all"
+#~ msgstr "Markera allt"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>A</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>A</key></keyseq>"
+
+#~ msgid "Find text on the current page"
+#~ msgstr "Sök text i den aktuella sidan"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>F</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>F</key></keyseq>"
+
+#~ msgid "Next search result"
+#~ msgstr "Nästa sökresultat"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+
+#~ msgid "Previous search result"
+#~ msgstr "Föregående sökresultat"
+
+#~ msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
+#~ msgstr "<keyseq><key>Skift</key><key>Ctrl</key><key>G</key></keyseq>"
+
+#~ msgid "View your browsing history"
+#~ msgstr "Visa din surfhistorik"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>H</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>H</key></keyseq>"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>E</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>E</key></keyseq>"
+
+#~ msgid "Stop loading current page"
+#~ msgstr "Stoppa inläsning av aktuell sida"
+
+#~ msgid "<keyseq><key>Escape</key></keyseq>"
+#~ msgstr "<keyseq><key>Escape</key></keyseq>"
+
+#~ msgid "Reload current page"
+#~ msgstr "Läs om aktuell sida"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+
+#~ msgid "Reload current page (alternative shortcut)"
+#~ msgstr "Läs om aktuell sida (alternativ genväg)"
+
+#~ msgid "<keyseq><key>F5</key></keyseq>"
+#~ msgstr "<keyseq><key>F5</key></keyseq>"
+
+#~ msgid "Zoom in"
+#~ msgstr "Zooma in"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>+</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>+</key></keyseq>"
+
+#~ msgid "Zoom out"
+#~ msgstr "Zooma ut"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>-</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>-</key></keyseq>"
+
+#~ msgid "Normal size"
+#~ msgstr "Normal storlek"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>0</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>0</key></keyseq>"
+
+#~ msgid "View the page source"
+#~ msgstr "Visa sidkällan"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>U</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>U</key></keyseq>"
+
+#~ msgid "Bookmark current page"
+#~ msgstr "Bokmärk aktuell sida"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
+
+#~ msgid "Select page URL (address)"
+#~ msgstr "Markera URL (adress) för sida"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>L</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>L</key></keyseq>"
+
+#~ msgid "View previous tab"
+#~ msgstr "Visa föregående flik"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>PgUp</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>PgUp</key></keyseq>"
+
+#~ msgid "View next tab"
+#~ msgstr "Visa nästa flik"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>PgDn</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>PgDn</key></keyseq>"
+
+#~ msgid "Move the current tab to the left"
+#~ msgstr "Flytta aktuell flik åt vänster"
+
+#~ msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>PgUp</key> </keyseq>"
+#~ msgstr "<keyseq><key>Skift</key><key>Ctrl</key><key>PgUp</key> </keyseq>"
+
+#~ msgid "Move the current tab to the right"
+#~ msgstr "Flytta aktuell flik åt höger"
+
+#~ msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>PgDn</key> </keyseq>"
+#~ msgstr "<keyseq><key>Skift</key><key>Ctrl</key><key>PgDn</key> </keyseq>"
+
+#~ msgid "View <app>Web</app> in fullscreen"
+#~ msgstr "Visa <app>Webb</app> i helskärmsläge"
+
+#~ msgid "<keyseq><key>F11</key></keyseq>"
+#~ msgstr "<keyseq><key>F11</key></keyseq>"
+
+#~ msgid "Enable or disable caret browsing"
+#~ msgstr "Aktivera eller inaktivera markörläge"
+
+#~ msgid "<keyseq><key>F7</key></keyseq>"
+#~ msgstr "<keyseq><key>F7</key></keyseq>"
+
+#~ msgid "Open window menu"
+#~ msgstr "Öppna fönstermeny"
+
+#~ msgid "<keyseq><key>F10</key></keyseq>"
+#~ msgstr "<keyseq><key>F10</key></keyseq>"
+
+#~ msgid "<keyseq><key>Alt</key><key>Home</key></keyseq>"
+#~ msgstr "<keyseq><key>Alt</key><key>Home</key></keyseq>"
+
+#~ msgid "Save the current page"
+#~ msgstr "Spara den aktuella sidan"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>S</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>S</key></keyseq>"
+
+#~ msgid "Go back to the previous page"
+#~ msgstr "Gå bakåt till föregående sida"
+
+#~ msgid "<keyseq><key>Alt</key><key>Left</key></keyseq>"
+#~ msgstr "<keyseq><key>Alt</key><key>Vänster</key></keyseq>"
+
+#~ msgid "Go forward to the next page"
+#~ msgstr "Gå framåt till nästa sida"
+
+#~ msgid "<keyseq><key>Alt</key><key>Right</key></keyseq>"
+#~ msgstr "<keyseq><key>Alt</key><key>Höger</key></keyseq>"
+
+#~ msgid ""
+#~ "Open <guiseq><gui style=\"menu\">Web</gui><gui style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</"
+#~ "gui></guiseq>."
+#~ msgstr ""
+#~ "Öppna <guiseq><gui style=\"menu\">Webb</gui><gui style=\"menuitem\">Inställningar</gui><gui "
+#~ "style=\"tab\">Sekretess</gui></guiseq>."
+
+#~ msgid ""
+#~ "Open <guiseq><gui style=\"menu\">Web</gui><gui style=\"menuitem\">Preferences</gui><gui style=\"tab\">General</"
+#~ "gui></guiseq>."
+#~ msgstr ""
+#~ "Öppna <guiseq><gui style=\"menu\">Webb</gui><gui style=\"menuitem\">Inställningar</gui><gui "
+#~ "style=\"tab\">Allmänt</gui></guiseq>."
+
+#~ msgid "Websites do not have to honor this preference."
+#~ msgstr "Webbplatser måste inte följa denna inställning."
+
+#~ msgid ""
+#~ "Open <guiseq><gui style=\"menu\">Web</gui> <gui style=\"menuitem\">Preferences</gui> <gui "
+#~ "style=\"tab\">Privacy</gui></guiseq>."
+#~ msgstr ""
+#~ "Öppna <guiseq><gui style=\"menu\">Webb</gui> <gui style=\"menuitem\">Inställningar</gui> <gui "
+#~ "style=\"tab\">Sekretess</gui></guiseq>."
+
+#~ msgid "Using bookmarks"
+#~ msgstr "Använda bokmärken"
+
+#~ msgid "Use bookmarks to save your favorite pages for later."
+#~ msgstr "Använd bokmärken för att spara dina favoritsidor för senare användning."
+
+#~ msgid "Bookmarks help"
+#~ msgstr "Hjälp för bokmärken"
+
+#~ msgid "Use bookmarks to save websites which you want to visit again."
+#~ msgstr "Använd bokmärken för att spara webbplatser som du vill besöka igen."
+
+#~ msgid "How do I add a bookmark?"
+#~ msgstr "Hur lägger jag till ett bokmärke?"
+
+#~ msgid "Bookmark a page"
+#~ msgstr "Bokmärka en sida"
+
+#~ msgid "Bookmark a page to store it permanently and access it quickly."
+#~ msgstr "Bokmärk en sida för att lagra den permanent och komma åt den snabbt."
+
+#~ msgid "To add a bookmark:"
+#~ msgstr "För att lägga till ett bokmärke:"
+
+#~ msgid "Go to the webpage that you wish to bookmark."
+#~ msgstr "Gå till webbplatsen som du vill bokmärka."
+
+#~ msgid ""
+#~ "Select the menu at the top-right of the window, then <guiseq> <gui style=\"menuitem\">Bookmarks</gui> <gui "
+#~ "style=\"menuitem\">Add Bookmark…</gui></guiseq> or press <keyseq><key>Ctrl</key><key>D</key></keyseq> to add a "
+#~ "bookmark."
+#~ msgstr ""
+#~ "Välj menyn högst upp till höger i fönstret, sedan <guiseq> <gui style=\"menuitem\">Bokmärken</gui> <gui "
+#~ "style=\"menuitem\">Lägg till bokmärke…</gui></guiseq> eller tryck <keyseq><key>Ctrl</key><key>D</key></keyseq> "
+#~ "för att lägga till ett bokmärke."
+
+#~ msgid ""
+#~ "Name your bookmark in the <gui>Title</gui> text entry field, so that you can identify it easily in the future."
+#~ msgstr ""
+#~ "Namnge ditt bokmärke i textinmatningsfältet <gui>Titel</gui> så att du lätt kan känna igen det i framtiden."
+
+#~ msgid ""
+#~ "Start typing the topic that you would classify the bookmark under and select it once it is shown. If it does "
+#~ "not exist, select <gui>Create topic \"<input>Topic name</input>\"</gui> from the list. Separate different "
+#~ "topic names with commas."
+#~ msgstr ""
+#~ "Börja skriva in ämnet som du vill gruppera bokmärket under och välj det då det visas. Om det inte existerar, "
+#~ "välj <gui>Skapa ämnet ”<input>Ämnesnamn</input>”</gui> från listan. Skilj olika ämnesnamn åt med kommatecken."
+
+#~ msgid "How do I remove an unwanted bookmark?"
+#~ msgstr "Hur tar jag bort ett oönskat bokmärke?"
+
+#~ msgid "Delete a bookmark"
+#~ msgstr "Ta bort ett bokmärke"
+
+#~ msgid "You can delete old and unwanted bookmarks."
+#~ msgstr "Du kan ta bort gamla och oönskade bokmärken."
+
+#~ msgid "To delete a bookmark:"
+#~ msgstr "För att ta bort ett bokmärke:"
+
+#~ msgid ""
+#~ "Select <guiseq><gui style=\"menu\">Web</gui> <gui style=\"menuitem\">Bookmarks</gui></guiseq> to open the "
+#~ "<gui>Bookmarks</gui> window."
+#~ msgstr ""
+#~ "Välj <guiseq><gui style=\"menu\">Webb</gui> <gui style=\"menuitem\">Bokmärken</gui></guiseq> för att öppna "
+#~ "fönstret <gui>Bokmärken</gui>."
+
+#~ msgid "From the <gui>Topics</gui> list on the left side, select the topic that contains your bookmark."
+#~ msgstr "Välj ämnet som innehåller ditt bokmärke från <gui>Ämnen</gui>-listan på den vänstra sidan."
+
+#~ msgid ""
+#~ "A list of bookmarks in the selected topic will be shown on the right side of the window. Select the bookmarks "
+#~ "that you wish to delete, then select <guiseq><gui style=\"menu\">Edit</gui><gui style=\"menuitem\">Delete</"
+#~ "gui></guiseq>. You can also right click the bookmark and select <gui>Delete</gui>."
+#~ msgstr ""
+#~ "En lista över bokmärken i det valda ämnet kommer visas på fönstrets högra sida. Markera bokmärkena du vill ta "
+#~ "bort och välj sedan <guiseq><gui style=\"menu\">Redigera</gui><gui style=\"menuitem\">Ta bort</gui></guiseq>. "
+#~ "Du kan också högerklicka på bokmärket och välja <gui>Ta bort</gui>."
+
+#~ msgid "How do I edit an existing bookmark?"
+#~ msgstr "Hur redigerar jag ett befintligt bokmärke?"
+
+#~ msgid "Update a bookmark"
+#~ msgstr "Uppdatera ett bokmärke"
+
+#~ msgid "You can update your existing bookmarks by editing their properties."
+#~ msgstr "Du kan uppdatera dina befintliga bokmärken genom att redigera deras egenskaper."
+
+#~ msgid "To edit a bookmark:"
+#~ msgstr "För att redigera ett bokmärke:"
+
+#~ msgid ""
+#~ "A list of bookmarks in the selected topic will be shown on the right side of the window. Select the bookmarks "
+#~ "that you wish to update, then select <guiseq><gui style=\"menu\">File</gui><gui style=\"menuitem\">Properties</"
+#~ "gui></guiseq>."
+#~ msgstr ""
+#~ "En lista över bokmärken i det valda ämnet kommer visas på fönstrets högra sida. Markera bokmärkena du vill "
+#~ "uppdatera och välj sedan <guiseq><gui style=\"menu\">Arkiv</gui><gui style=\"menuitem\">Egenskaper</gui></"
+#~ "guiseq>."
+
+#~ msgid "You can now update the bookmark title, its URL and the topics that contain it."
+#~ msgstr "Du kan nu uppdatera bokmärkets titel, dess URL och ämnena som innehåller bokmärket."
+
+#~ msgid ""
+#~ "If you only want to rename a bookmark, right click on it, select <gui style=\"menuitem\">Rename…</gui> and "
+#~ "type in the new name for your bookmark."
+#~ msgstr ""
+#~ "Om du bara vill byta namn på ett bokmärke, högerklicka på det, välj <gui style=\"menuitem\">Byt namn…</gui> "
+#~ "och skriv in det nya namnet på ditt bokmärke."
+
+#~ msgid "What are smart bookmarks and how do I add one?"
+#~ msgstr "Vad är smarta bokmärken och hur lägger jag till ett?"
+
+#~ msgid "Smart bookmarks"
+#~ msgstr "Smarta bokmärken"
+
+#~ msgid ""
+#~ "A smart bookmark is used to add a search to the address bar. This can be useful if you prefer to use a "
+#~ "specific search engine regularly."
+#~ msgstr ""
+#~ "Ett smart bokmärke används för att lägga till en sökning till adressraden. Detta kan vara användbart om du "
+#~ "ofta föredrar att använda en speciell sökmotor."
+
+#~ msgid "Add a smart bookmark"
+#~ msgstr "Lägg till ett smart bokmärke"
+
+#~ msgid "Perform a search using the search engine that you want to add."
+#~ msgstr "Utför en sökning med sökmotorn som du vill lägga till."
+
+#~ msgid "Bookmark the page, replacing the search term with <input>%s</input> in the URL."
+#~ msgstr "Bokmärk sidan, och ersätt söktermen med <input>%s</input> i URL:en."
+
+#~ msgid ""
+#~ "For example, if you want to be able to search the GNOME user help, start by doing a test search such as for "
+#~ "\"epiphany\". The resulting URL will look like https://help.gnome.org/search?q=epiphany. To <link "
+#~ "xref=\"bookmark-add\">add the \"bookmark\"</link>, replace <input>epiphany</input> with <input>%s</input> when "
+#~ "bookmarking the page so that the <gui>Address</gui> looks like <input>https://help.gnome.org/search?q=%s</"
+#~ "input>. You may also want to use a <gui>Title</gui> such as <input>Search GNOME help</input>."
+#~ msgstr ""
+#~ "Till exempel, om du vill kunna söka i GNOME:s användarhjälp, starta med att göra en testsökning som exempelvis "
+#~ "för ”epiphany”. Den resulterande URL:en kommer se ut som https://help.gnome.org/search?q=epiphany. För att "
+#~ "<link xref=\"bookmark-add\">lägga till ”bokmärket”</link>, ersätt <input>epiphany</input> med <input>%s</"
+#~ "input> då du bokmärker sidan så att <gui>Adress</gui> ser ut som <input>https://help.gnome.org/search?q=%s</"
+#~ "input>. Du kan också vilja använda en <gui>Titel</gui> som <input>Sök i GNOME:s hjälp</input>."
+
+#~ msgid ""
+#~ "When you next start typing in the address bar, you will see <gui>Search GNOME help</gui> where your <link "
+#~ "xref=\"history\">browsing history</link> would normally be shown. Click it to submit the search."
+#~ msgstr ""
+#~ "Då du nästa gång börjar skriva i adressfältet kommer du se <gui>Sök i GNOME:s hjälp</gui> där din <link "
+#~ "xref=\"history\">surfhistorik</link> vanligen skulle visas. Klicka på den för att utföra sökningen."
+
+#~ msgid ""
+#~ "Apart from search engines, you can also use smart bookmarks for other queries, such as searching an online "
+#~ "shop for a product."
+#~ msgstr ""
+#~ "Förutom för sökmotorer kan du också använda smarta bokmärken för andra frågor, som att söka en produkt i en "
+#~ "nätbutik."
+
+#~ msgid "What are topics and how can I use them to sort bookmarks?"
+#~ msgstr "Vad är ämnen och hur kan jag använda dem för att sortera bokmärken?"
+
+#~ msgid "Topics"
+#~ msgstr "Ämnen"
+
+#~ msgid "You can sort your bookmarks into different categories using <em>topics</em>."
+#~ msgstr "Du kan sortera dina bokmärken i olika kategorier med hjälp av <em>ämnen</em>."
+
+#~ msgid "Open <guiseq><gui style=\"menu\">Web</gui><gui style=\"menuitem\">Bookmarks</gui></guiseq>."
+#~ msgstr "Öppna <guiseq><gui style=\"menu\">Webb</gui><gui style=\"menuitem\">Bokmärken</gui></guiseq>."
+
+#~ msgid "Select <guiseq><gui style=\"menu\">File</gui><gui style=\"menuitem\">New Topic</gui></guiseq>."
+#~ msgstr "Välj <guiseq><gui style=\"menu\">Arkiv</gui><gui style=\"menuitem\">Nytt ämne</gui></guiseq>."
+
+#~ msgid "Type the new bookmark name, then press <key>Enter</key> to save it."
+#~ msgstr "Skriv in det nya bokmärkesnamnet och tryck <key>Retur</key> för att spara det."
+
+#~ msgid "You can also create a new topic when <link xref=\"bookmark-add\">adding a new bookmark</link>."
+#~ msgstr "Du kan också skapa ett nytt ämne då du <link xref=\"bookmark-add\">lägger till ett nytt bokmärke</link>."
+
+#~ msgid "Edit bookmarks"
+#~ msgstr "Redigera bokmärken"
+
+#~ msgid "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
+
+#~ msgid ""
+#~ "Select <guiseq><gui style=\"menu\">Web</gui><gui style=\"menuitem\">Bookmarks</gui></guiseq> to open the "
+#~ "<gui>Bookmarks</gui> window."
+#~ msgstr ""
+#~ "Välj <guiseq><gui style=\"menu\">Webb</gui><gui style=\"menuitem\">Bokmärken</gui></guiseq> för att öppna "
+#~ "fönstret <gui>Bokmärken</gui>."

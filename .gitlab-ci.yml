@@ -1,0 +1,172 @@
+include:
+  - project: 'GNOME/citemplates'
+    file: 'flatpak/flatpak_ci_initiative.yml'
+  - component: gitlab.gnome.org/GNOME/citemplates/release-service@master
+    inputs:
+      dist-job-name: "flatpak"
+  - project: 'Infrastructure/freedesktop-ci-templates'
+    file: 'templates/fedora.yml'
+    ref: 'b61a03cabbf308e81289f7aaaf0b5a80a34ffb99'
+
+cache:
+  paths:
+    - _ccache/
+
+# This workflow disables merge request pipelines. Use only branch pipelines.
+# https://docs.gitlab.com/ee/ci/yaml/workflow.html
+workflow:
+  rules:
+    - if: '$CI_COMMIT_TAG'
+    - if: '$CI_COMMIT_BRANCH'
+
+variables:
+  BUNDLE: 'epiphany-git.flatpak'
+  MANIFEST_PATH: 'org.gnome.Epiphany.json'
+  RUNTIME_REPO: 'https://nightly.gnome.org/gnome-nightly.flatpakrepo'
+  FLATPAK_MODULE: 'epiphany'
+  APP_ID: 'org.gnome.Epiphany.Devel'
+  FDO_UPSTREAM_REPO: GNOME/epiphany
+
+stages:
+  - prepare
+  - test
+  - deploy
+
+# Use freedesktop-ci-templates for code style check.
+# Everything else uses flatpak-ci-initiative
+
+.fedora.container.common:
+  variables:
+    FDO_DISTRIBUTION_TAG: '2025-05-19.1'
+    FDO_DISTRIBUTION_VERSION: '42'
+
+build.container.fedora@x86_64:
+  extends:
+  - '.fdo.container-build@fedora'
+  - '.fedora.container.common'
+  stage: 'prepare'
+  variables:
+    GIT_STRATEGY: none
+    FDO_EXPIRES_AFTER: 8w
+    FDO_DISTRIBUTION_PACKAGES: >-
+      colordiff
+      diffutils
+      python3
+      uncrustify
+
+check-code-style:
+  extends:
+    - '.fdo.distribution-image@fedora'
+    - '.fedora.container.common'
+  stage: 'test'
+  needs: [ 'build.container.fedora@x86_64' ]
+  interruptible: true
+  script:
+    - bash data/check-code-style
+  artifacts:
+    when: on_failure
+  rules:
+    - if: $CI_COMMIT_BRANCH !~ /gnome-\d\d+/
+
+.flatpak rules:
+  rules:
+    - if: $CI_COMMIT_BRANCH =~ /gnome-\d\d+/
+      variables:
+        CONFIG_OPTS: '-Dprofile=Devel -Dunit_tests=enabled'
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      variables:
+        CONFIG_OPTS: '-Dtech_preview=true -Dprofile=Devel -Dunit_tests=enabled'
+    - if: $CI_COMMIT_BRANCH !~ /gnome-\d\d+/ && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+      variables:
+        CONFIG_OPTS: '-Dprofile=Devel -Dunit_tests=enabled --werror'
+
+check-potfiles:
+  extends:
+    - '.fdo.distribution-image@fedora'
+    - '.fedora.container.common'
+  stage: 'test'
+  needs: [ 'build.container.fedora@x86_64' ]
+  interruptible: true
+  script:
+    - bash data/check-potfiles
+  artifacts:
+    when: on_failure
+
+flatpak:
+  extends:
+    - '.flatpak'
+    - '.flatpak rules'
+  needs: []
+
+flatpak aarch64:
+  extends:
+    - '.flatpak@aarch64'
+    - '.flatpak rules'
+  needs: []
+
+scanbuild:
+  extends: '.flatpak'
+  needs: []
+  variables:
+    CONFIG_OPTS: '-Dprofile=Devel -Dunit_tests=enabled'
+  script:
+    - flatpak-builder --user --disable-rofiles-fuse --stop-at=${FLATPAK_MODULE} flatpak_app ${MANIFEST_PATH}
+    - flatpak build flatpak_app bash -c "source /usr/lib/sdk/llvm20/enable.sh; meson setup --prefix=/app ${CONFIG_OPTS} _build; SCANBUILD=$(pwd)/.run-scan-build ninja -C _build scan-build"
+  artifacts:
+    when: on_failure
+    paths:
+      - _build/meson-logs/scanbuild
+  rules:
+    - if: $CI_COMMIT_BRANCH !~ /gnome-\d\d+/
+
+nightly:
+  extends: '.publish_nightly'
+  stage: .post
+  needs: ['flatpak']
+
+nightly aarch64:
+  extends: '.publish_nightly'
+  stage: .post
+  needs: ['flatpak aarch64']
+
+canary:
+  image: 'quay.io/gnome_infrastructure/gnome-runtime-images:gnome-master'
+  stage: 'test'
+  interruptible: true
+  tags:
+    - flatpak
+  variables:
+    BUNDLE: 'epiphany-canary.flatpak'
+  script:
+    - python3 generate-canary-manifest.py
+    - flatpak-builder --user --disable-rofiles-fuse --repo=repo canary_flatpak_app org.gnome.Epiphany.Canary.json
+    - flatpak build-bundle repo --runtime-repo=${RUNTIME_REPO} ${BUNDLE} org.gnome.Epiphany.Canary
+    - tar cf canary-repo.tar repo/
+    - rm -rf canary-repo canary_flatpak_app org.gnome.Epiphany.Canary.json webkitgtk.zip
+
+  artifacts:
+    name: 'Canary Flatpak artifacts'
+    expose_as: 'Get Canary Flatpak bundle here'
+    when: 'always'
+    paths:
+      - "${BUNDLE}"
+      - "canary-repo.tar"
+    expire_in: 14 days
+  cache:
+    - key: "$CI_JOB_NAME"
+      paths:
+        - '.flatpak-builder/downloads'
+        - '.flatpak-builder/git'
+    - key: "$CI_JOB_NAME"
+      paths:
+        - '.flatpak-builder/cache'
+        - '.flatpak-builder/ccache'
+  except:
+    - gnome-*
+
+canary nightly:
+  extends: '.publish_nightly'
+  stage: .post
+  dependencies: ['canary']
+  before_script:
+    - mv canary-repo.tar repo.tar

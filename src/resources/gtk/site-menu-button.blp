@@ -1,0 +1,102 @@
+using Gtk 4.0;
+
+menu menu_model {
+  section {
+    item {
+      custom: "zoom_level";
+    }
+  }
+
+  section {
+    item {
+      label: _("_Reader Mode");
+      action: "win.toggle-reader-mode";
+    }
+  }
+}
+
+menu items_section {
+  item {
+    label: _("_Find…");
+    action: "win.find";
+  }
+
+  item {
+    label: _("_Print…");
+    action: "win.print";
+  }
+
+  item {
+    label: _("_Mute Tab");
+    action: "tab.mute";
+    hidden-when: "action-disabled";
+  }
+
+  item {
+    label: _("Edit _Bookmark…");
+    action: "win.bookmark-page";
+  }
+
+  item {
+    label: _("Add Search _Engine…");
+    action: "win.add-search-engine";
+    hidden-when: "action-disabled";
+  }
+
+  item {
+    label: _("Text Enco_ding…");
+    action: "win.encoding";
+  }
+
+  item {
+    label: _("_Security & Permissions");
+    action: "win.security-permissions";
+  }
+}
+
+PopoverMenu popover_menu {
+  menu-model: menu_model;
+
+  [zoom_level]
+  Box zoom-box {
+    orientation: horizontal;
+    homogeneous: true;
+
+    styles [
+      "linked",
+      "page-menu-zoom-box",
+    ]
+
+    Button {
+      tooltip-text: C_("tooltip", "Zoom Out");
+      icon-name: "zoom-out-symbolic";
+      action-name: "win.zoom-out";
+    }
+
+    Button {
+      tooltip-text: _("Restore Zoom");
+      action-name: "win.zoom-normal";
+
+      Label zoom_level {
+        width-chars: 5;
+      }
+    }
+
+    Button {
+      tooltip-text: C_("tooltip", "Zoom In");
+      icon-name: "zoom-in-symbolic";
+      action-name: "win.zoom-in";
+    }
+  }
+}
+
+template $EphySiteMenuButton: Button {
+  tooltip-text: _("Site Menu");
+  focus-on-click: false;
+  valign: center;
+  clicked => $on_clicked();
+
+  child: Image {
+    resource: "/org/gnome/Pafari/icons/scalable/status/ephy-site-menu-button-symbolic.gpa";
+  };
+}

@@ -1,0 +1,1522 @@
+# French translation for epiphany.
+# Copyright (C) 2014 epiphany's COPYRIGHT HOLDER
+# This file is distributed under the same license as the epiphany package.
+# naybnet <naybnet@gmail.com>, 2014.
+# Julien Hardelin <jhardlin@orange.fr>, 2014.
+# Alain Lojewski <allomervan@gmail.com>, 2015.
+# Guillaume Bernard <associations@guillaume-bernard.fr>, 2014-2021.
+# Charles Monzat <charles.monzat@free.fr>, 2019-2022.
+# Jean-Marc Tissières <jmetissieres@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: epiphany master\n"
+"POT-Creation-Date: 2023-02-12 12:43+0000\n"
+"PO-Revision-Date: 2023-02-12 17:44+0100\n"
+"Last-Translator: Jean-Marc Tissières <jmetissieres@gmail.com>\n"
+"Language-Team: French - France <gnomefr@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 42.0\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"naybnet <naybnet@gmail.com>, 2014\n"
+"Julien Hardelin <jhardlin@orange.fr>, 2014\n"
+"Guillaume Bernard <associations@guillaume-bernard.fr>, 2014-2021\n"
+"Alain Lojewski <allomervan@gmail.com>, 2015\n"
+"Charles Monzat <charles.monzat@free.fr>, 2019-2021\n"
+"Jean-Marc Tissières <jmetissieres@gmail.com>|, 2023"
+
+#. (itstool) path: info/title
+#: C/index.page:7
+msgctxt "link:trail"
+msgid "Web help"
+msgstr "Aide de Web"
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "link"
+msgid "Web help"
+msgstr "Aide de Web"
+
+#. (itstool) path: info/title
+#: C/index.page:10
+msgctxt "text"
+msgid "Web help"
+msgstr "Aide de Web"
+
+#. (itstool) path: info/desc
+#: C/index.page:17
+msgid ""
+"<app>Web</app>, formerly known as <app>Epiphany</app>, is the GNOME web "
+"browser. Get started with <app>Web</app> and learn about the available "
+"features."
+msgstr ""
+"<app>Web</app>, auparavant connu sous le nom d’<app>Epiphany</app>, est le "
+"navigateur web de GNOME. Faites connaissance avec <app>Web</app> et "
+"découvrez les fonctionnalités disponibles."
+
+#. (itstool) path: page/title
+#: C/index.page:23
+msgid "<_:media-1/> Web"
+msgstr "<_:media-1/> Web"
+
+#. (itstool) path: section/title
+#: C/index.page:29
+msgid "Getting started"
+msgstr "Premiers pas"
+
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "Your privacy"
+msgstr "Confidentialité de vos données"
+
+#. (itstool) path: section/title
+#: C/index.page:37
+msgid "Advanced browsing"
+msgstr "Navigation avancée"
+
+#. (itstool) path: section/title
+#: C/index.page:41
+msgid "Options and settings"
+msgstr "Options et paramètres"
+
+#. (itstool) path: section/title
+#: C/index.page:45
+msgid "Common problems"
+msgstr "Problèmes courants"
+
+#. (itstool) path: credit/name
+#: C/introduction.page:11 C/browse-local.page:12 C/browse-private.page:13
+#: C/browse-tab.page:13 C/browse-web.page:15 C/browse-webapps.page:14
+#: C/browse-webapps-del.page:14 C/cert.page:12 C/cookies.xml:12
+#: C/data-cookies.page:13 C/data-passwords.page:21 C/history.page:12
+#: C/history-delete.page:12 C/pref-cookies.page:14 C/pref-css.page:18
+#: C/pref-downloads.page:14 C/pref-font.page:19 C/pref-passwords.page:14
+#: C/prob-restore-closed-page.page:17 C/proxy.page:11
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: credit/years
+#: C/introduction.page:13 C/browse-local.page:14 C/browse-private.page:15
+#: C/browse-webapps.page:16 C/cookies.xml:14 C/data-cookies.page:15
+#: C/data-passwords.page:18 C/data-passwords.page:23 C/history.page:14
+#: C/history-delete.page:14 C/pref-cookies.page:16 C/pref-css.page:15
+#: C/pref-css.page:20 C/pref-downloads.page:16 C/pref-font.page:16
+#: C/pref-font.page:21 C/pref-passwords.page:16
+msgid "2013"
+msgstr "2013"
+
+#. (itstool) path: info/desc
+#: C/introduction.page:18
+msgid ""
+"An introduction to <app>Web</app>, a web browser for GNOME with built-in "
+"privacy."
+msgstr ""
+"Une introduction à <app>Web</app>, navigateur web pour GNOME avec un mode "
+"privé intégré."
+
+#. (itstool) path: page/title
+#: C/introduction.page:22
+msgid "Introduction"
+msgstr "Introduction"
+
+#. (itstool) path: page/p
+#: C/introduction.page:24
+msgid ""
+"<app>Web</app> offers a simple and clean way to browse the internet. It "
+"displays pages with the same speed and accuracy as other popular browsers."
+msgstr ""
+"<app>Web</app> offre un moyen simple et clair de naviguer sur Internet. Il "
+"affiche les pages avec la même vitesse et la même précision que d’autres "
+"navigateurs populaires."
+
+#. (itstool) path: page/p
+#: C/introduction.page:28
+msgid ""
+"<app>Web</app> is the application formerly known as <app>Epiphany</app>."
+msgstr ""
+"<app>Web</app> est l’application connue auparavant sous le nom "
+"d’<app>Epiphany</app>."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:31
+msgctxt "_"
+msgid ""
+"external ref='media/epiphany-plain-3-36.png' "
+"md5='d70ce310b95542f80f3ebd1def25c670'"
+msgstr ""
+"external ref='media/epiphany-plain-3-36.png' "
+"md5='d70ce310b95542f80f3ebd1def25c670'"
+
+#. (itstool) path: media/p
+#: C/introduction.page:34
+msgid ""
+"Fullscreen screenshot of Web with the Web wiki page open in the first tab "
+"and showing the GNOME website open in the second tab."
+msgstr ""
+"Capture plein écran de Web montrant la page wiki de Web dans le premier "
+"onglet et le site de GNOME ouvert dans le second."
+
+# Suppression du terme « Licence », car doublon avec la phrase précédente.
+# « Cet ouvrage est distribué sous licence ».
+#. (itstool) path: p/link
+#: C/legal.xml:5
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+msgstr ""
+"Creative Commons Attribution - Partage dans les Mêmes Conditions 3.0 non "
+"transposé"
+
+#. (itstool) path: license/p
+#: C/legal.xml:4
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Cet ouvrage est distribué sous licence <_:link-1/>."
+
+#. (itstool) path: info/desc
+#: C/browse-local.page:24
+msgid "How do I view files which are on my computer in a web browser?"
+msgstr "Afficher des fichiers locaux dans un navigateur web."
+
+#. (itstool) path: page/title
+#: C/browse-local.page:27
+msgid "View local files"
+msgstr "Affichage de fichiers locaux"
+
+#. (itstool) path: page/p
+#: C/browse-local.page:31
+msgid ""
+"You can view some types of file that are on your computer in the web "
+"browser. This can be useful if you have saved a website for reading later or "
+"want to preview a web page that you are creating."
+msgstr ""
+"Il est possible d’afficher certains types de fichiers présents dans "
+"l’ordinateur avec le navigateur web. Ceci est utile quand vous enregistrez "
+"un site web en vue d’une consultation ultérieure ou pour afficher l’aperçu "
+"d’une page web en cours de création."
+
+#. (itstool) path: item/p
+#: C/browse-local.page:37
+msgid "Press <keyseq><key>Ctrl</key><key>O</key></keyseq>."
+msgstr "Appuyez sur <keyseq><key>Ctrl</key><key>O</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/browse-local.page:40
+msgid "Select and open the file that you want to view."
+msgstr "Sélectionnez et ouvrez le fichier à afficher."
+
+#
+#. (itstool) path: info/desc
+#: C/browse-private.page:25
+msgid "What is <em>incognito</em> mode?"
+msgstr "Qu’est-ce que le mode <em>privé</em> ?"
+
+#. (itstool) path: page/title
+#: C/browse-private.page:28
+msgid "Private browsing"
+msgstr "Navigation privée"
+
+#. (itstool) path: page/p
+#: C/browse-private.page:38
+msgid ""
+"Private browsing is a mode which limits the way that your computer and "
+"websites can access your browsing information. It is useful if you want to "
+"lend your computer to a friend, for example, to check their email using "
+"webmail because you will not be logged into any websites in the private "
+"browsing window, nor will their information be saved. You might prefer to "
+"use incognito mode to access sensitive websites such as Internet banking and "
+"<link href=\"http://questionablecontent.net/\">questionable content</link> "
+"because data that websites have previously saved on your computer will not "
+"be accessible to the websites when browsing in incognito mode."
+msgstr ""
+"La navigation privée est un mode limitant la manière dont votre ordinateur, "
+"ainsi que les sites internet, accèdent à vos informations de navigation. "
+"Elle est utile si vous souhaitez par exemple prêter votre ordinateur à un "
+"ami pour consulter ses messages par Internet. En effet, vous n’êtes alors "
+"identifié sur aucun site de la fenêtre de navigation privée et les "
+"informations de votre ami ne sont pas mémorisées pendant la session. Vous "
+"préférerez peut-être utiliser le mode navigation privée pour accéder à des "
+"sites web sensibles tels que les banques en ligne et les <link href=\"http://"
+"questionablecontent.net/\">contenus suspects</link> puisqu’il est plus "
+"difficile pour les sites web de vous identifier en mode navigation privée."
+
+#. (itstool) path: note/p
+#: C/browse-private.page:49
+msgid ""
+"Incognito mode will not stop websites from tracking your browsing activity. "
+"If you need to browse the web anonymously, you should use a commercial VPN "
+"service."
+msgstr ""
+"Le mode navigation privée n’empêche pas les sites web de suivre votre "
+"activité de navigation. Si vous souhaitez naviguer sur le Web de manière "
+"anonyme, vous devez utiliser un service VPN commercial."
+
+#. (itstool) path: item/p
+#: C/browse-private.page:57
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">New Incognito Window</gui></guiseq>."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <guiseq><gui style=\"menuitem\">Nouvelle fenêtre "
+"privée</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/browse-private.page:61
+msgid "Browse the web using incognito mode."
+msgstr "Naviguez sur le Web en mode privé."
+
+#. (itstool) path: item/p
+#: C/browse-private.page:64
+msgid "End the private browsing session by closing the incognito window."
+msgstr "Terminez la session de navigation privée en fermant la fenêtre privée."
+
+#. (itstool) path: page/p
+#: C/browse-private.page:68
+msgid ""
+"You can distinguish private browsing from normal browsing by the watermark "
+"for the incognito window:"
+msgstr ""
+"La navigation privée se distingue de la navigation normale par le filigrane "
+"de la fenêtre privée :"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/browse-private.page:71
+msgctxt "_"
+msgid ""
+"external ref='media/epiphany-private-3-36.png' "
+"md5='a5f3c9ea2cb418bab7bdbb8a9de9691e'"
+msgstr ""
+"external ref='media/epiphany-private-3-36.png' "
+"md5='ed9e04cf124f06e37acfc5d22686876a'"
+
+#. (itstool) path: media/p
+#: C/browse-private.page:74
+msgid "Screenshot showing a private browsing window with no opened tabs."
+msgstr ""
+"Capture d’écran montrant une fenêtre de navigation privée sans onglets "
+"ouverts."
+
+#. (itstool) path: credit/years
+#: C/browse-tab.page:15 C/data-cookies.page:20 C/data-passwords.page:28
+#: C/prob-restore-closed-page.page:14 C/prob-restore-closed-page.page:19
+#: C/proxy.page:13
+msgid "2014"
+msgstr "2014"
+
+#. (itstool) path: info/desc
+#: C/browse-tab.page:25
+msgid "Open another web page in a new tab in the same window."
+msgstr "Ouvrir une autre page web dans un nouvel onglet de la même fenêtre."
+
+#. (itstool) path: page/title
+#: C/browse-tab.page:28
+msgid "Open a new tab"
+msgstr "Ouverture d’un nouvel onglet"
+
+#. (itstool) path: credit/years
+#: C/browse-web.page:17
+msgid "2013, 2014"
+msgstr "2013, 2014"
+
+#. (itstool) path: info/desc
+#: C/browse-web.page:27
+msgid "View web pages on the internet."
+msgstr "Afficher des pages web sur Internet."
+
+#. (itstool) path: page/title
+#: C/browse-web.page:30
+msgid "Browse the web"
+msgstr "Navigation sur le Web"
+
+#. (itstool) path: page/p
+#: C/browse-web.page:32
+msgid ""
+"Web browsers can be used to view pages on the Internet when you have an "
+"Internet connection. To start browsing the web:"
+msgstr ""
+"Les navigateurs web peuvent être utilisés pour afficher des pages sur "
+"Internet lorsque la connexion internet est active. Pour commencer à naviguer "
+"sur le Web :"
+
+#. (itstool) path: item/p
+#: C/browse-web.page:37
+msgid ""
+"When you start up <app xref=\"introduction\">Web</app>, your cursor should "
+"be in the text entry field at the top of the window. Type in the URL of the "
+"webpage that you want to visit or your search term."
+msgstr ""
+"Lors du démarrage de la session <app xref=\"introduction\">Web</app>, le "
+"curseur se situe normalement dans le champ de texte en haut de la fenêtre. "
+"Entrez l’URL de la page web désirée ou un terme à rechercher."
+
+#. (itstool) path: item/p
+#: C/browse-web.page:42
+msgid "Press return to go to the web page or to search."
+msgstr ""
+"Appuyez sur la touche Entrée pour aller à la page web ou pour effectuer la "
+"recherche."
+
+#. (itstool) path: page/p
+#. (itstool) id: browse-web.page#tabs
+#: C/browse-web.page:46
+msgid ""
+"<em>Tabs</em> are used to view more than one web page in one window. When "
+"you first start up <app>Web</app>, you will not be shown any tabs. To "
+"<em>open a new tab</em>, press the new tab button at the top left of the "
+"screen. Once the new tab is open, you can use it as you would normally use a "
+"new window."
+msgstr ""
+"Les <em>onglets</em> sont utilisés pour afficher plus d’une page web dans "
+"une fenêtre. Lors du démarrage de <app>Web</app>, aucun onglet n’est "
+"affiché. Pour <em>ouvrir un nouvel onglet</em>, cliquez sur le bouton "
+"« nouvel onglet » situé dans le coin supérieur gauche de l’écran. Une fois "
+"le nouvel onglet ouvert, vous pouvez l’utiliser comme on utilise une "
+"nouvelle fenêtre."
+
+#. (itstool) path: page/p
+#. (itstool) id: browse-web.page#tabs-alt
+#: C/browse-web.page:52
+msgid ""
+"You can also use the <keyseq><key>Ctrl</key><key>T</key></keyseq> keyboard "
+"shortcut to open a new tab or the new tab button in the top-left of the "
+"window."
+msgstr ""
+"Vous pouvez aussi ouvrir un nouvel onglet ou afficher le bouton « nouvel "
+"onglet » dans le coin supérieur gauche de l’écran avec le raccourci clavier "
+"<keyseq><key>Ctrl</key><key>T</key></keyseq>."
+
+#. (itstool) path: page/p
+#. (itstool) id: browse-web.page#tabs-link
+#: C/browse-web.page:56
+msgid ""
+"To <em>open a link in a new tab</em>, right click on the link, then select "
+"<gui style=\"menuitem\">Open Link in New Tab</gui> or use the middle mouse "
+"button to click on the link."
+msgstr ""
+"Vous pouvez également <em>ouvrir un lien dans un nouvel onglet</em> en "
+"effectuant un clic droit sur le lien, puis en sélectionnant <gui style="
+"\"menuitem\">Ouvrir le lien dans un nouvel onglet</gui>, ou en cliquant sur "
+"le lien avec le bouton du milieu de la souris."
+
+#. (itstool) path: info/desc
+#: C/browse-webapps.page:26
+msgid "What is a <em>Web App</em> and how do I use it?"
+msgstr "Qu’est-ce qu’une <em>application web</em> et comment l’utiliser ?"
+
+#. (itstool) path: page/title
+#: C/browse-webapps.page:29
+msgid "Create a Web App"
+msgstr "Créer une application web"
+
+#. (itstool) path: page/p
+#: C/browse-webapps.page:31
+msgid ""
+"You can save webpages as a <em>Web App</em>. This will add a link to the "
+"page to the <link href=\"help:gnome-help/shell-introduction#activities"
+"\">Activities overview</link>. When you open a Web App, it is shown in a "
+"special type of window without the address bar or the menus."
+msgstr ""
+"Vous pouvez enregistrer des pages web en tant qu’<em>application web</em>. "
+"Un lien s’ajoute alors à la page dans la <link href=\"help:gnome-help/shell-"
+"introduction#activities\">Vue d’ensemble des activités</link>. Quand vous "
+"ouvrez une application web, elle s’affiche dans une fenêtre spéciale sans "
+"barre d’adresse ou de menus."
+
+#. (itstool) path: item/p
+#: C/browse-webapps.page:38
+msgid "Open the webpage which you want to save."
+msgstr "Ouvrez la page web à enregistrer."
+
+#. (itstool) path: item/p
+#: C/browse-webapps.page:41
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Install as Web App…</gui>."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <gui style=\"menuitem\">Installer le site en "
+"tant qu’application web</gui>."
+
+#. (itstool) path: item/p
+#: C/browse-webapps.page:45
+msgid "Name your Web App, then press <gui style=\"button\">Create</gui>."
+msgstr ""
+"Nommez votre application web puis appuyez sur <gui style=\"button\">Créer</"
+"gui>."
+
+#. (itstool) path: page/p
+#: C/browse-webapps.page:50
+msgid ""
+"You can now launch the Web App from the Activities overview. To search for "
+"your app, start typing the name and it will be shown with the other search "
+"results."
+msgstr ""
+"Vous pouvez maintenant lancer l’application web à partir de la vue "
+"d’ensemble des Activités. Pour rechercher votre application, commencez à "
+"taper son nom et elle sera affichée dans la liste des suggestions."
+
+#. (itstool) path: credit/years
+#: C/browse-webapps-del.page:16 C/cert.page:14
+msgid "2015"
+msgstr "2015"
+
+#. (itstool) path: info/desc
+#: C/browse-webapps-del.page:26
+msgid "How do I delete a <em>Web App</em>?"
+msgstr "Comment supprimer une <em>application web</em> ?"
+
+#. (itstool) path: page/title
+#: C/browse-webapps-del.page:29
+msgid "Remove a Web App"
+msgstr "Suppression d’une application web"
+
+#. (itstool) path: page/p
+#: C/browse-webapps-del.page:31
+msgid "You can delete a Web App when you no longer need it."
+msgstr ""
+"Vous pouvez supprimer une application web dont vous n’avez plus besoin."
+
+#. (itstool) path: item/p
+#: C/browse-webapps-del.page:35
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Manage Web Apps</gui>."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <gui style=\"menuitem\">Gérer les applications "
+"web</gui>."
+
+#. (itstool) path: item/p
+#: C/browse-webapps-del.page:39
+msgid ""
+"Press <gui style=\"button\">Delete</gui> next to the app which you want to "
+"remove."
+msgstr ""
+"Cliquez sur <gui style=\"button\">Supprimer</gui> à côté de l’application à "
+"supprimer."
+
+#. (itstool) path: info/desc
+#: C/cert.page:19
+msgid "Certificate management in <app>Web</app>."
+msgstr "Gérer les certificats dans <app>Web</app>."
+
+#. (itstool) path: page/title
+#: C/cert.page:22
+msgid "Certificates"
+msgstr "Certificats"
+
+#. (itstool) path: page/p
+#: C/cert.page:24
+msgid ""
+"<app>Web</app> does not have built-in support for certificate management at "
+"this time."
+msgstr ""
+"<app>Web</app> ne peut pas prendre en charge la gestion des certificats pour "
+"l’instant."
+
+#. (itstool) path: note/p
+#: C/cert.page:28
+msgid ""
+"You can add certificates through the command line if you have p11-kit "
+"installed. To add a certificate, you need to download the certificate and "
+"run the following command to import it:"
+msgstr ""
+"Pour ajouter un certificat, installez p11-kit, téléchargez le certificat, et "
+"exécutez cette commande pour l’importer :"
+
+#. (itstool) path: note/screen
+#: C/cert.page:31
+#, no-wrap
+msgid "<output>$ </output><input>sudo trust anchor <var>/home/user/Downloads/certificate.crt</var></input>"
+msgstr "<output>$ </output><input>sudo trust anchor <var>/home/user/Téléchargements/certificate.crt</var></input>"
+
+#. (itstool) path: note/p
+#: C/cert.page:32
+msgid ""
+"Unfortunately, this will not work on Debian-based systems, such as Ubuntu."
+msgstr ""
+"Malheureusement, cela ne fonctionne pas sur les systèmes basés sur Debian, "
+"tels que Ubuntu."
+
+#. (itstool) path: page/title
+#: C/cookies.xml:20
+msgid "What are cookies?"
+msgstr "Description d’un cookie."
+
+#. (itstool) path: page/p
+#: C/cookies.xml:28
+msgid ""
+"A browser <em>cookie</em> is a small piece of data sent from a website and "
+"stored on your computer while you are browsing that website. When you return "
+"to the same website in the future, the data stored in the cookie can be "
+"retrieved by the website to notify the website of your previous activity. "
+"Cookies are a common method used by web servers to know whether you are "
+"logged in to an account on a specific website or not."
+msgstr ""
+"Un <em>cookie</em> de navigateur est une information envoyée par un site web "
+"et enregistrée sur votre ordinateur pendant la navigation sur le site. Lors "
+"d’une prochaine visite du site web, les informations enregistrées dans le "
+"cookie sont récupérées par le site pour connaître votre activité passée. Les "
+"cookies sont une méthode communément utilisée par les serveurs web pour "
+"savoir si vous êtes identifié ou non sur un site spécifique."
+
+#. (itstool) path: credit/name
+#: C/data-cookies.page:18 C/data-passwords.page:26
+#: C/prob-restore-closed-page.page:12
+msgid "Baptiste Mille-Mathias"
+msgstr "Baptiste Mille-Mathias"
+
+#. (itstool) path: credit/name
+#: C/data-cookies.page:23 C/data-passwords.page:31 C/data-personal-data.page:17
+#: C/pref-cookies.page:24 C/pref-css.page:23 C/pref-downloads.page:19
+#: C/pref-font.page:24 C/pref-passwords.page:19
+msgid "Federico Bruni"
+msgstr "Federico Bruni"
+
+#. (itstool) path: credit/years
+#: C/data-cookies.page:25 C/data-passwords.page:33 C/data-personal-data.page:19
+#: C/pref-cookies.page:26 C/pref-css.page:25 C/pref-downloads.page:21
+#: C/pref-font.page:26 C/pref-passwords.page:21
+msgid "2021"
+msgstr "2021"
+
+#. (itstool) path: info/desc
+#: C/data-cookies.page:30
+msgid "How do I delete browser cookies?"
+msgstr "Supprimer les cookies de navigateur."
+
+#. (itstool) path: page/title
+#: C/data-cookies.page:33
+msgid "Delete a cookie"
+msgstr "Suppression d’un cookie"
+
+#. (itstool) path: page/p
+#: C/data-cookies.page:38
+msgid ""
+"You can check if it left a cookie and delete it, but be aware that websites "
+"will usually install the same cookie again if you visit that website again."
+msgstr ""
+"Vous pouvez vérifier s’il reste un cookie et le supprimer, mais sachez que "
+"les sites web réinstallent généralement le même cookie si vous les visitez à "
+"nouveau."
+
+#. (itstool) path: item/p
+#: C/data-cookies.page:43 C/data-personal-data.page:38
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</"
+"gui><gui style=\"button\">Clear Personal Data</gui></guiseq>."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <guiseq><gui style=\"menuitem\">Préférences</"
+"gui><gui style=\"tab\">Confidentialité</gui><gui style=\"button\">Effacer "
+"les données personnelles</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/data-cookies.page:48
+msgid ""
+"Select the cookies that you want to delete. You can tick only a few domains "
+"or tick Cookies to select all domains at once."
+msgstr ""
+"Sélectionnez les cookies que vous souhaitez supprimer. Vous pouvez cocher "
+"seulement quelques domaines, ou cocher Cookies pour sélectionner tous les "
+"domaines à la fois."
+
+#. (itstool) path: item/p
+#: C/data-cookies.page:52 C/data-personal-data.page:47
+msgid "Press <gui style=\"button\">Clear Data</gui>."
+msgstr "Cliquez sur <gui style=\"button\">Effacer les données</gui>."
+
+#. (itstool) path: note/p
+#: C/data-cookies.page:57
+msgid ""
+"If you wish to delete the cookies a website has stored, you probably also "
+"wish to delete <link xref=\"data-personal-data\">other data stored by that "
+"website</link>."
+msgstr ""
+"Si vous souhaitez supprimer les cookies enregistrés par un site web, vous "
+"pouvez également être intéressé par la suppression <link xref=\"data-"
+"personal-data\">d’autres données enregistrées par ce même site</link>."
+
+#. (itstool) path: credit/name
+#: C/data-passwords.page:16
+msgid "Aruna Sankaranarayanan"
+msgstr "Aruna Sankaranarayanan"
+
+#. (itstool) path: info/desc
+#: C/data-passwords.page:38
+msgid "How do I remove and update stored passwords?"
+msgstr "Supprimer et modifier les mots de passe enregistrés."
+
+#. (itstool) path: page/title
+#: C/data-passwords.page:41
+msgid "Manage passwords"
+msgstr "Gestion des mots de passe"
+
+#. (itstool) path: page/p
+#: C/data-passwords.page:43
+msgid ""
+"You can save all of your passwords so that you do not have to reenter them "
+"every time that you want to log into a website."
+msgstr ""
+"Vous pouvez enregistrer tous vos mots de passe afin de ne pas avoir besoin "
+"de les saisir à nouveau à chaque identification sur un site web."
+
+#. (itstool) path: page/p
+#: C/data-passwords.page:46
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</"
+"gui><gui style=\"button\">Passwords</gui></guiseq> to see your saved "
+"passwords."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <guiseq><gui style=\"menuitem\">Préférences</"
+"gui><gui style=\"tab\">Confidentialité</gui><gui style=\"button\">Mots de "
+"passe</gui></guiseq> pour afficher vos mots de passe enregistrés."
+
+#. (itstool) path: section/title
+#: C/data-passwords.page:52
+msgid "Remove saved passwords"
+msgstr "Suppression des mots de passe enregistrés"
+
+#. (itstool) path: section/p
+#: C/data-passwords.page:54
+msgid "You can remove a stored password at any time."
+msgstr "Vous pouvez supprimer un mot de passe enregistré à tout moment."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:58
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</"
+"gui> <gui style=\"button\">Passwords</gui></guiseq>."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <guiseq><gui style=\"menuitem\">Préférences</"
+"gui><gui style=\"tab\">Confidentialité</gui><gui style=\"button\">Mots de "
+"passe</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:63
+msgid ""
+"Click on the search button at the top right and enter the address of the "
+"website."
+msgstr ""
+"Cliquez sur le bouton de recherche situé en haut à droite, puis saisissez "
+"l’adresse du site web."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:67
+msgid "Click on the item to unfold its details."
+msgstr "Cliquez sur l’élément pour dérouler ses détails."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:70
+msgid ""
+"Press <gui style=\"button\">Remove Password</gui> to remove the saved "
+"password."
+msgstr ""
+"Appuyez sur <gui style=\"button\">Effacer le mot de passe</gui> pour "
+"supprimer le mot de passe enregistré."
+
+#. (itstool) path: section/p
+#: C/data-passwords.page:75
+msgid ""
+"You can view the saved passwords by pressing on the key button at the bottom-"
+"right of the password list."
+msgstr ""
+"Vous pouvez afficher les mots de passe enregistrés en cliquant sur le bouton "
+"avec une clé en bas à droite de la liste de mots de passe."
+
+#. (itstool) path: note/p
+#: C/data-passwords.page:79
+msgid ""
+"You can also delete all of your stored passwords using the <gui style="
+"\"button\">Clear All</gui> button."
+msgstr ""
+"Vous pouvez également supprimer tous les mots de passe enregistrés en "
+"utilisant le bouton <gui style=\"button\">Tout effacer</gui>."
+
+#. (itstool) path: section/title
+#: C/data-passwords.page:86
+msgid "Update a password"
+msgstr "Mettre à jour un mot de passe"
+
+#. (itstool) path: section/p
+#: C/data-passwords.page:88
+msgid ""
+"If you have changed a password that is saved in <link xref=\"introduction"
+"\"><app>Web</app></link>, you have to update it."
+msgstr ""
+"Si un mot de passe enregistré dans <link xref=\"introduction\"><app>Web</"
+"app></link> a été modifié, il doit être mis à jour."
+
+#. (itstool) path: steps/title
+#: C/data-passwords.page:92
+msgid "When you have finished changing your password:"
+msgstr "Après modification du mot de passe :"
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:94
+msgid ""
+"Visit the same webpage for which the password was stored and has now been "
+"changed."
+msgstr ""
+"Visitez la page pour laquelle le mot de passe enregistré a été modifié."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:98
+msgid ""
+"Your old saved password will automatically be typed in the password field by "
+"<app>Web</app>, so clear the password field."
+msgstr ""
+"Votre ancien mot de passe est automatiquement affiché dans le champ du mot "
+"de passe par <app>Web</app>. Effacez donc ce champ."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:102
+msgid "Type your new password in the password field."
+msgstr "Saisissez votre nouveau mot de passe dans le champ correspondant."
+
+#. (itstool) path: item/p
+#: C/data-passwords.page:105
+msgid ""
+"You will be asked if you want to save the password in <app>Web</app>. Press "
+"<gui style=\"button\">Save</gui> to finish. This will update your old "
+"password for the webpage."
+msgstr ""
+"Il vous est demandé si vous souhaitez enregistrer le mot de passe dans "
+"<app>Web</app>. Cliquez sur <gui style=\"button\">Enregistrer</gui> pour "
+"terminer. Ceci met à jour votre mot de passe pour cette page web."
+
+#. (itstool) path: credit/name
+#: C/data-personal-data.page:12
+msgid "Michael Catanzaro"
+msgstr "Michael Catanzaro"
+
+#. (itstool) path: credit/years
+#: C/data-personal-data.page:14 C/pref-mouse-gestures.page:14
+msgid "2019"
+msgstr "2019"
+
+#. (itstool) path: info/desc
+#: C/data-personal-data.page:24
+msgid "How do I delete personal data stored by websites?"
+msgstr "Supprimer les données personnelles enregistrées par les sites web."
+
+#. (itstool) path: page/title
+#: C/data-personal-data.page:27
+msgid "Delete personal data"
+msgstr "Suppression des données personnelles"
+
+#. (itstool) path: page/p
+#: C/data-personal-data.page:29
+msgid "<app>Web</app> allows you to delete personal data stored by websites."
+msgstr ""
+"<app>Web</app> vous permet de supprimer les données personnelles "
+"enregistrées par les sites web."
+
+#. (itstool) path: page/p
+#: C/data-personal-data.page:32
+msgid ""
+"<link xref=\"data-personal-data\">Learn how to delete browser cookies.</link>"
+msgstr ""
+"<link xref=\"data-personal-data\">En savoir plus sur la suppression des "
+"cookies de navigateur.</link>"
+
+#. (itstool) path: page/p
+#: C/data-personal-data.page:34
+msgid "To delete other personal data:"
+msgstr "Pour supprimer d’autres données personnelles :"
+
+#. (itstool) path: item/p
+#: C/data-personal-data.page:43
+msgid ""
+"Select the types of stored data you wish to delete and optionally limit the "
+"delete action to selected domains."
+msgstr ""
+"Sélectionnez les types de données enregistrées que vous souhaitez supprimer, "
+"et éventuellement limiter l’action de suppression aux domaines sélectionnés."
+
+#. (itstool) path: info/desc
+#: C/history.page:24
+msgid ""
+"Why do I see a list of web pages when I start typing in the address bar?"
+msgstr ""
+"Pourquoi vois-je une liste de pages web lorsque je commence à saisir dans la "
+"barre d’adresse ?"
+
+#. (itstool) path: page/title
+#: C/history.page:27
+msgid "Browsing history"
+msgstr "Historique de navigation"
+
+#. (itstool) path: page/p
+#: C/history.page:29
+msgid ""
+"Your browsing history, the web pages that you have visited, is automatically "
+"saved so that it is quicker for you to return to those pages."
+msgstr ""
+"L’historique de navigation, c’est-à-dire les pages web que vous avez "
+"visitées, est enregistré automatiquement pour vous permettre un accès "
+"ultérieur plus rapide."
+
+#. (itstool) path: page/p
+#: C/history.page:33
+msgid ""
+"To <em>search your history</em>, start typing your search term into the "
+"address bar, then click on the correct result once you see it. The search "
+"will include the page title and URL, but not the page content."
+msgstr ""
+"Pour <em>rechercher dans l’historique</em>, commencez à saisir votre "
+"recherche dans la barre d’adresse, puis cliquez sur le résultat correct une "
+"fois que vous l’avez identifié. La recherche inclut le titre de la page et "
+"son URL, mais pas son contenu."
+
+#. (itstool) path: info/desc
+#: C/history-delete.page:24
+msgid "How do I delete one or more web pages from my browsing history?"
+msgstr "Supprimer une ou plusieurs pages web de mon historique de navigation."
+
+#. (itstool) path: page/title
+#: C/history-delete.page:27
+msgid "Clear browsing history"
+msgstr "Suppression de l’historique de navigation"
+
+#. (itstool) path: page/p
+#: C/history-delete.page:29
+msgid ""
+"You may sometimes wish to delete your browsing history, for example, to "
+"remove items that you do not want to see in your search results. You can "
+"choose to delete one result, all results from a single website or all of "
+"your history."
+msgstr ""
+"Il est possible que vous souhaitiez supprimer votre historique de "
+"navigation, par exemple pour enlever des éléments que vous ne voulez pas "
+"afficher dans les résultats de la recherche. Vous pouvez choisir de "
+"supprimer un résultat, tous les résultats d’un seul site web ou tout "
+"l’historique."
+
+#. (itstool) path: item/p
+#: C/history-delete.page:36
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">History</gui>."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <gui style=\"menuitem\">Historique</gui>."
+
+#. (itstool) path: item/p
+#: C/history-delete.page:40
+msgid "Press the delete button to permanently delete undesired pages."
+msgstr ""
+"Cliquez sur le bouton de suppression pour effacer définitivement les pages "
+"non souhaitées."
+
+#. (itstool) path: page/p
+#: C/history-delete.page:44
+msgid ""
+"You can also delete all of your history by pressing <gui style=\"button"
+"\">Clear all</gui>."
+msgstr ""
+"Vous pouvez également supprimer tout l’historique à l’aide du bouton <gui "
+"style=\"button\">Tout effacer</gui>."
+
+#. (itstool) path: credit/name
+#: C/pref-cookies.page:19
+msgid "Michael Hill"
+msgstr "Michael Hill"
+
+#. (itstool) path: info/desc
+#: C/pref-cookies.page:31
+msgid "How do I choose which websites I allow to set cookies?"
+msgstr "Choisir les sites dont les cookies sont autorisés."
+
+#. (itstool) path: page/title
+#: C/pref-cookies.page:34
+msgid "Set cookie preference"
+msgstr "Définition des préférences des cookies"
+
+#. (itstool) path: page/p
+#: C/pref-cookies.page:39
+msgid ""
+"You can specify whether you want to accept cookies and from which websites."
+msgstr ""
+"Vous pouvez définir si vous acceptez ou non les cookies et les sites pour "
+"lesquels vous les autorisez."
+
+#. (itstool) path: item/p
+#: C/pref-cookies.page:44
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui><gui style=\"tab\">Privacy</"
+"gui></guiseq>."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <guiseq><gui style=\"menuitem\">Préférences</"
+"gui><gui style=\"tab\">Confidentialité</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-cookies.page:48
+msgid ""
+"Select whether you want to accept cookies from all websites, accept cookies "
+"only from websites which you have visited or to not accept any cookies."
+msgstr ""
+"Choisissez si vous souhaitez accepter les cookies de tous les sites web, "
+"seulement des sites que vous visitez ou ne jamais accepter de cookies."
+
+#. (itstool) path: page/p
+#: C/pref-cookies.page:54
+msgid ""
+"You should normally use <gui>Only from sites you visit</gui> because this "
+"option allows you to log into your accounts on most websites while "
+"preventing websites that you have not visited from leaving cookies."
+msgstr ""
+"Il est conseillé de choisir l’option <gui>Uniquement ceux des sites que vous "
+"visitez</gui>, car cette option vous permet de vous connecter aux comptes de "
+"la plupart des sites web tout en empêchant les sites que vous n’avez pas "
+"visité de déposer des cookies."
+
+#. (itstool) path: page/p
+#: C/pref-cookies.page:58
+msgid ""
+"If you choose to <gui>Always accept</gui> cookies, then websites that you "
+"have not visited will be able to leave <em>third party cookies</em>. Third "
+"party cookies are often used by advertisers and social media websites to "
+"track your activity across websites and offer targeted content. Note that "
+"some websites, such as Outlook.com, use third party cookies to monitor "
+"whether you are logged in."
+msgstr ""
+"Si vous choisissez <gui>Toujours les accepter</gui>, alors les sites que "
+"vous n’avez pas visité peuvent laisser des <em>cookies tierce partie</em>. "
+"Ils sont souvent utilisés par les publicitaires et les média sociaux pour "
+"suivre votre activité de site en site et vous offrir ensuite des contenus "
+"ciblés. Notez que certains sites, comme Outlook.com, utilisent des cookies "
+"tierce partie pour savoir si vous vous êtes identifié ou non."
+
+#. (itstool) path: page/p
+#: C/pref-cookies.page:65
+msgid ""
+"If you <gui>Never accept</gui> cookies, you may experience problems on some "
+"websites like logging into your accounts, saving your preferences or not "
+"being able add items to your shopping basket."
+msgstr ""
+"Si vous choisissez <gui>Ne jamais les accepter</gui>, vous risquez d’avoir "
+"des difficultés à vous connecter à certains sites, à enregistrer vos "
+"préférences ou à ajouter des objets dans vos paniers sur les sites marchands."
+
+#. (itstool) path: credit/name
+#: C/pref-css.page:13 C/pref-font.page:14
+msgid "Gordon Hill"
+msgstr "Gordon Hill"
+
+#. (itstool) path: info/desc
+#: C/pref-css.page:30
+msgid "Override the theme which is used to display web pages."
+msgstr "Changer le thème utilisé pour afficher les pages web."
+
+#. (itstool) path: page/title
+#: C/pref-css.page:33
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#. (itstool) path: page/p
+#: C/pref-css.page:35
+msgid ""
+"<app>Web</app> allows you to set a custom CSS to change the look and feel of "
+"every web page that you visit. You may want to do this to set a preferred "
+"font size or color scheme."
+msgstr ""
+"<app>Web</app> vous permet de créer un CSS personnalisé pour changer "
+"l’apparence et le comportement de toutes les pages web visitées. Vous pouvez "
+"définir une taille de police ou un jeu de couleurs préféré."
+
+#. (itstool) path: item/p
+#: C/pref-css.page:41 C/pref-font.page:43
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui><gui style=\"tab"
+"\">Appearance</gui></guiseq>."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <guiseq><gui style=\"menuitem\">Préférences</"
+"gui><gui style=\"tab\">Apparence</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-css.page:45
+msgid "Under the Style section, switch <gui>Use Custom Stylesheet</gui> to on."
+msgstr ""
+"Dans la section Style, activez l’option <gui>Utiliser une feuille de style "
+"personnalisée</gui> en basculant l’interrupteur."
+
+#. (itstool) path: item/p
+#: C/pref-css.page:48
+msgid "Click on the pen icon."
+msgstr "Cliquez sur l’icône représentant un stylo."
+
+#. (itstool) path: item/p
+#: C/pref-css.page:51
+msgid ""
+"Your default text editor will open. Add your custom CSS and save the file."
+msgstr ""
+"Votre éditeur de texte par défaut s’ouvre alors. Insérez votre CSS "
+"personnalisé et enregistrez le fichier."
+
+#. (itstool) path: page/p
+#: C/pref-css.page:61
+msgid "An example of a custom CSS:"
+msgstr "Un exemple de CSS personnalisé :"
+
+#. (itstool) path: page/code
+#: C/pref-css.page:62
+#, no-wrap
+msgid ""
+"\n"
+"body{\n"
+"    /*Make everything upside-down*/\n"
+"    -webkit-transform: rotate(180deg);\n"
+"}\n"
+msgstr ""
+"\n"
+"body{\n"
+"    /*Tout retourner*/\n"
+"    -webkit-transform: rotate(180deg);\n"
+"}\n"
+
+#. (itstool) path: page/p
+#: C/pref-css.page:69
+msgid ""
+"Your custom CSS will override the style sheet on pages which you visit after "
+"you enable it."
+msgstr ""
+"Votre CSS personnalisé remplace la feuille de style des pages visitées quand "
+"vous l’activez."
+
+#. (itstool) path: info/desc
+#: C/pref-downloads.page:31
+msgid "Where are my files downloaded to and how can I change this setting?"
+msgstr ""
+"Où se trouvent mes fichiers téléchargés et comment modifier ce paramètre ?"
+
+#. (itstool) path: page/title
+#: C/pref-downloads.page:34
+msgid "Downloading files"
+msgstr "Téléchargement de fichiers"
+
+#. (itstool) path: page/p
+#: C/pref-downloads.page:36
+msgid ""
+"Files which you download from the internet, such as email attachments, will "
+"automatically be saved into your <file>Downloads</file> folder. You can "
+"change this in the <gui>Preferences</gui>."
+msgstr ""
+"Les fichiers que vous téléchargez depuis Internet, comme par exemple les "
+"pièces jointes de messages, sont automatiquement enregistrés dans le dossier "
+"<file>Téléchargements</file>. Vous pouvez modifier cette option dans "
+"<gui>Préférences</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-downloads.page:42
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui><gui style=\"tab\">General</"
+"gui></guiseq>."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <guiseq><gui style=\"menuitem\">Préférences</"
+"gui><gui style=\"tab\">Général</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-downloads.page:46
+msgid ""
+"Press the <gui>Download folder</gui> name to select a different folder for "
+"downloads. If the folder that you want to use is not in the list, select "
+"<gui>Other…</gui> to browse for it."
+msgstr ""
+"Cliquez sur le nom du dossier <gui>Téléchargements</gui> pour sélectionner "
+"un autre dossier pour les téléchargements. Si le dossier que vous souhaitez "
+"utiliser n’est pas dans la liste, sélectionnez <gui>Autre</gui> pour le "
+"rechercher."
+
+#. (itstool) path: item/p
+#: C/pref-downloads.page:51
+msgid ""
+"If you want to choose which directory to use each time you download a file, "
+"switch <gui>Ask on download</gui> to on."
+msgstr ""
+"Si vous souhaitez choisir le répertoire à utiliser à chaque téléchargement "
+"d’un fichier, activez l’option <gui>Demander lors du téléchargement</gui> en "
+"basculant l’interrupteur."
+
+#. (itstool) path: page/p
+#: C/pref-downloads.page:56
+msgid ""
+"If you <em>save</em> a file instead of downloading it, you will still need "
+"to specify where you want to save it to."
+msgstr ""
+"Si vous <em>enregistrez</em> un fichier au lieu de le télécharger, vous "
+"devez d’abord définir le dossier dans lequel vous souhaitez le mettre."
+
+#. (itstool) path: note/p
+#: C/pref-downloads.page:60
+msgid ""
+"It is not possible to choose where to save downloads if you are using "
+"Flatpak to run <app>Web</app>. Downloads will always be saved in your "
+"<file>Downloads</file> folder."
+msgstr ""
+"Il n’est pas possible de choisir le répertoire de téléchargement si vous "
+"utilisez Flatpak pour lancer <app>Web</app>. Les téléchargements seront "
+"toujours enregistrés dans votre dossier <file>Téléchargements</file>."
+
+#. (itstool) path: info/desc
+#: C/pref-font.page:31
+msgid "Use a custom font for displaying web pages."
+msgstr "Utiliser une police personnalisée pour afficher les pages web."
+
+#. (itstool) path: page/title
+#: C/pref-font.page:34
+msgid "Change the font"
+msgstr "Modification de la police"
+
+#. (itstool) path: page/p
+#: C/pref-font.page:36
+msgid ""
+"By default, your system font will be used to display web pages whenever "
+"possible. If you use the <gui href=\"help:gnome-help/a11y-font-size\">Large "
+"Text</gui> accessibility setting, this will be taken into account. You can "
+"change this and use different fonts for viewing websites."
+msgstr ""
+"Par défaut, la police de votre système est utilisée chaque fois que possible "
+"pour afficher les pages web. Si vous utilisez le paramètre d’accessibilité "
+"<gui href=\"help:gnome-help/a11y-font-size\">Grand texte</gui>, cela est "
+"pris en compte. Vous pouvez changer ce paramètre et utiliser des polices "
+"différentes pour afficher les sites web."
+
+#. (itstool) path: item/p
+#: C/pref-font.page:47
+msgid "Switch <gui>Use Custom Fonts</gui> to on."
+msgstr ""
+"Activez l’option <gui>Utiliser des polices personnalisées</gui> en basculant "
+"l’interrupteur."
+
+#. (itstool) path: item/p
+#: C/pref-font.page:50
+msgid ""
+"Click on the font to open the font chooser dialog, where you can select a "
+"different font type or size."
+msgstr ""
+"Cliquez sur la police pour ouvrir la boîte de dialogue de choix de police "
+"dans laquelle vous pourrez sélectionner un type ou une taille de police "
+"différent."
+
+#. (itstool) path: item/p
+#: C/pref-font.page:54
+msgid "Press <gui style=\"button\">Select</gui> to save your choice."
+msgstr ""
+"Cliquez sur <gui style=\"button\">Sélectionner</gui> pour enregistrer votre "
+"choix."
+
+#. (itstool) path: page/p
+#: C/pref-font.page:58
+msgid ""
+"You can also increase font size with <keyseq><key>Ctrl</key><key>+</key></"
+"keyseq> and decrease it with <keyseq><key>Ctrl</key><key>-</key></keyseq>."
+msgstr ""
+"Vous pouvez également augmenter la taille de la police avec "
+"<keyseq><key>Ctrl</key><key>+</key></keyseq> et la diminuer avec "
+"<keyseq><key>Ctrl</key><key>-</key></keyseq>."
+
+#. (itstool) path: info/desc
+#: C/pref-passwords.page:31
+msgid "How do I enable or disable storing passwords?"
+msgstr "Activer ou désactiver l’enregistrement des mots de passe."
+
+#. (itstool) path: page/title
+#: C/pref-passwords.page:34
+msgid "Remember passwords"
+msgstr "Mémorisation des mots de passe"
+
+#. (itstool) path: page/p
+#: C/pref-passwords.page:36
+msgid ""
+"When you enter a username and password for a website, you will usually be "
+"asked if you want to remember the login details. You can check if this "
+"preference is enabled or change your settings in <gui>Preferences</gui>."
+msgstr ""
+"Quand vous entrez un nom d’utilisateur et un mot de passe pour un site web, "
+"il vous est demandé si vous souhaitez mémoriser les paramètres "
+"d’identification. Vous pouvez vérifier si cette option est activée ou "
+"modifier ce paramètre dans <gui>Préférences</gui>."
+
+#. (itstool) path: item/p
+#: C/pref-passwords.page:42
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui> <gui style=\"tab"
+"\">Privacy</gui></guiseq>."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <guiseq><gui style=\"menuitem\">Préférences</gui> "
+"<gui style=\"tab\">Confidentialité</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-passwords.page:47
+msgid ""
+"The <gui style=\"button\">Remember Passwords</gui> switch will be on if your "
+"preferences are set to save passwords. Switch it off to stop <app>Web</app> "
+"remembering passwords."
+msgstr ""
+"L’interrupteur de l’option <gui style=\"button\">Se souvenir des mots de "
+"passe</gui> est activé si vos préférences sont réglées pour mémoriser les "
+"mots de passe. Basculez l’interrupteur pour que <app>Web</app> n’enregistre "
+"plus les mots de passe."
+
+#. (itstool) path: credit/name
+#: C/pref-mouse-gestures.page:12
+msgid "Jan-Michael Brummer"
+msgstr "Jan-Michael Brummer"
+
+#. (itstool) path: info/desc
+#: C/pref-mouse-gestures.page:19
+msgid "Navigate web pages using the mouse."
+msgstr "Parcourir les pages web à l’aide de la souris."
+
+#. (itstool) path: page/title
+#: C/pref-mouse-gestures.page:22
+msgid "Use mouse gestures"
+msgstr "Utilisation des mouvements de souris"
+
+#. (itstool) path: page/p
+#: C/pref-mouse-gestures.page:24
+msgid ""
+"Mouse gestures offer a quick option to surf web pages without moving your "
+"hand to the keyboard. These gestures are triggered by holding the middle "
+"mouse button while performing one of the following mouse movements. If your "
+"mouse does not have a middle mouse button, you cannot use mouse gestures."
+msgstr ""
+"Les mouvements de souris offrent une option rapide pour surfer sur les pages "
+"web sans utiliser le clavier. Ces gestes sont déclenchés en maintenant "
+"enfoncé le bouton du milieu de la souris, tout en effectuant l’un des "
+"mouvements de souris mentionnés plus bas. Si votre souris ne possède pas de "
+"bouton du milieu, vous ne pouvez pas utiliser les mouvements de souris."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:31
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui> <gui style=\"tab"
+"\">General</gui></guiseq>."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <guiseq><gui style=\"menuitem\">Préférences</gui> "
+"<gui style=\"tab\">Général</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:36
+msgid ""
+"Under <gui>Browsing</gui>, switch on <gui style=\"button\">Mouse Gestures</"
+"gui>."
+msgstr ""
+"Sous <gui>Navigation</gui>, activez <gui style=\"button\">Mouvements de "
+"souris</gui>."
+
+#. (itstool) path: page/p
+#: C/pref-mouse-gestures.page:40
+msgid "The following gestures are currently supported:"
+msgstr "Voici les actions actuellement prises en charge :"
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:44
+msgid ""
+"Holding the middle mouse button, dragging left, and then releasing the "
+"middle mouse button will navigate backward."
+msgstr ""
+"Naviguer vers l’arrière : maintien du bouton du milieu de la souris, "
+"glissement vers la gauche, puis relâchement du bouton du milieu."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:47
+msgid ""
+"Holding the middle mouse button, dragging right, and then releasing the "
+"middle mouse button will navigate forward."
+msgstr ""
+"Naviguer vers l’avant : maintien du bouton du milieu de la souris, "
+"glissement vers la droite, puis relâchement du bouton du milieu."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:50
+msgid ""
+"Holding the middle mouse button, dragging downwards, and then releasing the "
+"middle mouse button will create a new tab."
+msgstr ""
+"Créer un nouvel onglet : maintien du bouton du milieu de la souris, "
+"glissement vers le bas, puis relâchement du bouton du milieu."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:53
+msgid ""
+"Holding the middle mouse button, dragging downwards and then to the right, "
+"and then releasing the middle mouse button will close the current tab."
+msgstr ""
+"Fermer l’onglet actuel : maintien du bouton du milieu de la souris, "
+"glissement vers le bas puis vers la droite, et relâchement du bouton du "
+"milieu."
+
+#. (itstool) path: item/p
+#: C/pref-mouse-gestures.page:56
+msgid ""
+"Holding the middle mouse button, dragging first upwards and then downwards, "
+"then releasing the middle mouse button will reload the current tab."
+msgstr ""
+"Recharger l’onglet actuel : maintien du bouton du milieu de la souris, "
+"glissement vers le haut puis vers le bas, et relâchement du bouton du milieu."
+
+#. (itstool) path: info/desc
+#: C/prob-restore-closed-page.page:24
+msgid "I want to reopen a web page that I closed by mistake."
+msgstr "Rouvrir une page web fermée par erreur."
+
+#. (itstool) path: page/title
+#: C/prob-restore-closed-page.page:27
+msgid "How can I restore a tab?"
+msgstr "Restauration d’un onglet"
+
+#. (itstool) path: page/p
+#: C/prob-restore-closed-page.page:29
+msgid ""
+"You can restore the pages you closed as long as at least one <app>Web</app> "
+"is still open."
+msgstr ""
+"Vous pouvez restaurer les pages que vous avez fermées, à la condition que "
+"<app>Web</app> reste ouvert."
+
+#. (itstool) path: item/p
+#: C/prob-restore-closed-page.page:34
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Reopen Closed Tab</gui>. Your last closed tab will be "
+"reopened."
+msgstr ""
+"Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+"fenêtre, puis sélectionnez <gui style=\"menuitem\">Rouvrir l’onglet fermé</"
+"gui>. Le dernier onglet fermé sera rouvert."
+
+#. (itstool) path: page/p
+#: C/prob-restore-closed-page.page:39
+msgid ""
+"Repeat the step as many times as you need to until the tab that you want is "
+"restored. Tabs will be restored in reverse order to how you closed them. "
+"Once you have restored all the closed tabs, you will not be able to restore "
+"any more tabs."
+msgstr ""
+"Répétez cette étape autant de fois que nécessaire jusqu’à ce que l’onglet "
+"désiré soit restauré. Les onglets sont restaurés dans l’ordre inverse de "
+"celui dans lequel ils ont été fermés. Une fois que vous avez restauré tous "
+"les onglets fermés, vous ne pouvez plus restaurer d’onglet supplémentaire."
+
+#. (itstool) path: note/p
+#: C/prob-restore-closed-page.page:45
+msgid ""
+"It is not possible to restore a closed tab in <link xref=\"browse-private"
+"\">private browsing</link> mode."
+msgstr ""
+"Il n’est pas possible de restaurer un onglet fermé en mode de <link xref="
+"\"browse-private\">navigation privée</link>."
+
+#. (itstool) path: info/desc
+#: C/proxy.page:18
+msgid "Anonymize your web browsing by using a web proxy."
+msgstr "Naviguer anonymement sur le Web en passant par un serveur mandataire."
+
+#. (itstool) path: page/title
+#: C/proxy.page:21
+msgid "Use a proxy"
+msgstr "Utilisation d’un serveur mandataire"
+
+#. (itstool) path: page/p
+#: C/proxy.page:23
+msgid ""
+"You can use a proxy server for browsing the web. To use a web proxy when "
+"browsing, you need to <link href=\"help:gnome-help/net-proxy\">set it up in "
+"the GNOME <gui>Network</gui> settings panel</link>."
+msgstr ""
+"Vous pouvez naviguer anonymement sur le Web en passant par un serveur "
+"mandataire. Pour cela, <link href=\"help:gnome-help/net-proxy\">configurez-"
+"le dans le panneau des paramètres de l’application GNOME <gui>Réseau</gui></"
+"link>."
+
+#~ msgid ""
+#~ "It is not possible to create Web Applications if you are using Flatpak to "
+#~ "run <app>Web</app>."
+#~ msgstr ""
+#~ "Il n’est pas possible de créer des applications web si vous utilisez "
+#~ "Flatpak pour lancer <app>Web</app>."
+
+#~ msgid ""
+#~ "Press the menu button in the top-right corner of the window and select "
+#~ "<gui style=\"menuitem\">Open Application Manager</gui>."
+#~ msgstr ""
+#~ "Cliquez sur le bouton de menu situé dans le coin supérieur droit de la "
+#~ "fenêtre, puis sélectionnez <gui style=\"menuitem\">Ouvrir le gestionnaire "
+#~ "d’applications</gui>."
+
+#~ msgid ""
+#~ "It is not possible to delete Web Applications if you are using Flatpak to "
+#~ "run <app>Web</app>."
+#~ msgstr ""
+#~ "Il n’est pas possible de supprimer des applications web si vous utilisez "
+#~ "Flatpak pour lancer <app>Web</app>."
+
+# Traduction de « Save as Web Application… » par « Enregistrer le site en tant qu’appilcation Web… », afin d’uniformiser avec l’interface utilisateur 3.34.
+# Suppression du point final, car il est précédé de points de suspension.
+#~ msgid ""
+#~ "Open the menu at the top-right of the window, then select <gui style="
+#~ "\"menuitem\">Save as Web Application…</gui>."
+#~ msgstr ""
+#~ "Ouvrez le menu situé dans le coin supérieur droit de la fenêtre, puis "
+#~ "cliquez sur <gui style=\"menuitem\">Enregistrer le site en tant "
+#~ "qu’application Web…</gui>"
+
+#~ msgid ""
+#~ "Open the menu at the top-right of the window, then select <gui style="
+#~ "\"menuitem\">Open Application Manager</gui>"
+#~ msgstr ""
+#~ "Ouvrez le menu situé dans le coin supérieur droit de la fenêtre, puis "
+#~ "sélectionnez <gui style=\"menuitem\">Ouvrir le gestionnaire "
+#~ "d’applications</gui>"
+
+#~ msgid ""
+#~ "Open the menu at the top-right of the window, then select <guiseq><gui "
+#~ "style=\"menuitem\">Preferences</gui><gui style=\"tab\">Appearance</gui></"
+#~ "guiseq>."
+#~ msgstr ""
+#~ "Ouvrez le menu situé dans la partie supérieure droite de la fenêtre, puis "
+#~ "sélectionnez <guiseq><gui style=\"menuitem\">Préférences</gui><gui style="
+#~ "\"tab\">Apparence</gui></guiseq>."
+
+#~ msgid ""
+#~ "Open the menu at the top-right of the window, then select <guiseq><gui "
+#~ "style=\"menuitem\">Preferences</gui><gui style=\"tab\">General</gui></"
+#~ "guiseq>."
+#~ msgstr ""
+#~ "Ouvrez le menu situé dans la partie supérieure droite de la fenêtre, puis "
+#~ "sélectionnez <guiseq><gui style=\"menuitem\">Préférences</gui><gui style="
+#~ "\"tab\">Général</gui></guiseq>."
+
+#~ msgid "<app>Web</app> preferences"
+#~ msgstr "Préférences de <app>Web</app>"
