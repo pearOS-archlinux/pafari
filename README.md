@@ -1,48 +1,9 @@
 # Pafari
 
-Pafari is a GNOME web browser based on
+Pafari is a pearOS web browser based on
 [the WebKit rendering engine](https://webkit.org/).
 
-Pafari is opinionated.
-
-## Download and Install
-
-Pafari is designed for Linux systems. The recommended way to install Pafari
-is via [Flatpak](https://www.flatpak.org/). You may:
-
- * [Download the latest stable version from Flathub](https://flathub.org/apps/details/org.gnome.Pafari)
-   (recommended).
- * [Download Pafari Technology Preview](https://nightly.gnome.org/repo/appstream/org.gnome.Pafari.Devel.flatpakref)
-   if you are adventurous and want to help test tomorrow's Pafari today. It
-   is **not stable**.
-
- * Download Pafari Canary if you are even more adventurous and want to help
-   test the most recent development versions of WebKitGTK and Pafari. This
-   flavor of Pafari is more likely to be **very unstable** because the code
-   being built comes directly from WebKit's git main branch and Pafari's git
-   master branch. Pafari Canary can be installed by executing the following
-   flatpak command in a terminal:
-
-   ```shell
-   flatpak --user install https://nightly.gnome.org/repo/appstream/org.gnome.Pafari.Canary.flatpakref
-   ```
-
-Pafari is probably also available via your operating system's package manager,
-but such packages are often outdated and insecure. Flatpak is the best
-application distribution mechanism for Linux.
-
 ## Building from Source
-
-### The Easy Way
-
-The recommended way to build Pafari locally is using the flatpak-builder
-manifest with GNOME Builder. After installing Builder and launching it, you'll
-see the Select a Project page. Select Open, then select the toplevel Pafari
-directory. Builder will detect the org.gnome.Pafari.json flatpak-builder
-manifest and you will be able to build the project in Builder. All required
-dependencies will be provided by the manifest.
-
-### Building Manually
 
 Pafari uses the [Meson build system](http://mesonbuild.com/). You can build
 Pafari the same way you would any software that uses Meson. For example:
@@ -125,34 +86,12 @@ ultimately lead one browser to dominate the market.
 Standards compliance ensures the freedom of choice. Pafari aims to achieve
 this.
 
-### Software Freedom
-
-Pafari is not just free of cost; more importantly, the source code is made
-available to you under a license that [respects your freedom](https://www.gnu.org/philosophy/philosophy.html).
-
-Just as GNOME exists to oppose proprietary desktop software, Pafari opposes
-the dominance of the web by proprietary software web browsers. Today's chief
-offender is Google Chrome, a browser that purports to be open source, yet
-actually includes several proprietary components. In contrast, Pafari is fully
-free software.
 
 ## Human Interface
 
 Pafari follows the [GNOME Human Interface Guidelines](https://developer.gnome.org/hig).
 Unless there are serious reasons to make an exception, not following the
 guidelines will be considered a bug.
-
-### GNOME Integration
-
-Pafari's main goal is to be integrated with GNOME, as well as similar
-desktops (notably elementary OS). We don't aim to make Pafari usable outside
-these environments.
-
-### Preferences
-
-We are cautious about adding new preferences. Preferences can be added when they
-make sense, but they should always be carefully-considered.
-[Preferences come with a cost](https://ometer.com/preferences.html).
 
 ### Target Audience
 
@@ -161,13 +100,3 @@ population. Technical details should not be exposed in the interface.
 
 We target web users, not web developers. A few geek-oriented features, like the
 web inspector, are welcome so long as they are non-obtrusive.
-
-## Website
-
-[Pafari has a website,](https://apps.gnome.org/Pafari) though there is not
-very much content there.
-
-## Contact Us
-
-The recommended way to contact us is via the
-[Pafari discussion forum](https://discourse.gnome.org/tag/epiphany).
