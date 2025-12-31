@@ -1,0 +1,74 @@
+using Gtk 4.0;
+using Adw 1;
+
+menu move_menu {
+  section {
+    item {
+      label: _("Move Up");
+      action: "row.move-up";
+    }
+    item {
+      label: _("Move Down");
+      action: "row.move-down";
+    }
+  }
+}
+
+template $EphyBookmarkRow: Adw.ActionRow {
+  title-lines: 1;
+  activatable: true;
+
+  [prefix]
+  Image favicon_image {
+    margin-start: 6;
+    pixel-size: 16;
+  }
+
+  [prefix]
+  Image drag_handle {
+    icon-name: "list-drag-handle-symbolic";
+
+    DragSource {
+      actions: move;
+      prepare => $drag_prepare_cb() swapped;
+      drag-begin => $drag_begin_cb() swapped;
+    }
+  }
+
+  [suffix]
+  Button remove_button {
+    icon-name: "user-trash-symbolic";
+    receives-default: false;
+    tooltip-text: _("Remove");
+    valign: center;
+
+    styles [
+      "flat",
+    ]
+  }
+
+  [suffix]
+  Button properties_button {
+    icon-name: "document-edit-symbolic";
+    receives-default: false;
+    valign: center;
+
+    styles [
+      "flat",
+    ]
+  }
+
+  [suffix]
+  MenuButton move_menu_button {
+    icon-name: "view-more-symbolic";
+    receives-default: false;
+    tooltip-text: _("Move Controls");
+    valign: center;
+    menu-model: move_menu;
+
+    styles [
+      "flat",
+    ]
+  }
+}
+

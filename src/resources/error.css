@@ -1,0 +1,185 @@
+/* Global CSS for error pages */
+
+html {
+    /* Adwaita colors */
+    --bg-color: #fafafb;
+    --fg-color: rgba(0, 0, 6, 0.8);
+    --base-color: #fff;
+    --text-color: #000;
+    --borders: #d3d7cf;
+    --error-color: #c01c28;
+
+    --icon-invert: 0.2; /* average(0x2e, 0x34, 0x36) / 0xff */
+    /* turns #cc0000 into #c01c28 */
+    --error-filter: hue-rotate(-5.1deg) grayscale(45%) brightness(144%);
+
+    /* Misc colors */
+    --header-color: #999;
+    --header-text-color: white;
+    --row-hover-color: rgba(0, 0, 0, .1);
+
+    color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        /* Adwaita colors */
+        --bg-color: #222226;
+        --fg-color: #fff;
+        --base-color: rgba(255, 255, 255, 0.08);
+        --text-color: #fff;
+        --borders: #1b1b1b;
+        --error-color: #f66151;
+
+        --icon-invert: 0.93; /* average(0xee, 0xee, 0xec) / 0xff */
+        /* turns #cc0000 into #f66151 */
+        --error-filter: grayscale(74%) brightness(295%) hue-rotate(6.2deg);
+
+        /* Misc colors */
+        --header-color: #666;
+        --row-hover-color: rgba(255, 255, 255, .1);
+    }
+}
+
+html {
+    font-family: -webkit-system-font, "Adwaita Sans", sans-serif;
+    color: var(--fg-color);
+    background-color: var(--bg-color);
+    height: 100%;
+}
+
+.error-body {
+    box-sizing:border-box;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width:40em;
+    margin: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 1.5;
+    height: 100%;
+}
+
+.error-body .hidden {
+    display: none;
+}
+
+.error-body .visible {
+    display: block;
+}
+
+.error-body .clickable {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.error-body .clickable:hover,
+.error-body .clickable:focus {
+    opacity: 0.8;
+}
+
+#msg-title {
+    text-align: center;
+    font-size: 20pt;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.msg-icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 38px;
+    width: 128px;
+    height: 128px;
+    opacity: 0.5;
+    filter: brightness(0) invert(var(--icon-invert));
+}
+
+.danger #msg-title {
+    color: var(--error-color);
+}
+
+.danger #msg-icon {
+    filter: var(--error-filter);
+    opacity: 1;
+}
+
+#msg-description {
+    text-align: center;
+    font-size: 16px;
+}
+
+#msg-details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#msg-details div {
+    font-size: 11pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#footer {
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 10px 32px;
+    border-radius: 9999px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline-offset: -2px;
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--fg-color);
+    text-decoration: none;
+}
+
+.suggested-action {
+    color: white;
+    background-color: #3584e4;
+}
+
+.suggested-action:hover,
+.suggested-action:focus,
+.suggested-action:active,
+.suggested-action.active {
+    color: white;
+    background-color: #3987e5;
+}
+
+.destructive-action {
+    color: white;
+    background-color: #e01b24;
+}
+
+.destructive-action:hover,
+.destructive-action:focus,
+.destructive-action:active,
+.destructive-action.active {
+    color: white;
+    background-color: #e41c26;
+}
+
+details > summary::-webkit-details-marker {
+  color: var(--fg-color);
+}

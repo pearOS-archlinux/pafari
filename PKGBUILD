@@ -33,7 +33,6 @@ makedepends=(
   'blueprint-compiler'
   'appstream-glib'
 )
-# Pentru a folosi un tag specific, înlocuiește HEAD cu tag=v${pkgver}
 source=("git+https://github.com/pearOS-archlinux/pafari.git#branch=main")
 install=pafari.install
 sha256sums=('SKIP')
@@ -55,11 +54,9 @@ build() {
 package() {
   cd "$srcdir/$pkgname"
   
-  # Meson instalează totul automat cu DESTDIR setat
   DESTDIR="$pkgdir" ninja -C build install
   
   # Creează fișierul de configurare pentru linker să știe unde sunt bibliotecile
   install -Dm644 /dev/null "$pkgdir/etc/ld.so.conf.d/pafari.conf"
   echo "/usr/lib/epiphany" > "$pkgdir/etc/ld.so.conf.d/pafari.conf"
 }
-
