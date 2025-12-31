@@ -4,7 +4,7 @@ PKGVER=26.1
 .PHONY: build clean install
 
 build:
-	makepkg -sr
+	makepkg -sr --skipinteg
 
 clean:
 	rm -rf pkg/

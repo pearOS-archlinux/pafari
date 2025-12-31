@@ -33,14 +33,15 @@ makedepends=(
   'blueprint-compiler'
   'appstream-glib'
 )
-source=("git+https://github.com/pearOS-archlinux/pafari.git#branch=main")
+source=("file:///home/alxb421/Desktop/pafari")
 install=pafari.install
 sha256sums=('SKIP')
 
 build() {
-  cd "$srcdir/$pkgname"
+  # Folosim direct calea hardcodată pentru că file:// nu funcționează corect cu symlink-uri
+  cd "/home/alxb421/Desktop/pafari"
   
-  meson setup build \
+  meson setup . build \
     --prefix=/usr \
     --libdir=lib \
     --buildtype=plain \
@@ -52,7 +53,7 @@ build() {
 }
 
 package() {
-  cd "$srcdir/$pkgname"
+  cd "/home/alxb421/Desktop/pafari"
   
   DESTDIR="$pkgdir" ninja -C build install
   
