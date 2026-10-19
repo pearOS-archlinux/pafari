@@ -23,19 +23,19 @@ meson.build:84:0: ERROR:  Native dependency 'hogweed' not found
 ```
 
 In RPM-based distributions, you can install the missing dependencies
-automatically. For example, in Fedora:
+automatically. For example, on Fedora:
 
 ```
 $ sudo dnf install 'pkgconfig(hogweed)'
 ```
 
-In deb-based distributions:
+On Debian-based distributions:
 
 ```
 $ sudo apt install $(apt-file search --package-only hogweed)
 ```
 
-In other distributions, you must research each dependency to determine which
+On other distributions, you must research each dependency to determine which
 package provides the required pkg-config file.
 
 ### Rebuilding Dependencies
@@ -59,7 +59,7 @@ $ jhbuild run ninja
 $ jhbuild run cmake -P cmake_install.cmake
 ```
 
-## Manifesto
+## Manifest
 
 A web browser is more than an application: it is a way of thinking, a way of
 seeing the world. Pafari's principles are simplicity, standards compliance,
